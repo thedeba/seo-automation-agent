@@ -1,0 +1,12 @@
+2026-05-04 22:16:06.576 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:16:06.576 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:16:06.576 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: guest post
+2026-05-04 22:16:06.576 | ERROR    | agents.discovery_agent:_search_google:77 - Google search error: search() got an unexpected keyword argument 'user_agent'
+2026-05-04 22:16:06.576 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 22:16:10.760 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 0 results
+2026-05-04 22:16:17.866 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: write for us
+2026-05-04 22:16:17.867 | ERROR    | agents.discovery_agent:_search_google:77 - Google search error: search() got an unexpected keyword argument 'user_agent'
+2026-05-04 22:16:17.867 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 22:16:21.867 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 0 results
+2026-05-04 22:16:32.300 | INFO     | agents.discovery_agent:search_websites_by_keywords:58 - Total unique sites discovered: 0
+2026-05-04 22:16:32.304 | WARNING  | orchestrator.workflow_orchestrator:run:77 - No sites discovered!

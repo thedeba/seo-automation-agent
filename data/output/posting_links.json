@@ -1,0 +1,355 @@
+[
+  {
+    "domain": "https://presswhizz.com",
+    "url": "https://presswhizz.com",
+    "posting_forms": [
+      {
+        "url": "https://presswhizz.com/contact-us/",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "ha-menu-nav-link",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://presswhizz.com/contact-us/",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "ha-menu-nav-link",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://presswhizz.com/contact-us/",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://presswhizz.com/services/guest-posts/",
+        "text": "Guest Posts",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://presswhizz.com",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/about-us/",
+        "text": "About Us",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/",
+        "text": "Services",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/ai-seo-company",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/guest-posts/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/niche-edits/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/entity-stacking-service/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/managed-service/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/link-building-packages/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/tier-2-links/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/igaming-link-building/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/saas-link-building-agency/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/case-studies/",
+        "text": "Case Studies",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/case-studies/igaming-crypto/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/case-studies/high-ticket-ecommerce-site/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/case-studies/local-site/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/case-studies/casino-affiliate/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/blog/",
+        "text": "Blog",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://app.presswhizz.com/signup",
+        "text": "Get Started Free",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://app.presswhizz.com/auth/login",
+        "text": "Sign In",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/book-a-demo-call/",
+        "text": "Or Book A Call",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#",
+        "text": "Discover Websites                \nBrowse our marketplace and find sites using filters like DR, traffic, and niche.\n\n\nSTEP 1",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/custom-blogger-outreach/",
+        "text": "Learn more",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/blog/link-building-for-new-websites/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/blog/author/cf25/",
+        "text": "Charles Floate",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/blog/disavow-links/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/blog/black-hat-link-building/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-bc2283069f7624337676",
+        "text": "What is Your Average TAT (Turn-Around-Time) / Delivery Time?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-8417e7169f7624337676",
+        "text": "What Type of Links Does The Marketplace Offer?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-3dad4e069f7624337676",
+        "text": "Can I Pick My Own Sites & Anchor Text?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-ecc498569f7624337676",
+        "text": "Can I See Examples of Links?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-543d68769f7624337676",
+        "text": "Are Your Links Safe?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-78d2d2c69f7624337676",
+        "text": "What Happens if My Links Are Removed?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-159efde69f7624337676",
+        "text": "How Long Do You Guarantee The Links For?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-e35ed9169f7624337676",
+        "text": "Do You Offer Homepage Links?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-163565c69f7624337676",
+        "text": "Do You Use PBNs (Private Blog Networks)?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-50d50b469f7624337676",
+        "text": "Do You Accept Adult, Casino & Pharma?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-76f7a0669f7624337676",
+        "text": "Can I Get Custom Packages Tailored To My Needs?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "#collapse-91b525669f7624337676",
+        "text": "Do You Accept Cryptocurrency?",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://presswhizz.com/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.facebook.com/presswhizz/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://x.com/PressWhizz",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.linkedin.com/company/presswhizz/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.reddit.com/r/linkbuilding/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.youtube.com/@PressWhizz",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/testimonials/",
+        "text": "Testimonials",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/coupons/",
+        "text": "Coupons",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/careers/",
+        "text": "Careers",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/media-press/",
+        "text": "Media & Press",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/services/adult-link-building-service",
+        "text": "Adult Link Building",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/seo-affiliate/",
+        "text": "Become An Affiliate",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/seo-reseller/",
+        "text": "Become A Reseller",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/newsletter/",
+        "text": "Join Our Newsletter",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/terms-and-conditions/",
+        "text": "Privacy Policy",
+        "posting_probability": "low"
+      }
+    ],
+    "article_urls": [
+      "https://presswhizz.com/blog/",
+      "https://presswhizz.com/blog/author/cf25/",
+      "https://presswhizz.com/blog/black-hat-link-building/",
+      "https://presswhizz.com/blog/disavow-links/",
+      "https://presswhizz.com/blog/link-building-for-new-websites/"
+    ],
+    "all_links_count": 99,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": false,
+      "has_wp_admin": true,
+      "indicators": [
+        "login_link",
+        "login_link",
+        "login_link",
+        "login_link"
+      ]
+    },
+    "cms_detected": "wordpress",
+    "has_contact_form": false,
+    "possible_posting_pages": [
+      {
+        "url": "https://presswhizz.com/services/guest-posts/",
+        "text": "",
+        "slug": "/guest-post"
+      },
+      {
+        "url": "https://presswhizz.com/services/guest-posts/",
+        "text": "",
+        "slug": "/guest-post"
+      },
+      {
+        "url": "https://presswhizz.com/services/guest-posts/",
+        "text": "Guest Posts",
+        "slug": "/guest-post"
+      },
+      {
+        "url": "https://presswhizz.com/wp-admin/post-new.php",
+        "text": "WordPress New Post",
+        "slug": "/wp-admin/post-new.php"
+      }
+    ]
+  }
+]

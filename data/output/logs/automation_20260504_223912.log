@@ -1,0 +1,57 @@
+2026-05-04 22:39:12.818 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:39:12.819 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:39:12.819 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: guest post
+2026-05-04 22:39:13.197 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 22:39:19.803 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 5 results
+2026-05-04 22:39:28.470 | INFO     | agents.discovery_agent:search_websites_by_keywords:58 - Total unique sites discovered: 5
+2026-05-04 22:39:28.478 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 22:39:28.512 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-04 22:39:29.183 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-04 22:39:31.739 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-04 22:39:33.057 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-04 22:39:35.494 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://guestpost.com
+2026-05-04 22:39:38.271 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://guestpost.com
+2026-05-04 22:39:41.125 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://goinswriter.com
+2026-05-04 22:39:43.225 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://goinswriter.com
+2026-05-04 22:39:45.971 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.semrush.com
+2026-05-04 22:39:46.790 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.semrush.com
+2026-05-04 22:39:49.297 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-04 22:39:49.297 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 5 sites...
+2026-05-04 22:39:49.297 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-04 22:39:49.297 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 5
+2026-05-04 22:39:49.297 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-04 22:39:49.297 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-04 22:39:49.298 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 5 items to data/output/no_auth_sites.json
+2026-05-04 22:39:49.298 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-04 22:39:49.299 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-04 22:39:49.299 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 5 items to data/output/classified_sites.json
+2026-05-04 22:39:49.299 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-04 22:39:49.322 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-04 22:39:49.323 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://en.wikipedia.org
+2026-05-04 22:39:49.323 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 22:39:50.735 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+2026-05-04 22:39:52.195 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://en.wikipedia.org/w/index.php
+2026-05-04 22:39:59.514 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://grokipedia.com
+2026-05-04 22:39:59.514 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: #
+2026-05-04 22:39:59.519 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:39:59.519 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /activity
+2026-05-04 22:39:59.524 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-04 22:39:59.524 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://grokipedia.com/search
+2026-05-04 22:40:02.092 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://grokipedia.com
+2026-05-04 22:40:03.899 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://grokipedia.com
+2026-05-04 22:40:10.125 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://guestpost.com
+2026-05-04 22:40:11.646 | INFO     | agents.distributor_agent:_post_to_wordpress:200 -   WordPress REST API found at https://guestpost.com/wp-json/wp/v2/posts
+2026-05-04 22:40:11.646 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://guestpost.com/contact
+2026-05-04 22:40:19.802 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://goinswriter.com
+2026-05-04 22:40:21.467 | INFO     | agents.distributor_agent:_post_to_wordpress:200 -   WordPress REST API found at https://goinswriter.com/wp-json/wp/v2/posts
+2026-05-04 22:40:21.467 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://goinswriter.com/about/
+2026-05-04 22:40:22.766 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://goinswriter.com/about/
+2026-05-04 22:40:22.790 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://goinswriter.com/learned-about-writing/
+2026-05-04 22:40:22.870 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://goinswriter.com/about/
+2026-05-04 22:40:22.897 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://goinswriter.com/work-with-me/
+2026-05-04 22:40:29.993 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.semrush.com
+2026-05-04 22:40:29.994 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://www.semrush.com/company/contacts/
+2026-05-04 22:40:30.919 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://www.semrush.com/company/contacts/
+2026-05-04 22:40:31.531 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://www.semrush.com/us/info/
+2026-05-04 22:40:37.140 | INFO     | agents.distributor_agent:save_results:417 - Results saved to data/output/posting_results.json
+2026-05-04 22:40:37.141 | INFO     | orchestrator.workflow_orchestrator:_generate_report:212 - 📊 Report saved to data/output/report.json

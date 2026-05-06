@@ -1,0 +1,41 @@
+2026-05-04 23:04:15.977 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 23:04:15.977 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 23:04:15.977 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: write for us technology
+2026-05-04 23:04:16.490 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:04:20.950 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 23:04:30.872 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: guest post opportunities tech
+2026-05-04 23:04:31.220 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:04:39.917 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 23:04:48.714 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: submit article technology blog
+2026-05-04 23:04:49.019 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:04:55.502 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 23:05:03.851 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: contribute tech news
+2026-05-04 23:05:04.206 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:05:09.691 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 23:05:16.969 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: technology guest posting sites
+2026-05-04 23:05:17.311 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:05:29.097 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 23:05:37.880 | INFO     | agents.discovery_agent:search_websites_by_keywords:58 - Total unique sites discovered: 120
+2026-05-04 23:05:37.892 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 23:05:37.925 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://rikkeisoft.com
+2026-05-04 23:05:38.721 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://rikkeisoft.com
+2026-05-04 23:05:41.656 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.writeforustechnology.com
+2026-05-04 23:05:42.407 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 24 posting links on https://www.writeforustechnology.com
+2026-05-04 23:05:44.041 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://mobilemall.co
+2026-05-04 23:05:46.737 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 97 posting links on https://mobilemall.co
+2026-05-04 23:05:48.620 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://redeagle.tech
+2026-05-04 23:05:50.383 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 55 posting links on https://redeagle.tech
+2026-05-04 23:05:51.455 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.techdogs.com
+2026-05-04 23:05:52.603 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.techdogs.com
+2026-05-04 23:05:55.345 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://sites.google.com
+2026-05-04 23:05:58.147 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://sites.google.com
+2026-05-04 23:06:00.860 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://linkpublishers.com
+2026-05-04 23:06:03.191 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 29 posting links on https://linkpublishers.com
+2026-05-04 23:06:05.575 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://techreviewer.co
+2026-05-04 23:06:06.917 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 211 posting links on https://techreviewer.co
+2026-05-04 23:06:08.942 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://katalon.com
+2026-05-04 23:06:09.949 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 48 posting links on https://katalon.com
+2026-05-04 23:06:12.734 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://store.outrightcrm.com
+2026-05-04 23:06:14.535 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 54 posting links on https://store.outrightcrm.com
+2026-05-04 23:06:15.145 | WARNING  | __main__:main:194 - 
+⚠️  Interrupted by user

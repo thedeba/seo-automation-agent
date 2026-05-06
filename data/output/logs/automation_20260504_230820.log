@@ -1,0 +1,859 @@
+2026-05-04 23:08:20.055 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 23:08:20.055 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 23:08:20.055 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: us airlines
+2026-05-04 23:08:20.462 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:08:30.979 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 39 results
+2026-05-04 23:08:39.793 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: opportunities tech
+2026-05-04 23:08:40.218 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:08:48.830 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 49 results
+2026-05-04 23:08:59.839 | INFO     | agents.discovery_agent:search_websites_by_keywords:58 - Total unique sites discovered: 72
+2026-05-04 23:08:59.851 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 23:08:59.889 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-04 23:09:00.743 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-04 23:09:01.847 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.united.com
+2026-05-04 23:09:03.071 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.united.com
+2026-05-04 23:09:05.201 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.aa.com
+2026-05-04 23:09:09.136 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.aa.com: 403 Client Error: Forbidden for url: https://www.aa.com/
+2026-05-04 23:09:10.642 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-04 23:09:12.531 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-04 23:09:14.607 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cntraveler.com
+2026-05-04 23:09:15.709 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://www.cntraveler.com
+2026-05-04 23:09:17.728 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alternativeairlines.com
+2026-05-04 23:09:18.699 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alternativeairlines.com
+2026-05-04 23:09:20.134 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://usbair.com
+2026-05-04 23:09:20.841 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://usbair.com
+2026-05-04 23:09:22.026 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://apps.apple.com
+2026-05-04 23:09:22.554 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://apps.apple.com
+2026-05-04 23:09:25.475 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://airadvisor.com
+2026-05-04 23:09:31.871 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://airadvisor.com: 403 Client Error: Forbidden for url: https://airadvisor.com/
+2026-05-04 23:09:34.228 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlineinformation.com
+2026-05-04 23:09:39.621 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.airlineinformation.com: 403 Client Error: Forbidden for url: https://www.airlineinformation.com/
+2026-05-04 23:09:42.484 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://usabynumbers.com
+2026-05-04 23:09:44.102 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 11 posting links on https://usabynumbers.com
+2026-05-04 23:09:45.339 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.officialusa.com
+2026-05-04 23:09:49.980 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.officialusa.com: 403 Client Error: Forbidden for url: https://www.officialusa.com/
+2026-05-04 23:09:51.841 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.expedia.com
+2026-05-04 23:09:56.557 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.expedia.com: 429 Client Error: Too Many Requests for url: https://www.expedia.com/
+2026-05-04 23:09:57.809 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.oag.com
+2026-05-04 23:09:58.798 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 11 posting links on https://www.oag.com
+2026-05-04 23:10:01.293 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlines.org
+2026-05-04 23:10:01.870 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airlines.org
+2026-05-04 23:10:04.459 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.statista.com
+2026-05-04 23:10:08.862 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 7 posting links on https://www.statista.com
+2026-05-04 23:10:11.572 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.wego.com
+2026-05-04 23:10:12.659 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.wego.com
+2026-05-04 23:10:14.954 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.wego.co.in
+2026-05-04 23:10:15.068 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.wego.co.in
+2026-05-04 23:10:17.114 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.quora.com
+2026-05-04 23:10:22.938 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.quora.com: 403 Client Error: Forbidden for url: https://www.quora.com/
+2026-05-04 23:10:24.666 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://simpleflying.com
+2026-05-04 23:10:26.676 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 99 posting links on https://simpleflying.com
+2026-05-04 23:10:28.530 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://travel.stackexchange.com
+2026-05-04 23:10:33.080 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://travel.stackexchange.com: 403 Client Error: Forbidden for url: https://travel.stackexchange.com/
+2026-05-04 23:10:35.680 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.reddit.com
+2026-05-04 23:10:35.794 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.reddit.com
+2026-05-04 23:10:37.659 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.indeed.com
+2026-05-04 23:10:42.029 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.indeed.com: 403 Client Error: Forbidden for url: https://www.indeed.com/
+2026-05-04 23:10:44.158 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://cga.msu.edu
+2026-05-04 23:10:46.698 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 73 posting links on https://cga.msu.edu
+2026-05-04 23:10:47.934 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.delta.com
+2026-05-04 23:10:49.228 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.delta.com
+2026-05-04 23:10:50.247 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://us.ceair.com
+2026-05-04 23:10:51.987 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://us.ceair.com
+2026-05-04 23:10:54.516 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: http://www.usairways.com
+2026-05-04 23:10:59.708 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch http://www.usairways.com: 403 Client Error: Forbidden for url: https://www.aa.com/homePage.do
+2026-05-04 23:11:00.759 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.kayak.com
+2026-05-04 23:11:03.944 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 51 posting links on https://www.kayak.com
+2026-05-04 23:11:06.940 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.britannica.com
+2026-05-04 23:11:07.550 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://www.britannica.com
+2026-05-04 23:11:09.525 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.transtats.bts.gov
+2026-05-04 23:11:11.833 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 173 posting links on https://www.transtats.bts.gov
+2026-05-04 23:11:14.415 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.dice.com
+2026-05-04 23:11:17.060 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://www.dice.com
+2026-05-04 23:11:19.136 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://builtin.com
+2026-05-04 23:11:19.762 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://builtin.com
+2026-05-04 23:11:22.069 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.ey.com
+2026-05-04 23:11:25.039 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.ey.com
+2026-05-04 23:11:27.961 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://in.linkedin.com
+2026-05-04 23:11:29.037 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://in.linkedin.com
+2026-05-04 23:11:30.839 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.linkedin.com
+2026-05-04 23:11:31.663 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.linkedin.com
+2026-05-04 23:11:34.552 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://itiq.com
+2026-05-04 23:11:36.685 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 10 posting links on https://itiq.com
+2026-05-04 23:11:37.747 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://startupnation.com
+2026-05-04 23:11:38.512 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 46 posting links on https://startupnation.com
+2026-05-04 23:11:39.692 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://medium.com
+2026-05-04 23:11:40.117 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://medium.com
+2026-05-04 23:11:41.264 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.weforum.org
+2026-05-04 23:11:45.068 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.weforum.org: 403 Client Error: Forbidden for url: https://www.weforum.org/
+2026-05-04 23:11:46.639 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.womenintech.co.uk
+2026-05-04 23:11:47.772 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 43 posting links on https://www.womenintech.co.uk
+2026-05-04 23:11:50.451 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.drw.com
+2026-05-04 23:11:50.918 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://www.drw.com
+2026-05-04 23:11:51.978 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cio.com
+2026-05-04 23:11:54.361 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 10 posting links on https://www.cio.com
+2026-05-04 23:11:56.843 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.sciencedirect.com
+2026-05-04 23:12:01.878 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.sciencedirect.com: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/
+2026-05-04 23:12:03.589 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.intuit.com
+2026-05-04 23:12:04.429 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://www.intuit.com
+2026-05-04 23:12:06.236 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.institutedata.com
+2026-05-04 23:12:07.189 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 15 posting links on https://www.institutedata.com
+2026-05-04 23:12:09.633 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.accenture.com
+2026-05-04 23:12:10.264 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 17 posting links on https://www.accenture.com
+2026-05-04 23:12:12.969 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.baincapitaltechopportunities.com
+2026-05-04 23:12:16.278 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 7 posting links on https://www.baincapitaltechopportunities.com
+2026-05-04 23:12:18.613 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.sbimf.com
+2026-05-04 23:12:19.229 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 6 posting links on https://www.sbimf.com
+2026-05-04 23:12:21.180 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://talentoindia.com
+2026-05-04 23:12:22.341 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://talentoindia.com
+2026-05-04 23:12:24.255 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.ambitionbox.com
+2026-05-04 23:12:24.927 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 45 posting links on https://www.ambitionbox.com
+2026-05-04 23:12:26.234 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-04 23:12:26.234 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 50 sites...
+2026-05-04 23:12:26.238 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-04 23:12:26.238 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 43
+2026-05-04 23:12:26.238 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 7
+2026-05-04 23:12:26.238 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-04 23:12:26.250 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 43 items to data/output/no_auth_sites.json
+2026-05-04 23:12:26.254 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 7 items to data/output/auth_sites.json
+2026-05-04 23:12:26.255 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-04 23:12:26.265 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 50 items to data/output/classified_sites.json
+2026-05-04 23:12:26.265 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-04 23:12:26.300 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-04 23:12:26.301 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://en.wikipedia.org
+2026-05-04 23:12:26.301 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 23:12:27.746 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+2026-05-04 23:12:29.415 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/w/index.php
+2026-05-04 23:12:36.010 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.united.com
+2026-05-04 23:12:39.820 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.aa.com
+2026-05-04 23:12:44.397 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://grokipedia.com
+2026-05-04 23:12:44.398 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 23:12:44.410 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 23:12:44.410 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /activity
+2026-05-04 23:12:44.416 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-04 23:12:44.416 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com/search
+2026-05-04 23:12:46.735 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-04 23:12:49.738 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-04 23:12:58.812 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.cntraveler.com
+2026-05-04 23:12:58.813 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cntraveler.com/gallery/new-affordable-hotels-hot-list-2026
+2026-05-04 23:12:59.947 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cntraveler.com/destinations/new-york-city
+2026-05-04 23:13:06.118 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cntraveler.com/hotels/new-york-city/waldorf-astoria-new-york
+2026-05-04 23:13:07.028 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.snapchat.com/add/cntraveler
+2026-05-04 23:13:08.467 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cntraveler.com/info/about-us
+2026-05-04 23:13:09.680 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cntraveler.com
+2026-05-04 23:13:14.985 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.alternativeairlines.com
+2026-05-04 23:13:19.669 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://usbair.com
+2026-05-04 23:13:19.671 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usbair.com/contact-us
+2026-05-04 23:13:25.605 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://apps.apple.com
+2026-05-04 23:13:25.607 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://apps.apple.com/us/iphone/story/id1878722086
+2026-05-04 23:13:26.341 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://apps.apple.com/us/app/strava-run-bike-walk/id426826309
+2026-05-04 23:13:27.019 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for 'itms-appss://apps.apple.com/us/app/strava-run-bike-walk/id426826309'
+2026-05-04 23:13:27.019 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://apps.apple.com/us/app/roblox/id431946152
+2026-05-04 23:13:28.209 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: No connection adapters were found for 'itms-appss://apps.apple.com/us/app/roblox/id431946152?cc=us&id=431946152&urlDesc=%2Froblox'
+2026-05-04 23:13:28.210 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://apps.apple.com
+2026-05-04 23:13:34.194 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://airadvisor.com
+2026-05-04 23:13:39.099 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.airlineinformation.com
+2026-05-04 23:13:42.174 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://usabynumbers.com
+2026-05-04 23:13:44.519 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://usabynumbers.com/wp-json/wp/v2/posts
+2026-05-04 23:13:44.524 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/clara/
+2026-05-04 23:13:45.840 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/clara/
+2026-05-04 23:13:46.780 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/nina/
+2026-05-04 23:13:47.805 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/miah/
+2026-05-04 23:13:48.621 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/willow/
+2026-05-04 23:13:49.546 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/willow/
+2026-05-04 23:13:50.560 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/clara/
+2026-05-04 23:13:51.468 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/willow/
+2026-05-04 23:13:52.309 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/nina/
+2026-05-04 23:13:53.181 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/author/willow/
+2026-05-04 23:13:54.114 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/contact-us/
+2026-05-04 23:13:54.933 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/
+2026-05-04 23:13:55.896 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://usabynumbers.com/
+2026-05-04 23:14:05.916 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.officialusa.com
+2026-05-04 23:14:09.805 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.expedia.com
+2026-05-04 23:14:15.822 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.oag.com
+2026-05-04 23:14:15.823 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:16.930 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:17.157 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us-support
+2026-05-04 23:14:17.385 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:17.621 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:17.860 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us-support
+2026-05-04 23:14:18.088 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:18.340 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:18.525 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us-support
+2026-05-04 23:14:18.717 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us-support
+2026-05-04 23:14:19.012 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/contact-us
+2026-05-04 23:14:19.230 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/hs-search-results
+2026-05-04 23:14:21.217 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.oag.com/hs-search-results
+2026-05-04 23:14:26.113 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.airlines.org
+2026-05-04 23:14:27.011 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.airlines.org
+2026-05-04 23:14:27.372 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.airlines.org/
+2026-05-04 23:14:30.861 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.wego.com
+2026-05-04 23:14:36.735 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.wego.co.in
+2026-05-04 23:14:43.486 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.quora.com
+2026-05-04 23:14:48.275 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://simpleflying.com
+2026-05-04 23:14:49.277 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/RT993212/
+2026-05-04 23:14:50.444 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/#threads
+2026-05-04 23:14:51.385 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/KH079469/
+2026-05-04 23:14:52.291 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/which-airline-benefits-most-from-spirits-demise/#threads
+2026-05-04 23:14:53.290 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/OI763059/
+2026-05-04 23:14:54.141 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/which-airline-will-be-next-to-join-the-oneworld-alliance/#threads
+2026-05-04 23:14:55.178 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/OI763059/
+2026-05-04 23:14:55.948 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/which-airline-will-be-next-to-join-the-star-alliance/#threads
+2026-05-04 23:14:56.757 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/OI763059/
+2026-05-04 23:14:57.743 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/airlines-of-australia-how-many-can-you-name/#threads
+2026-05-04 23:14:58.583 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/RT993212/
+2026-05-04 23:14:59.365 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/should-qantas-have-ordered-the-boeing-777/#threads
+2026-05-04 23:15:00.195 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/OI763059/
+2026-05-04 23:15:01.190 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/which-airline/#threads
+2026-05-04 23:15:02.081 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/profile/KH079469/
+2026-05-04 23:15:02.951 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/thread/which-airline-benefits-most-from-spirits-demise/#threads
+2026-05-04 23:15:03.839 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/9-new-transatlantic-routes-this-week-7-airlines-launch-these-exciting-flights/#threads
+2026-05-04 23:15:04.804 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jamespearson/
+2026-05-04 23:15:05.596 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/why-boeing-787-dreamliner-has-2-different-engine-types/#threads
+2026-05-04 23:15:06.581 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jacob-johnson/
+2026-05-04 23:15:07.334 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/lufthansa-suspends-flights-on-25-routes-see-all-changes-now/#threads
+2026-05-04 23:15:08.173 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jamespearson/
+2026-05-04 23:15:09.036 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/paul-hartley/
+2026-05-04 23:15:09.820 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/united-airlines-launches-2-new-long-haul-routes-this-week/#threads
+2026-05-04 23:15:10.775 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jamespearson/
+2026-05-04 23:15:11.564 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/only-54pc-full-air-canadas-10-emptiest-us-routes-revealed-complete-list/#threads
+2026-05-04 23:15:12.462 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/paul-hartley/
+2026-05-04 23:15:13.255 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/why-fiji-airways-cut-dallas-route/#threads
+2026-05-04 23:15:14.128 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jamespearson/
+2026-05-04 23:15:14.983 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/westjet-launches-8-major-new-routes-to-europe-for-summer-2026/#threads
+2026-05-04 23:15:15.863 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jamespearson/
+2026-05-04 23:15:16.684 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/19-hour-nonstop-flights-singapore-airlines-10-new-ultra-long-routes-2026-updated/#threads
+2026-05-04 23:15:17.611 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/how-much-first-class-ticket-costs-qatar-airways-airbus-a380-2026/#threads
+2026-05-04 23:15:18.493 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/joshua-eyre/
+2026-05-04 23:15:19.248 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/united-relax-row-cost-vs-premium-economy/#threads
+2026-05-04 23:15:20.211 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/antonio-di-trapani/
+2026-05-04 23:15:21.092 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/rolls-royce-is-rewriting-the-rules-of-what-a-long-haul-engine-can-do/#threads
+2026-05-04 23:15:22.009 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/victoria-agronsky/
+2026-05-04 23:15:22.830 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/delta-air-lines-remove-main-cabin-drinks-snacks-450-flights/#threads
+2026-05-04 23:15:23.880 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/aaron-bailey1/
+2026-05-04 23:15:24.717 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/southwest-honors-spirit-captain-retirement-flight-axed/#threads
+2026-05-04 23:15:25.592 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/abid-habib/
+2026-05-04 23:15:26.505 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/tire-united-airlines-boeing-767-400er-collide-bakery-truck-light-pole-newark/#threads
+2026-05-04 23:15:27.411 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/luke-diaz/
+2026-05-04 23:15:28.216 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/boeing-777-best-selling-long-haul-widebody-30-years/#threads
+2026-05-04 23:15:29.259 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/steven/
+2026-05-04 23:15:29.990 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/b-21-raider-rewriting-stealth-flying-rules/#threads
+2026-05-04 23:15:30.884 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/luke-diaz/
+2026-05-04 23:15:31.746 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/f-47-sixth-generation-fighter-usaf-f22-f15-capabilities/#threads
+2026-05-04 23:15:32.663 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/alexander-mitchell/
+2026-05-04 23:15:33.479 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/fa-attack-cockpit-breach-newark-united-airlines-passenger-detained/#threads
+2026-05-04 23:15:34.372 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/victoria-agronsky/
+2026-05-04 23:15:35.274 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/worlds-most-comfortable-transpacific-premium-economy-seats-can-book-today/#threads
+2026-05-04 23:15:36.135 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/joshua-eyre/
+2026-05-04 23:15:37.020 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/cabin-crew-always-tell-flying-business-class-1st-time-how/#threads
+2026-05-04 23:15:38.038 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jacob-johnson/
+2026-05-04 23:15:38.971 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/usaf-fighter-jets-active-2026-older-than-pilots/#threads
+2026-05-04 23:15:40.196 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/victoria-agronsky/
+2026-05-04 23:15:41.058 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/salaries-widebody-cargo-pilots-2026/#threads
+2026-05-04 23:15:41.882 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jack-robert-mcgarity/
+2026-05-04 23:15:42.664 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/british-airways-will-pay-pilots-100k-a-year-to-taxi-ohare/#threads
+2026-05-04 23:15:43.822 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/joshua-eyre/
+2026-05-04 23:15:44.641 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/7-aircraft-retired-earlier-than-expected/#threads
+2026-05-04 23:15:45.563 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jacob-johnson/
+2026-05-04 23:15:46.331 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/how-much-more-range-boeing-777x-compared-to-777-300er/#threads
+2026-05-04 23:15:47.355 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/abid-habib/
+2026-05-04 23:15:48.185 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/fa-obsessed-passengers-6-things/#threads
+2026-05-04 23:15:49.047 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jack-robert-mcgarity/
+2026-05-04 23:15:49.901 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/lockheed-recon-aircraft-speed-record-1976/#threads
+2026-05-04 23:15:50.745 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/alexander-mitchell/
+2026-05-04 23:15:51.512 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/lufthansa-retrofitting-all-8-airbus-a380s-new-business-class/#threads
+2026-05-04 23:15:52.424 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/author/jacob-johnson/
+2026-05-04 23:15:53.235 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/page/about/
+2026-05-04 23:15:53.961 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/contact/
+2026-05-04 23:15:54.670 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.valnetinc.com/en/
+2026-05-04 23:15:55.921 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /threads/
+2026-05-04 23:15:55.926 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/threads/': No scheme supplied. Perhaps you meant https:///threads/?
+2026-05-04 23:15:55.926 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /airlines-threads/
+2026-05-04 23:15:55.932 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/airlines-threads/': No scheme supplied. Perhaps you meant https:///airlines-threads/?
+2026-05-04 23:15:55.932 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /airports-threads/
+2026-05-04 23:15:55.936 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/airports-threads/': No scheme supplied. Perhaps you meant https:///airports-threads/?
+2026-05-04 23:15:55.937 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /aircraft-threads/
+2026-05-04 23:15:55.941 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/aircraft-threads/': No scheme supplied. Perhaps you meant https:///aircraft-threads/?
+2026-05-04 23:15:55.941 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /boeing-threads/
+2026-05-04 23:15:55.945 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/boeing-threads/': No scheme supplied. Perhaps you meant https:///boeing-threads/?
+2026-05-04 23:15:55.945 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /airbus-threads/
+2026-05-04 23:15:55.949 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/airbus-threads/': No scheme supplied. Perhaps you meant https:///airbus-threads/?
+2026-05-04 23:15:55.949 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /expert-opinions/
+2026-05-04 23:15:55.953 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/expert-opinions/': No scheme supplied. Perhaps you meant https:///expert-opinions/?
+2026-05-04 23:15:55.953 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/
+2026-05-04 23:15:55.957 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/': No scheme supplied. Perhaps you meant https:///thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/?
+2026-05-04 23:15:55.957 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /profile/RT993212/
+2026-05-04 23:15:55.960 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/profile/RT993212/': No scheme supplied. Perhaps you meant https:///profile/RT993212/?
+2026-05-04 23:15:55.961 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/#threads
+2026-05-04 23:15:55.964 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/#threads': No scheme supplied. Perhaps you meant https:///thread/which-part-of-the-onboard-passenger-experience-is-the-most-important-to-you/#threads?
+2026-05-04 23:15:55.964 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline-benefits-most-from-spirits-demise/
+2026-05-04 23:15:55.967 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline-benefits-most-from-spirits-demise/': No scheme supplied. Perhaps you meant https:///thread/which-airline-benefits-most-from-spirits-demise/?
+2026-05-04 23:15:55.967 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /profile/KH079469/
+2026-05-04 23:15:55.970 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/profile/KH079469/': No scheme supplied. Perhaps you meant https:///profile/KH079469/?
+2026-05-04 23:15:55.970 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline-benefits-most-from-spirits-demise/#threads
+2026-05-04 23:15:55.973 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline-benefits-most-from-spirits-demise/#threads': No scheme supplied. Perhaps you meant https:///thread/which-airline-benefits-most-from-spirits-demise/#threads?
+2026-05-04 23:15:55.973 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline-will-be-next-to-join-the-oneworld-alliance/
+2026-05-04 23:15:55.976 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline-will-be-next-to-join-the-oneworld-alliance/': No scheme supplied. Perhaps you meant https:///thread/which-airline-will-be-next-to-join-the-oneworld-alliance/?
+2026-05-04 23:15:55.976 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /profile/OI763059/
+2026-05-04 23:15:55.979 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/profile/OI763059/': No scheme supplied. Perhaps you meant https:///profile/OI763059/?
+2026-05-04 23:15:55.979 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline-will-be-next-to-join-the-oneworld-alliance/#threads
+2026-05-04 23:15:55.982 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline-will-be-next-to-join-the-oneworld-alliance/#threads': No scheme supplied. Perhaps you meant https:///thread/which-airline-will-be-next-to-join-the-oneworld-alliance/#threads?
+2026-05-04 23:15:55.982 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline-will-be-next-to-join-the-star-alliance/
+2026-05-04 23:15:55.984 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline-will-be-next-to-join-the-star-alliance/': No scheme supplied. Perhaps you meant https:///thread/which-airline-will-be-next-to-join-the-star-alliance/?
+2026-05-04 23:15:55.984 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline-will-be-next-to-join-the-star-alliance/#threads
+2026-05-04 23:15:55.987 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline-will-be-next-to-join-the-star-alliance/#threads': No scheme supplied. Perhaps you meant https:///thread/which-airline-will-be-next-to-join-the-star-alliance/#threads?
+2026-05-04 23:15:55.987 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/airlines-of-australia-how-many-can-you-name/
+2026-05-04 23:15:55.989 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/airlines-of-australia-how-many-can-you-name/': No scheme supplied. Perhaps you meant https:///thread/airlines-of-australia-how-many-can-you-name/?
+2026-05-04 23:15:55.989 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/airlines-of-australia-how-many-can-you-name/#threads
+2026-05-04 23:15:55.992 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/airlines-of-australia-how-many-can-you-name/#threads': No scheme supplied. Perhaps you meant https:///thread/airlines-of-australia-how-many-can-you-name/#threads?
+2026-05-04 23:15:55.992 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/should-qantas-have-ordered-the-boeing-777/
+2026-05-04 23:15:55.994 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/should-qantas-have-ordered-the-boeing-777/': No scheme supplied. Perhaps you meant https:///thread/should-qantas-have-ordered-the-boeing-777/?
+2026-05-04 23:15:55.994 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/should-qantas-have-ordered-the-boeing-777/#threads
+2026-05-04 23:15:55.997 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/should-qantas-have-ordered-the-boeing-777/#threads': No scheme supplied. Perhaps you meant https:///thread/should-qantas-have-ordered-the-boeing-777/#threads?
+2026-05-04 23:15:55.997 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline/
+2026-05-04 23:15:55.999 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline/': No scheme supplied. Perhaps you meant https:///thread/which-airline/?
+2026-05-04 23:15:55.999 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /thread/which-airline/#threads
+2026-05-04 23:15:56.001 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/thread/which-airline/#threads': No scheme supplied. Perhaps you meant https:///thread/which-airline/#threads?
+2026-05-04 23:15:56.002 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://simpleflying.com/search/?q=
+2026-05-04 23:16:03.629 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://travel.stackexchange.com
+2026-05-04 23:16:07.508 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.reddit.com
+2026-05-04 23:16:07.509 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.reddit.com/
+2026-05-04 23:16:12.706 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.indeed.com
+2026-05-04 23:16:19.108 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.delta.com
+2026-05-04 23:16:23.617 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://us.ceair.com
+2026-05-04 23:16:28.075 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: http://www.usairways.com
+2026-05-04 23:16:32.150 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.kayak.com
+2026-05-04 23:16:32.151 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/London-LON
+2026-05-04 23:16:33.199 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dubai-Intl-DXB
+2026-05-04 23:16:33.948 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Toronto-YTO
+2026-05-04 23:16:34.409 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/India-IN0/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:16:34.735 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels.32821.hotel.ksp
+2026-05-04 23:16:35.209 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-Airport-Hotel-Grand-Delhi.2490641.ksp
+2026-05-04 23:16:36.319 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-The-Prime-Balaji-Deluxe-New-Delhi-Railway-Station.311282.ksp
+2026-05-04 23:16:36.844 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-bloomrooms-New-Delhi-Railway-Station.551110.ksp
+2026-05-04 23:16:37.153 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-Hotel-City-Star.474024.ksp
+2026-05-04 23:16:38.154 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-Centaur-Hotel.131776.ksp
+2026-05-04 23:16:39.843 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Amritsar-Raja-Sansi-ATQ/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:16:40.596 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Lucknow-Amausi-LKO/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:16:41.683 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:16:42.627 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Srinagar-SXR/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:16:42.971 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Varanasi-VNS/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:16:43.519 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-Suvarnabhumi-other-airports-BKK
+2026-05-04 23:16:44.037 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Melbourne-ME1
+2026-05-04 23:16:44.813 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Chicago-CHI
+2026-05-04 23:16:45.348 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/San-Francisco-SFO
+2026-05-04 23:16:45.900 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Atlanta-Hartsfield-Jackson-ATL
+2026-05-04 23:16:46.410 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Singapore-Changi-SIN
+2026-05-04 23:16:46.900 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/India-IN0/New-York-NYC
+2026-05-04 23:16:47.441 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels.15830.hotel.ksp
+2026-05-04 23:16:48.466 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-Central-Park-West-Hostel.2486301.ksp
+2026-05-04 23:16:49.069 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-Hi-Nyc-Hostel.98607.ksp
+2026-05-04 23:16:49.857 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-West-Side-Ymca.64846.ksp
+2026-05-04 23:16:50.320 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-Pod-51.33571.ksp
+2026-05-04 23:16:51.059 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-The-Gallivant-Times-Square.2288317.ksp
+2026-05-04 23:16:52.293 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Mumbai-Chhatrapati-Shivaji-BOM/New-York-NYC
+2026-05-04 23:16:52.709 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/New-York-NYC
+2026-05-04 23:16:53.708 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/New-York-NYC
+2026-05-04 23:16:54.191 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Hyderabad-Rajiv-Gandhi-Intl-HYD/New-York-NYC
+2026-05-04 23:16:54.670 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-York-NYC
+2026-05-04 23:16:55.225 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Phuket-City-HKT
+2026-05-04 23:16:55.877 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78
+2026-05-04 23:16:56.528 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Boston-Logan-Intl-BOS
+2026-05-04 23:16:56.964 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Sydney-Kingsford-Smith-SYD
+2026-05-04 23:16:57.543 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Zurich-ZRH
+2026-05-04 23:16:58.635 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Vienna-Intl-VIE
+2026-05-04 23:16:59.066 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Kastrup-Copenhagen-CPH
+2026-05-04 23:16:59.477 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Ahmedabad-AMD
+2026-05-04 23:17:00.586 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Srinagar-SXR
+2026-05-04 23:17:01.073 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Patna-PAT
+2026-05-04 23:17:01.584 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Hyderabad-Rajiv-Gandhi-Intl-HYD
+2026-05-04 23:17:02.123 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78
+2026-05-04 23:17:02.399 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Los-Angeles-LAX
+2026-05-04 23:17:03.029 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Seattle-Tacoma-Intl-SEA
+2026-05-04 23:17:03.712 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-TH1
+2026-05-04 23:17:04.100 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Munich-Franz-Josef-Strauss-MUC
+2026-05-04 23:17:04.808 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Guwahati-Borjhar-GAU
+2026-05-04 23:17:05.304 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bagdogra-IXB
+2026-05-04 23:17:10.587 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.britannica.com
+2026-05-04 23:17:10.590 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.britannica.com/new-articles
+2026-05-04 23:17:11.359 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.britannica.com/new-articles
+2026-05-04 23:17:11.780 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://corporate.britannica.com/intl_publishing.html
+2026-05-04 23:17:13.014 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.britannica.com/new-articles
+2026-05-04 23:17:13.458 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://corporate.britannica.com/contact/
+2026-05-04 23:17:14.869 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.britannica.com/search
+2026-05-04 23:17:15.190 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.britannica.com/search
+2026-05-04 23:17:15.555 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.britannica.com/search
+2026-05-04 23:17:20.364 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://builtin.com
+2026-05-04 23:17:20.365 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://builtin.com/node/add/company
+2026-05-04 23:17:21.364 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://builtin.com/awards/new-york-city/current/best-places-to-work
+2026-05-04 23:17:21.883 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://employers.builtin.com/membership?utm_medium=BIReferral&utm_source=foremployers
+2026-05-04 23:17:23.743 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://builtin.com/our-staff
+2026-05-04 23:17:24.283 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://form.jotform.com/223044927257054
+2026-05-04 23:17:32.856 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.ey.com
+2026-05-04 23:17:39.064 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://itiq.com
+2026-05-04 23:17:41.241 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://itiq.com/wp-json/wp/v2/posts
+2026-05-04 23:17:41.242 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/about/
+2026-05-04 23:17:42.137 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/contact/#locations
+2026-05-04 23:17:43.988 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/about/work-at-it-iq/
+2026-05-04 23:17:45.674 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/about/tech-community/
+2026-05-04 23:17:46.552 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/about/
+2026-05-04 23:17:47.029 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/contact/#locations
+2026-05-04 23:17:48.342 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/about/work-at-it-iq/
+2026-05-04 23:17:49.368 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/about/tech-community/
+2026-05-04 23:17:49.757 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/contact/
+2026-05-04 23:17:50.683 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/contact/#locations
+2026-05-04 23:17:51.459 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://itiq.com/tech/#gf_5
+2026-05-04 23:17:55.403 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://startupnation.com
+2026-05-04 23:17:56.680 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://startupnation.com/wp-json/wp/v2/posts
+2026-05-04 23:17:56.681 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/contribute/
+2026-05-04 23:17:57.504 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/contribute/
+2026-05-04 23:17:57.804 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/oscarcollins/
+2026-05-04 23:17:58.269 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bethrush/
+2026-05-04 23:17:58.752 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/rpandey/
+2026-05-04 23:17:59.296 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/startupnation/
+2026-05-04 23:17:59.738 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/tanyadnsk/
+2026-05-04 23:18:00.314 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/jcsimpson/
+2026-05-04 23:18:00.834 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:01.343 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/klee/
+2026-05-04 23:18:01.838 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/mayakrapivnyk/
+2026-05-04 23:18:02.368 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/mayakrapivnyk/
+2026-05-04 23:18:02.577 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:02.868 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:03.093 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/ndavis/
+2026-05-04 23:18:03.609 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/mayakrapivnyk/
+2026-05-04 23:18:03.894 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/startupnation/
+2026-05-04 23:18:04.108 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/shanebarker/
+2026-05-04 23:18:04.567 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bethrush/
+2026-05-04 23:18:04.843 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/reubenmattinson/
+2026-05-04 23:18:05.429 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/shanebarker/
+2026-05-04 23:18:05.738 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:06.010 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/reenaaggarwal/
+2026-05-04 23:18:06.561 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:06.782 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:07.075 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/startupnation/
+2026-05-04 23:18:07.320 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/philgilbert/
+2026-05-04 23:18:07.851 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/betsyfore/
+2026-05-04 23:18:08.321 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/carlrichards/
+2026-05-04 23:18:08.819 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/richardshottonandmichaelaaronflicker/
+2026-05-04 23:18:09.339 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/books/ipo-or-bust-how-to-build-the-right-shareholder-roster-before-you-go-public/
+2026-05-04 23:18:09.841 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/sarahwilliamson/
+2026-05-04 23:18:10.291 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/startupnation/
+2026-05-04 23:18:10.476 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/stephanieburke/
+2026-05-04 23:18:10.959 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/timvogel/
+2026-05-04 23:18:11.439 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/shanebarker/
+2026-05-04 23:18:11.739 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bfarmiloe/
+2026-05-04 23:18:11.993 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/reenaaggarwal/
+2026-05-04 23:18:12.274 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/bethrush/
+2026-05-04 23:18:12.486 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/lucaramassa/
+2026-05-04 23:18:13.119 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/grantpolachek/
+2026-05-04 23:18:13.751 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/tinymanyonga/
+2026-05-04 23:18:14.278 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/leviking/
+2026-05-04 23:18:14.803 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/shanebarker/
+2026-05-04 23:18:14.992 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/author/tinymanyonga/
+2026-05-04 23:18:15.174 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/contact-us/
+2026-05-04 23:18:15.854 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/
+2026-05-04 23:18:16.083 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.com/
+2026-05-04 23:18:16.375 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://startupnation.us16.list-manage.com/subscribe/post?u=6a065d193405c3139f0fc12a2&id=2936ab9701&f_id=00c3d6e1f0
+2026-05-04 23:18:27.929 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.weforum.org
+2026-05-04 23:18:31.250 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.womenintech.co.uk
+2026-05-04 23:18:33.413 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://www.womenintech.co.uk/wp-json/wp/v2/posts
+2026-05-04 23:18:33.414 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/get-started-security/
+2026-05-04 23:18:34.837 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/networking-for-women-in-tech/
+2026-05-04 23:18:36.764 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/stop-fixing-women-stress-is-system/
+2026-05-04 23:18:40.448 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/8-facts-women-tech-industry/
+2026-05-04 23:18:42.860 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/10-famous-women-technology-changed-world/
+2026-05-04 23:18:44.773 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/top-5-free-coding-courses-for-women/
+2026-05-04 23:18:46.289 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.womenintech.co.uk/submit-an-event/
+2026-05-04 23:18:48.839 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 23:18:53.912 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.drw.com
+2026-05-04 23:18:53.913 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.drw.com/contact-us
+2026-05-04 23:18:54.977 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.drw.com/contact-us
+2026-05-04 23:18:55.501 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.drw.com/regulatory-and-fraud/contact-compliance
+2026-05-04 23:19:00.963 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.cio.com
+2026-05-04 23:19:02.871 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://www.cio.com/wp-json/wp/v2/posts
+2026-05-04 23:19:02.872 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/brandposts/
+2026-05-04 23:19:07.567 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/article/4165579/agentic-ai-is-reshaping-business-ecosystems-cios-must-choose-their-role-carefully.html
+2026-05-04 23:19:09.226 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/article/4166055/measuring-ai-enabled-success-3-kpis-cios-should-track.html
+2026-05-04 23:19:10.494 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/article/4165118/the-cio-remit-treat-genai-as-a-mission-critical-enterprise-app-2.html
+2026-05-04 23:19:11.564 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/article/4166061/while-you-embrace-ai-fix-this-fast.html
+2026-05-04 23:19:14.180 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://pubads.g.doubleclick.net/gampad/clk?id=7283839901&iu=/8456/IDG.G_B2B_CIO.com
+2026-05-04 23:19:15.757 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://foundryco.com/contact-us/?utm_source=cio.com&utm_medium=referral&utm_campaign=cio_audience&utm_content=footer
+2026-05-04 23:19:18.236 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/contact-us/
+2026-05-04 23:19:19.084 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/contact-us/#republication-permissions
+2026-05-04 23:19:19.182 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cio.com/brandposts/
+2026-05-04 23:19:26.779 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.sciencedirect.com
+2026-05-04 23:19:32.904 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.intuit.com
+2026-05-04 23:19:32.904 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.intuit.com/company/contact
+2026-05-04 23:19:34.138 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.intuit.com/search/
+2026-05-04 23:19:41.221 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.institutedata.com
+2026-05-04 23:19:42.087 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/about/
+2026-05-04 23:19:42.724 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/about/academic-board/
+2026-05-04 23:19:43.718 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/about/#contact
+2026-05-04 23:19:44.325 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/
+2026-05-04 23:19:45.013 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:45.764 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:46.390 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:46.983 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/
+2026-05-04 23:19:47.655 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:48.290 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:48.977 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:49.769 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/blog/author/user/
+2026-05-04 23:19:50.386 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/about/
+2026-05-04 23:19:51.101 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/about/academic-board/
+2026-05-04 23:19:51.714 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/about/#contact
+2026-05-04 23:19:52.408 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/
+2026-05-04 23:19:53.007 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.institutedata.com/
+2026-05-04 23:19:59.808 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.accenture.com
+2026-05-04 23:19:59.810 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/company-index
+2026-05-04 23:20:00.069 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/reinvention-services
+2026-05-04 23:20:00.172 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/leadership
+2026-05-04 23:20:00.340 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/location
+2026-05-04 23:20:00.599 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/company/integrated-reporting
+2026-05-04 23:20:00.717 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/corporate-sustainability
+2026-05-04 23:20:00.848 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/awards-recognition
+2026-05-04 23:20:00.990 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/company/industry-analyst
+2026-05-04 23:20:01.105 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/contact-us
+2026-05-04 23:20:01.854 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/location
+2026-05-04 23:20:02.123 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/company/integrated-reporting
+2026-05-04 23:20:02.224 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/awards-recognition
+2026-05-04 23:20:02.384 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/awards-recognition
+2026-05-04 23:20:02.578 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/company/industry-analyst
+2026-05-04 23:20:02.756 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/company-index
+2026-05-04 23:20:02.900 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/contact-us
+2026-05-04 23:20:03.588 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.accenture.com/in-en/about/location
+2026-05-04 23:20:10.104 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.baincapitaltechopportunities.com
+2026-05-04 23:20:10.105 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/about
+2026-05-04 23:20:14.508 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/contact
+2026-05-04 23:20:15.687 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/about
+2026-05-04 23:20:16.735 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/about
+2026-05-04 23:20:17.974 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/about
+2026-05-04 23:20:19.165 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/about
+2026-05-04 23:20:20.221 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/contact
+2026-05-04 23:20:21.532 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/search
+2026-05-04 23:20:22.847 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.baincapitaltechopportunities.com/search
+2026-05-04 23:20:29.260 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.sbimf.com
+2026-05-04 23:20:29.261 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.sbimf.com/new-fund-offers-listing
+2026-05-04 23:20:30.339 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.sbimf.com/contact-us
+2026-05-04 23:20:30.731 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.sbimf.com/new-fund-offers-listing
+2026-05-04 23:20:31.238 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.sbimf.com/docs/default-source/disclosures/update-on-valuation-of-equity-shares-of-manpasand-beverages-ltd.pdf
+2026-05-04 23:20:31.991 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.sbimf.com/contact-us
+2026-05-04 23:20:32.315 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.sbimf.com/contact-us
+2026-05-04 23:20:32.954 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/CMSLoginCycle
+2026-05-04 23:20:33.052 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/CMSRedirectToPortal
+2026-05-04 23:20:33.170 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/QuickInvestRedirect
+2026-05-04 23:20:33.287 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/PreLoginKYC
+2026-05-04 23:20:33.473 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/PreLoginCreateFolio
+2026-05-04 23:20:33.589 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/AddToCartMultiSelect
+2026-05-04 23:20:33.684 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://online.sbimf.com/api/CMS/cmsPostTransaction
+2026-05-04 23:20:37.806 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://talentoindia.com
+2026-05-04 23:20:37.807 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://talentoindia.com/contact-us
+2026-05-04 23:20:38.086 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: No connection adapters were found for 'javascript:void(0)'
+2026-05-04 23:20:38.086 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://talentoindia.com
+2026-05-04 23:20:38.870 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: javascript:void(0)
+2026-05-04 23:20:38.877 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for 'javascript:void(0)'
+2026-05-04 23:20:38.877 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://talentoindia.com
+2026-05-04 23:20:44.106 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.ambitionbox.com
+2026-05-04 23:20:44.107 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://employer.ambitionbox.com/?utm_source=ambitionbox&utm_medium=footer&utm_campaign=create-new-company/
+2026-05-04 23:20:44.550 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/who-says-loyalty-doesnt-pay-Cqq1XTc_-8
+2026-05-04 23:20:44.558 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/who-says-loyalty-doesnt-pay-Cqq1XTc_-8': No scheme supplied. Perhaps you meant https:///p/who-says-loyalty-doesnt-pay-Cqq1XTc_-8?
+2026-05-04 23:20:44.558 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /discussions/adobe-discussions
+2026-05-04 23:20:44.565 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/discussions/adobe-discussions': No scheme supplied. Perhaps you meant https:///discussions/adobe-discussions?
+2026-05-04 23:20:44.565 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/corporate-survival-is-easier-for-women-than-men-period-dot-fkALhJ3g-8
+2026-05-04 23:20:44.571 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/corporate-survival-is-easier-for-women-than-men-period-dot-fkALhJ3g-8': No scheme supplied. Perhaps you meant https:///p/corporate-survival-is-easier-for-women-than-men-period-dot-fkALhJ3g-8?
+2026-05-04 23:20:44.571 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/how-are-so-many-people-in-their-20s-earning-lakhs-per-month-fm747oEW-8
+2026-05-04 23:20:44.577 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/how-are-so-many-people-in-their-20s-earning-lakhs-per-month-fm747oEW-8': No scheme supplied. Perhaps you meant https:///p/how-are-so-many-people-in-their-20s-earning-lakhs-per-month-fm747oEW-8?
+2026-05-04 23:20:44.577 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/i-dont-work-for-parents-or-kids-i-work-for-my-dog-gX1eXpWj-8
+2026-05-04 23:20:44.582 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/i-dont-work-for-parents-or-kids-i-work-for-my-dog-gX1eXpWj-8': No scheme supplied. Perhaps you meant https:///p/i-dont-work-for-parents-or-kids-i-work-for-my-dog-gX1eXpWj-8?
+2026-05-04 23:20:44.582 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/i-didnt-dream-of-a-career-that-costs-me-my-health--VOSGPaz-8
+2026-05-04 23:20:44.587 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/i-didnt-dream-of-a-career-that-costs-me-my-health--VOSGPaz-8': No scheme supplied. Perhaps you meant https:///p/i-didnt-dream-of-a-career-that-costs-me-my-health--VOSGPaz-8?
+2026-05-04 23:20:44.587 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/i-lead-a-team-and-i-passed-out-in-front-of-them-at-the-party-dnufct1J-8
+2026-05-04 23:20:44.591 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/i-lead-a-team-and-i-passed-out-in-front-of-them-at-the-party-dnufct1J-8': No scheme supplied. Perhaps you meant https:///p/i-lead-a-team-and-i-passed-out-in-front-of-them-at-the-party-dnufct1J-8?
+2026-05-04 23:20:44.592 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/please-please-please-help-qWSThAob-8
+2026-05-04 23:20:44.596 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/please-please-please-help-qWSThAob-8': No scheme supplied. Perhaps you meant https:///p/please-please-please-help-qWSThAob-8?
+2026-05-04 23:20:44.596 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/salary-hike-request-dot-dot-dot-backfired-me-7kM8bGxl-8
+2026-05-04 23:20:44.599 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/salary-hike-request-dot-dot-dot-backfired-me-7kM8bGxl-8': No scheme supplied. Perhaps you meant https:///p/salary-hike-request-dot-dot-dot-backfired-me-7kM8bGxl-8?
+2026-05-04 23:20:44.599 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /p/how-to-make-friends-in-bangalore-ZIBqQ9kL-8
+2026-05-04 23:20:44.603 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/p/how-to-make-friends-in-bangalore-ZIBqQ9kL-8': No scheme supplied. Perhaps you meant https:///p/how-to-make-friends-in-bangalore-ZIBqQ9kL-8?
+2026-05-04 23:20:44.603 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://static.ambitionbox.com/static/app-redirect.html
+2026-05-04 23:20:45.007 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/list-of-companies
+2026-05-04 23:20:45.639 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/reviews
+2026-05-04 23:20:45.993 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/salaries
+2026-05-04 23:20:46.589 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/jobs
+2026-05-04 23:20:47.665 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/interviews
+2026-05-04 23:20:47.813 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/salaries/take-home-salary-calculator
+2026-05-04 23:20:48.036 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/topics/aptitude/questions-and-answers
+2026-05-04 23:20:48.513 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/compare
+2026-05-04 23:20:49.219 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://employer.ambitionbox.com/company-page?utm_source=ambitionbox&utm_medium=footer&utm_campaign=update-company-infomation
+2026-05-04 23:20:49.367 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://employer.ambitionbox.com/review-management?utm_source=ambitionbox&amp;utm_medium=footer&amp;utm_campaign=respond-to-reviews
+2026-05-04 23:20:49.478 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/employer/sendemail
+2026-05-04 23:20:49.737 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/alpha/company/photos/employer/AmbitionBox_Offering_For_Employers.pdf?campaign=ambitionbox_footer_ambitionBox_offering_for_employers
+2026-05-04 23:20:53.941 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/alpha/company/photos/employer/AmbitionBox_Offering_For_Employers_Brochure.pdf?campaign=ambitionbox_footer_ambitionBox_offering_for_employers_brochure
+2026-05-04 23:20:57.227 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /abeca-2027
+2026-05-04 23:20:57.229 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/abeca-2027': No scheme supplied. Perhaps you meant https:///abeca-2027?
+2026-05-04 23:20:57.229 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /abeca-2026
+2026-05-04 23:20:57.231 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/abeca-2026': No scheme supplied. Perhaps you meant https:///abeca-2026?
+2026-05-04 23:20:57.231 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /abeca-2025
+2026-05-04 23:20:57.234 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/abeca-2025': No scheme supplied. Perhaps you meant https:///abeca-2025?
+2026-05-04 23:20:57.234 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/employer/awards2027/sendemail
+2026-05-04 23:20:57.451 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/about-us
+2026-05-04 23:20:57.671 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/our-team
+2026-05-04 23:20:57.891 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: mailto:support@ambitionbox.com?Subject=Query
+2026-05-04 23:20:57.897 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for 'mailto:support@ambitionbox.com?Subject=Query'
+2026-05-04 23:20:57.897 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/unboxed
+2026-05-04 23:21:03.364 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/faq
+2026-05-04 23:21:03.936 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/credits
+2026-05-04 23:21:04.411 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/legal/privacy-policy
+2026-05-04 23:21:04.608 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/legal/grievances
+2026-05-04 23:21:04.973 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/legal/terms-of-use
+2026-05-04 23:21:05.536 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/legal/summons-notice-form
+2026-05-04 23:21:06.261 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ambitionbox.com/legal/community-guidelines
+2026-05-04 23:21:06.815 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bit.ly/3NiaWEQ
+2026-05-04 23:21:08.613 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bit.ly/3OGrqHZ
+2026-05-04 23:21:09.671 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bit.ly/3bw5Pnm
+2026-05-04 23:21:12.306 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bit.ly/3A8gP4y
+2026-05-04 23:21:13.231 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bit.ly/3No1Ne1
+2026-05-04 23:21:22.053 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.statista.com
+2026-05-04 23:21:22.054 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/statistics/271496/global-market-share-held-by-smartphone-vendors-since-4th-quarter-2009/
+2026-05-04 23:21:23.815 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/statistics/1251145/social-commerce-share-worldwide/
+2026-05-04 23:21:25.674 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/statistics/216573/worldwide-market-share-of-search-engines/
+2026-05-04 23:21:27.748 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/statistics/653926/music-streaming-service-subscriber-share/
+2026-05-04 23:21:30.175 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/statistics/653926/music-streaming-service-subscriber-share/
+2026-05-04 23:21:30.196 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/contact/
+2026-05-04 23:21:31.677 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/contact/
+2026-05-04 23:21:32.775 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.statista.com/login
+2026-05-04 23:21:36.389 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 23:21:42.633 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://cga.msu.edu
+2026-05-04 23:21:42.635 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/PL/Portal/358/SubmitProposal
+2026-05-04 23:21:44.779 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/PL/HR/OfficeStaff.aspx
+2026-05-04 23:21:45.483 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/PL/Portal/2734/OSPCGAContactsByTopic
+2026-05-04 23:21:46.200 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/PL/Portal/170/OSPContactsbyCollege
+2026-05-04 23:21:46.874 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/PL/HR/OfficeStaff.aspx
+2026-05-04 23:21:47.688 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: Default.aspx
+2026-05-04 23:21:47.699 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL 'Default.aspx': No scheme supplied. Perhaps you meant https://Default.aspx?
+2026-05-04 23:21:47.699 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /Default.aspx
+2026-05-04 23:21:47.706 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/Default.aspx': No scheme supplied. Perhaps you meant https:///Default.aspx?
+2026-05-04 23:21:47.706 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/352/FundingOpportunities
+2026-05-04 23:21:47.713 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/352/FundingOpportunities': No scheme supplied. Perhaps you meant https:///PL/Portal/352/FundingOpportunities?
+2026-05-04 23:21:47.713 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/351/ProposalDevelopmentSubmission
+2026-05-04 23:21:47.718 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/351/ProposalDevelopmentSubmission': No scheme supplied. Perhaps you meant https:///PL/Portal/351/ProposalDevelopmentSubmission?
+2026-05-04 23:21:47.719 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/146/FrequentlyRequiredBudgetandProposalData
+2026-05-04 23:21:47.724 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/146/FrequentlyRequiredBudgetandProposalData': No scheme supplied. Perhaps you meant https:///PL/Portal/146/FrequentlyRequiredBudgetandProposalData?
+2026-05-04 23:21:47.725 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/361/SponsorInformation
+2026-05-04 23:21:47.730 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/361/SponsorInformation': No scheme supplied. Perhaps you meant https:///PL/Portal/361/SponsorInformation?
+2026-05-04 23:21:47.730 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/357/Eligibility
+2026-05-04 23:21:47.734 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/357/Eligibility': No scheme supplied. Perhaps you meant https:///PL/Portal/357/Eligibility?
+2026-05-04 23:21:47.734 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://u.policies.msu.edu/doctract/documentportal/08DB6212F58F1643A9B1107EA0FC271D
+2026-05-04 23:21:49.192 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/388/PrepareProposalDevelopmentDocument
+2026-05-04 23:21:49.199 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/388/PrepareProposalDevelopmentDocument': No scheme supplied. Perhaps you meant https:///PL/Portal/388/PrepareProposalDevelopmentDocument?
+2026-05-04 23:21:49.200 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/363/DevelopProposal
+2026-05-04 23:21:49.206 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/363/DevelopProposal': No scheme supplied. Perhaps you meant https:///PL/Portal/363/DevelopProposal?
+2026-05-04 23:21:49.207 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/356/DevelopBudget
+2026-05-04 23:21:49.212 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/356/DevelopBudget': No scheme supplied. Perhaps you meant https:///PL/Portal/356/DevelopBudget?
+2026-05-04 23:21:49.212 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/373/RegulatoryRequirements
+2026-05-04 23:21:49.217 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/373/RegulatoryRequirements': No scheme supplied. Perhaps you meant https:///PL/Portal/373/RegulatoryRequirements?
+2026-05-04 23:21:49.218 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/358/SubmitProposal
+2026-05-04 23:21:49.222 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/358/SubmitProposal': No scheme supplied. Perhaps you meant https:///PL/Portal/358/SubmitProposal?
+2026-05-04 23:21:49.222 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/1329/RolesResponsibilitiesGuidanceforMSU
+2026-05-04 23:21:49.228 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/1329/RolesResponsibilitiesGuidanceforMSU': No scheme supplied. Perhaps you meant https:///PL/Portal/1329/RolesResponsibilitiesGuidanceforMSU?
+2026-05-04 23:21:49.228 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/Portal.aspx
+2026-05-04 23:21:49.232 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/Portal.aspx': No scheme supplied. Perhaps you meant https:///PL/Portal/Portal.aspx?
+2026-05-04 23:21:49.232 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/AllSearch/AllSearch.aspx
+2026-05-04 23:21:49.236 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/AllSearch/AllSearch.aspx': No scheme supplied. Perhaps you meant https:///PL/AllSearch/AllSearch.aspx?
+2026-05-04 23:21:49.237 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/ActivityLog/ActivityLogSearch.aspx
+2026-05-04 23:21:49.240 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/ActivityLog/ActivityLogSearch.aspx': No scheme supplied. Perhaps you meant https:///PL/ActivityLog/ActivityLogSearch.aspx?
+2026-05-04 23:21:49.240 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/ConflictOfInterest/ManageAnnualDisclosures.aspx
+2026-05-04 23:21:49.244 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/ConflictOfInterest/ManageAnnualDisclosures.aspx': No scheme supplied. Perhaps you meant https:///PL/ConflictOfInterest/ManageAnnualDisclosures.aspx?
+2026-05-04 23:21:49.245 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://kc.researchadmin.msu.edu/kcprd
+2026-05-04 23:21:53.275 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/Tools.aspx
+2026-05-04 23:21:53.284 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/Tools.aspx': No scheme supplied. Perhaps you meant https:///PL/Portal/Tools.aspx?
+2026-05-04 23:21:53.284 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/353/AwardNegotiationAcceptance
+2026-05-04 23:21:53.291 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/353/AwardNegotiationAcceptance': No scheme supplied. Perhaps you meant https:///PL/Portal/353/AwardNegotiationAcceptance?
+2026-05-04 23:21:53.292 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/365/JustinTime
+2026-05-04 23:21:53.297 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/365/JustinTime': No scheme supplied. Perhaps you meant https:///PL/Portal/365/JustinTime?
+2026-05-04 23:21:53.298 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/407/RequestHardshipAdvanceAccount
+2026-05-04 23:21:53.303 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/407/RequestHardshipAdvanceAccount': No scheme supplied. Perhaps you meant https:///PL/Portal/407/RequestHardshipAdvanceAccount?
+2026-05-04 23:21:53.304 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/367/AgreementTypesandRoutingInformation
+2026-05-04 23:21:53.309 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/367/AgreementTypesandRoutingInformation': No scheme supplied. Perhaps you meant https:///PL/Portal/367/AgreementTypesandRoutingInformation?
+2026-05-04 23:21:53.309 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/1087/OSPAwardProcess
+2026-05-04 23:21:53.315 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/1087/OSPAwardProcess': No scheme supplied. Perhaps you meant https:///PL/Portal/1087/OSPAwardProcess?
+2026-05-04 23:21:53.315 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/404/Subaward
+2026-05-04 23:21:53.319 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/404/Subaward': No scheme supplied. Perhaps you meant https:///PL/Portal/404/Subaward?
+2026-05-04 23:21:53.319 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/1697/ResourcesforFacultyDisclosures
+2026-05-04 23:21:53.323 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/1697/ResourcesforFacultyDisclosures': No scheme supplied. Perhaps you meant https:///PL/Portal/1697/ResourcesforFacultyDisclosures?
+2026-05-04 23:21:53.323 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/354/AccountSetupModifications
+2026-05-04 23:21:53.327 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/354/AccountSetupModifications': No scheme supplied. Perhaps you meant https:///PL/Portal/354/AccountSetupModifications?
+2026-05-04 23:21:53.328 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/135/AccountSet-Up
+2026-05-04 23:21:53.331 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/135/AccountSet-Up': No scheme supplied. Perhaps you meant https:///PL/Portal/135/AccountSet-Up?
+2026-05-04 23:21:53.331 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/399/AccountModifications
+2026-05-04 23:21:53.335 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/399/AccountModifications': No scheme supplied. Perhaps you meant https:///PL/Portal/399/AccountModifications?
+2026-05-04 23:21:53.335 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/398/Subawards
+2026-05-04 23:21:53.338 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/398/Subawards': No scheme supplied. Perhaps you meant https:///PL/Portal/398/Subawards?
+2026-05-04 23:21:53.338 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/397/SignatureAuthority
+2026-05-04 23:21:53.341 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/397/SignatureAuthority': No scheme supplied. Perhaps you meant https:///PL/Portal/397/SignatureAuthority?
+2026-05-04 23:21:53.342 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/427/FeeforServiceProcedure
+2026-05-04 23:21:53.345 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/427/FeeforServiceProcedure': No scheme supplied. Perhaps you meant https:///PL/Portal/427/FeeforServiceProcedure?
+2026-05-04 23:21:53.345 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Accounting/AE2/AE2.aspx
+2026-05-04 23:21:53.348 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Accounting/AE2/AE2.aspx': No scheme supplied. Perhaps you meant https:///PL/Accounting/AE2/AE2.aspx?
+2026-05-04 23:21:53.348 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Effort/EffortReportingTools.aspx
+2026-05-04 23:21:53.351 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Effort/EffortReportingTools.aspx': No scheme supplied. Perhaps you meant https:///PL/Effort/EffortReportingTools.aspx?
+2026-05-04 23:21:53.351 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /pl/portal/flyamericaactsteps.aspx
+2026-05-04 23:21:53.354 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/pl/portal/flyamericaactsteps.aspx': No scheme supplied. Perhaps you meant https:///pl/portal/flyamericaactsteps.aspx?
+2026-05-04 23:21:53.354 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://fin.ebsp.msu.edu
+2026-05-04 23:21:55.351 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/350/AwardManagement
+2026-05-04 23:21:55.357 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/350/AwardManagement': No scheme supplied. Perhaps you meant https:///PL/Portal/350/AwardManagement?
+2026-05-04 23:21:55.357 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/370/AgencyPriorApprovals
+2026-05-04 23:21:55.362 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/370/AgencyPriorApprovals': No scheme supplied. Perhaps you meant https:///PL/Portal/370/AgencyPriorApprovals?
+2026-05-04 23:21:55.363 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/411/MonitoringOversight
+2026-05-04 23:21:55.383 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/411/MonitoringOversight': No scheme supplied. Perhaps you meant https:///PL/Portal/411/MonitoringOversight?
+2026-05-04 23:21:55.384 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/1892/AwardSeparationKeyPersonnelChanges
+2026-05-04 23:21:55.395 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/1892/AwardSeparationKeyPersonnelChanges': No scheme supplied. Perhaps you meant https:///PL/Portal/1892/AwardSeparationKeyPersonnelChanges?
+2026-05-04 23:21:55.396 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/371/FinancialReporting
+2026-05-04 23:21:55.415 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/371/FinancialReporting': No scheme supplied. Perhaps you meant https:///PL/Portal/371/FinancialReporting?
+2026-05-04 23:21:55.415 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/372/TechnicalReporting
+2026-05-04 23:21:55.448 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/372/TechnicalReporting': No scheme supplied. Perhaps you meant https:///PL/Portal/372/TechnicalReporting?
+2026-05-04 23:21:55.448 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/355/AwardCloseout
+2026-05-04 23:21:55.455 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/355/AwardCloseout': No scheme supplied. Perhaps you meant https:///PL/Portal/355/AwardCloseout?
+2026-05-04 23:21:55.455 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/401/RCAccountCloseoutProcess
+2026-05-04 23:21:55.470 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/401/RCAccountCloseoutProcess': No scheme supplied. Perhaps you meant https:///PL/Portal/401/RCAccountCloseoutProcess?
+2026-05-04 23:21:55.470 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/402/RGAccountCloseoutProcess
+2026-05-04 23:21:55.473 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/402/RGAccountCloseoutProcess': No scheme supplied. Perhaps you meant https:///PL/Portal/402/RGAccountCloseoutProcess?
+2026-05-04 23:21:55.473 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/403/RecordRetention
+2026-05-04 23:21:55.476 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/403/RecordRetention': No scheme supplied. Perhaps you meant https:///PL/Portal/403/RecordRetention?
+2026-05-04 23:21:55.477 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/400/CloseoutDocuments
+2026-05-04 23:21:55.481 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/400/CloseoutDocuments': No scheme supplied. Perhaps you meant https:///PL/Portal/400/CloseoutDocuments?
+2026-05-04 23:21:55.482 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/HR/OfficeStaff.aspx
+2026-05-04 23:21:55.492 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/HR/OfficeStaff.aspx': No scheme supplied. Perhaps you meant https:///PL/HR/OfficeStaff.aspx?
+2026-05-04 23:21:55.492 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/462/WelcometotheSPAWebsite
+2026-05-04 23:21:55.495 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/462/WelcometotheSPAWebsite': No scheme supplied. Perhaps you meant https:///PL/Portal/462/WelcometotheSPAWebsite?
+2026-05-04 23:21:55.495 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/2734/OSPCGAContactsByTopic
+2026-05-04 23:21:55.497 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/2734/OSPCGAContactsByTopic': No scheme supplied. Perhaps you meant https:///PL/Portal/2734/OSPCGAContactsByTopic?
+2026-05-04 23:21:55.497 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/380/OSPDepartmentOrganization
+2026-05-04 23:21:55.500 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/380/OSPDepartmentOrganization': No scheme supplied. Perhaps you meant https:///PL/Portal/380/OSPDepartmentOrganization?
+2026-05-04 23:21:55.500 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/170/OSPContactsbyCollege
+2026-05-04 23:21:55.502 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/170/OSPContactsbyCollege': No scheme supplied. Perhaps you meant https:///PL/Portal/170/OSPContactsbyCollege?
+2026-05-04 23:21:55.502 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/379/CGADepartmentOrganization
+2026-05-04 23:21:55.504 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/379/CGADepartmentOrganization': No scheme supplied. Perhaps you meant https:///PL/Portal/379/CGADepartmentOrganization?
+2026-05-04 23:21:55.504 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/316/OSPandCGAFAQs
+2026-05-04 23:21:55.507 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/316/OSPandCGAFAQs': No scheme supplied. Perhaps you meant https:///PL/Portal/316/OSPandCGAFAQs?
+2026-05-04 23:21:55.507 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/362/OfficeValues
+2026-05-04 23:21:55.510 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/362/OfficeValues': No scheme supplied. Perhaps you meant https:///PL/Portal/362/OfficeValues?
+2026-05-04 23:21:55.511 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/2571/WorkingInResearchAdministration
+2026-05-04 23:21:55.513 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/2571/WorkingInResearchAdministration': No scheme supplied. Perhaps you meant https:///PL/Portal/2571/WorkingInResearchAdministration?
+2026-05-04 23:21:55.513 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/155/JoinWithdrawfromOSPCGAListServ
+2026-05-04 23:21:55.515 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/155/JoinWithdrawfromOSPCGAListServ': No scheme supplied. Perhaps you meant https:///PL/Portal/155/JoinWithdrawfromOSPCGAListServ?
+2026-05-04 23:21:55.515 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://spartanmail.msu.edu
+2026-05-04 23:21:56.304 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='spartanmail.msu.edu', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
+2026-05-04 23:21:56.305 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://michiganstate.sharepoint.com/sites/SPARK
+2026-05-04 23:21:59.091 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/Forms.aspx
+2026-05-04 23:21:59.098 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/Forms.aspx': No scheme supplied. Perhaps you meant https:///PL/Portal/Forms.aspx?
+2026-05-04 23:21:59.099 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/378/Policies
+2026-05-04 23:21:59.106 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/378/Policies': No scheme supplied. Perhaps you meant https:///PL/Portal/378/Policies?
+2026-05-04 23:21:59.107 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Report/Reports.aspx
+2026-05-04 23:21:59.113 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Report/Reports.aspx': No scheme supplied. Perhaps you meant https:///PL/Report/Reports.aspx?
+2026-05-04 23:21:59.113 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/319/OSPCGAMetrics
+2026-05-04 23:21:59.118 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/319/OSPCGAMetrics': No scheme supplied. Perhaps you meant https:///PL/Portal/319/OSPCGAMetrics?
+2026-05-04 23:21:59.118 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/317/Training
+2026-05-04 23:21:59.123 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/317/Training': No scheme supplied. Perhaps you meant https:///PL/Portal/317/Training?
+2026-05-04 23:21:59.124 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/237/SPANewsletters
+2026-05-04 23:21:59.129 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/237/SPANewsletters': No scheme supplied. Perhaps you meant https:///PL/Portal/237/SPANewsletters?
+2026-05-04 23:21:59.129 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/416/ResourcesInitiativesandRelatedUnits
+2026-05-04 23:21:59.132 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/416/ResourcesInitiativesandRelatedUnits': No scheme supplied. Perhaps you meant https:///PL/Portal/416/ResourcesInitiativesandRelatedUnits?
+2026-05-04 23:21:59.132 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /PL/Portal/ListservDocList.aspx
+2026-05-04 23:21:59.135 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/PL/Portal/ListservDocList.aspx': No scheme supplied. Perhaps you meant https:///PL/Portal/ListservDocList.aspx?
+2026-05-04 23:21:59.135 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/SearchResults.aspx
+2026-05-04 23:21:59.821 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/SearchResults.aspx
+2026-05-04 23:22:00.505 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cga.msu.edu/
+2026-05-04 23:22:05.828 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.transtats.bts.gov
+2026-05-04 23:22:05.829 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ntl/submitting-content
+2026-05-04 23:22:06.679 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ntl/about
+2026-05-04 23:22:06.934 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ntl/submitting-content
+2026-05-04 23:22:07.150 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ntl/about
+2026-05-04 23:22:09.143 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/learn-about-bts-and-our-work/contact-us
+2026-05-04 23:22:09.234 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.transportation.gov/about
+2026-05-04 23:22:09.858 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.transportation.gov
+2026-05-04 23:22:10.161 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/
+2026-05-04 23:22:11.133 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://transportation.libanswers.com/
+2026-05-04 23:22:11.800 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/A-Z-Index
+2026-05-04 23:22:11.892 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/explore-topics-and-geography
+2026-05-04 23:22:12.210 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/explore-topics-and-geography/introduction-transportation-statistics
+2026-05-04 23:22:12.451 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/airlines-airports-and-aviation
+2026-05-04 23:22:12.718 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/energy-and-environment
+2026-05-04 23:22:14.160 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/freight-transportation
+2026-05-04 23:22:14.239 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/infrastructure
+2026-05-04 23:22:14.523 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/passenger-travel
+2026-05-04 23:22:15.826 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/transportation-safety
+2026-05-04 23:22:15.930 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/statistical-policy
+2026-05-04 23:22:17.878 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/transportation-system-performance
+2026-05-04 23:22:17.941 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/transportation-and-economy
+2026-05-04 23:22:19.100 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/maps
+2026-05-04 23:22:19.162 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/product/geospatial-application-and-map-gallery
+2026-05-04 23:22:20.509 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/international
+2026-05-04 23:22:21.485 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/national
+2026-05-04 23:22:21.592 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/content/state-transportation-numbers
+2026-05-04 23:22:23.118 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ctp
+2026-05-04 23:22:23.200 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/congressionaldistricts
+2026-05-04 23:22:24.108 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/airlines-and-airports
+2026-05-04 23:22:25.286 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/highway
+2026-05-04 23:22:26.399 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/rail
+2026-05-04 23:22:26.721 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/maritime-and-inland-waterways
+2026-05-04 23:22:26.880 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/pipelines
+2026-05-04 23:22:27.247 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/transit
+2026-05-04 23:22:28.685 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/bicycle-and-pedestrian
+2026-05-04 23:22:30.075 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/browse-statistical-products-and-data
+2026-05-04 23:22:30.921 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/information-gallery
+2026-05-04 23:22:30.986 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/browse-statistical-products-and-data/bts-publications/z-index
+2026-05-04 23:22:31.200 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/airline-data-downloads
+2026-05-04 23:22:31.441 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/national-transportation-atlas-of-the-united-states
+2026-05-04 23:22:31.749 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://data.bts.gov/stories/s/jswi-2e7b
+2026-05-04 23:22:35.669 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/cfs
+2026-05-04 23:22:35.989 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://data.bts.gov/
+2026-05-04 23:22:37.611 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/data-spotlights
+2026-05-04 23:22:37.844 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/browse-statistical-products-and-data/surveys/evius/evius-electrical-vehicle-inventory-and-use
+2026-05-04 23:22:39.567 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/faf
+2026-05-04 23:22:39.650 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/product/freight-facts-and-figures
+2026-05-04 23:22:41.001 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/flow
+2026-05-04 23:22:42.127 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/browse-statistical-products-and-data/statistical-products/intermodal-transportation-database
+2026-05-04 23:22:42.210 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/latch
+2026-05-04 23:22:43.372 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://data.bts.gov/stories/s/m9eb-yevh
+2026-05-04 23:22:46.505 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/NCFO
+2026-05-04 23:22:47.776 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/topics/national-transportation-statistics
+2026-05-04 23:22:48.871 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/geospatial/national-transportation-atlas-database
+2026-05-04 23:22:50.130 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/browse-statistical-products-and-data/statistical-products/national-transportation-data-archive
+2026-05-04 23:22:51.744 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/osra
+2026-05-04 23:22:52.937 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/pocketguide
+2026-05-04 23:22:53.069 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ports
+2026-05-04 23:22:54.167 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/precursor-data
+2026-05-04 23:22:55.444 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/browse-statistical-products-and-data/preliminary-estimates/preliminary-estimates
+2026-05-04 23:22:56.960 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://safeocs.gov/index.htm
+2026-05-04 23:22:59.311 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/product/state-transportation-statistics
+2026-05-04 23:23:00.409 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/freight-indicators
+2026-05-04 23:23:00.474 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/surveys/annual-tank-car-facility-survey/annual-tank-car-facility-survey-program
+2026-05-04 23:23:02.063 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/covid-19/week-in-transportation
+2026-05-04 23:23:03.624 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://data.bts.gov/stories/s/kijm-95mr
+2026-05-04 23:23:08.295 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://data.bts.gov/stories/s/28tb-cpjy
+2026-05-04 23:23:10.548 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/tpfs
+2026-05-04 23:23:11.618 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://data.bts.gov/stories/s/Transportation-as-an-Economic-Indicator/9czv-tjte
+2026-05-04 23:23:14.775 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/tsar
+2026-05-04 23:23:14.855 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/tvar
+2026-05-04 23:23:15.285 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/vius
+2026-05-04 23:23:15.672 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.bts.gov/ntl
+2026-05-04 23:23:16.007 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://rosap.ntl.bts.gov
+2026-05-04 23:23:17.587 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 23:23:23.157 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.dice.com
+2026-05-04 23:23:23.158 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.dice.com/register
+2026-05-04 23:23:24.844 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.dice.com/hiring/post-jobs
+2026-05-04 23:23:25.243 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.dice.com/register/
+2026-05-04 23:23:32.538 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://in.linkedin.com
+2026-05-04 23:23:32.539 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/products/categories/desktop-publishing-software
+2026-05-04 23:23:33.938 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://in.linkedin.com/directory/posts?trk=homepage-basic_directory_postsDirectoryUrl
+2026-05-04 23:23:35.302 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/uas/login-submit
+2026-05-04 23:23:36.059 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/uas/login-submit
+2026-05-04 23:23:40.948 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.linkedin.com
+2026-05-04 23:23:40.950 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/products/categories/desktop-publishing-software
+2026-05-04 23:23:42.064 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/directory/posts?trk=homepage-basic_directory_postsDirectoryUrl
+2026-05-04 23:23:42.421 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/uas/login-submit
+2026-05-04 23:23:42.802 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/uas/login-submit
+2026-05-04 23:23:48.841 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://medium.com
+2026-05-04 23:23:48.843 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=--------------------------new_post_topnav------------------
+2026-05-04 23:23:54.847 | INFO     | agents.distributor_agent:save_results:414 - Results saved to data/output/posting_results.json
+2026-05-04 23:23:54.850 | INFO     | orchestrator.workflow_orchestrator:_generate_report:212 - 📊 Report saved to data/output/report.json

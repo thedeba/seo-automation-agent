@@ -1,0 +1,171 @@
+2026-05-04 23:30:20.337 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 23:30:20.337 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 23:30:20.337 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: airlines
+2026-05-04 23:30:20.685 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 23:30:28.902 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 20 results
+2026-05-04 23:30:37.036 | INFO     | agents.discovery_agent:search_websites_by_keywords:58 - Total unique sites discovered: 19
+2026-05-04 23:30:37.051 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 23:30:37.094 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-04 23:30:37.778 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-04 23:30:39.380 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alaskaair.com
+2026-05-04 23:30:42.275 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alaskaair.com
+2026-05-04 23:30:43.686 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-04 23:30:45.562 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-04 23:30:47.788 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlines.org
+2026-05-04 23:30:48.340 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airlines.org
+2026-05-04 23:30:50.390 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.suncountry.com
+2026-05-04 23:30:51.756 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.suncountry.com
+2026-05-04 23:30:53.871 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.corendonairlines.com
+2026-05-04 23:30:58.958 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.corendonairlines.com: 403 Client Error: Forbidden for url: https://www.corendonairlines.com/
+2026-05-04 23:31:00.983 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.southwest.com
+2026-05-04 23:31:01.696 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.southwest.com
+2026-05-04 23:31:04.196 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.aa.com
+2026-05-04 23:31:10.219 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.aa.com: 403 Client Error: Forbidden for url: https://www.aa.com/
+2026-05-04 23:31:12.631 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.united.com
+2026-05-04 23:31:13.458 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.united.com
+2026-05-04 23:31:16.246 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.flyfrontier.com
+2026-05-04 23:31:18.510 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.flyfrontier.com
+2026-05-04 23:31:21.488 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airliners.net
+2026-05-04 23:31:21.793 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airliners.net
+2026-05-04 23:31:23.328 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://airlines.einnews.com:443
+2026-05-04 23:31:24.717 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://airlines.einnews.com:443
+2026-05-04 23:31:26.332 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.worldairlineawards.com
+2026-05-04 23:31:28.365 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 6 posting links on https://www.worldairlineawards.com
+2026-05-04 23:31:31.170 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.skyscanner.com
+2026-05-04 23:31:32.714 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.skyscanner.com
+2026-05-04 23:31:34.690 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.skyscanner.net
+2026-05-04 23:31:35.786 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.skyscanner.net
+2026-05-04 23:31:38.383 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.delta.com
+2026-05-04 23:31:39.760 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.delta.com
+2026-05-04 23:31:42.387 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.kayak.com
+2026-05-04 23:31:45.187 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 51 posting links on https://www.kayak.com
+2026-05-04 23:31:48.108 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.expedia.com
+2026-05-04 23:31:54.030 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.expedia.com: 429 Client Error: Too Many Requests for url: https://www.expedia.com/
+2026-05-04 23:31:56.865 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cheapflights.com
+2026-05-04 23:32:00.755 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.cheapflights.com
+2026-05-04 23:32:02.956 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-04 23:32:02.956 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 19 sites...
+2026-05-04 23:32:02.957 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-04 23:32:02.957 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 19
+2026-05-04 23:32:02.957 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-04 23:32:02.958 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-04 23:32:02.962 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 19 items to data/output/no_auth_sites.json
+2026-05-04 23:32:02.964 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-04 23:32:02.965 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-04 23:32:02.968 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 19 items to data/output/classified_sites.json
+2026-05-04 23:32:02.968 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-04 23:32:03.006 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-04 23:32:03.007 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://en.wikipedia.org
+2026-05-04 23:32:03.007 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 23:32:03.474 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:04.116 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+2026-05-04 23:32:04.858 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:05.719 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/w/index.php
+2026-05-04 23:32:06.119 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:12.077 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.alaskaair.com
+2026-05-04 23:32:16.191 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://grokipedia.com
+2026-05-04 23:32:16.192 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 23:32:16.203 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 23:32:16.203 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /activity
+2026-05-04 23:32:16.209 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-04 23:32:16.210 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com/search
+2026-05-04 23:32:18.139 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:18.816 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-04 23:32:20.588 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:21.565 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-04 23:32:22.732 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:29.076 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.airlines.org
+2026-05-04 23:32:29.884 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.airlines.org
+2026-05-04 23:32:30.234 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:30.279 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.airlines.org/
+2026-05-04 23:32:30.326 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:32:34.055 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.suncountry.com
+2026-05-04 23:32:37.283 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.corendonairlines.com
+2026-05-04 23:32:42.982 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.southwest.com
+2026-05-04 23:32:48.171 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.aa.com
+2026-05-04 23:32:53.299 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.united.com
+2026-05-04 23:33:00.212 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.flyfrontier.com
+2026-05-04 23:33:00.214 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://booking.flyfrontier.com/Flight/Status#flightStatus-tab
+2026-05-04 23:33:01.137 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:23.750 | ERROR    | agents.distributor_agent:_submit_form:399 -   Form submission error: HTTPSConnectionPool(host='booking.flyfrontier.com', port=443): Read timed out. (read timeout=20)
+2026-05-04 23:33:28.335 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.airliners.net
+2026-05-04 23:33:32.246 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://airlines.einnews.com:443
+2026-05-04 23:33:39.167 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.worldairlineawards.com
+2026-05-04 23:33:40.438 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://www.worldairlineawards.com/wp-json/wp/v2/posts
+2026-05-04 23:33:40.439 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/contact-us/
+2026-05-04 23:33:41.518 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:42.378 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/contact-us/
+2026-05-04 23:33:42.599 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:43.658 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/the-2026-world-airline-awards-ceremony-to-take-place-in-london-in-september/
+2026-05-04 23:33:44.565 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:45.528 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/the-2025-world-airline-awards-in-photos/
+2026-05-04 23:33:46.285 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:47.014 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/qatar-airways-is-named-the-worlds-best-airline-at-2025-world-airline-awards/
+2026-05-04 23:33:47.809 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:48.531 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/contact-us/
+2026-05-04 23:33:48.798 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:49.455 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/
+2026-05-04 23:33:49.674 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:50.405 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.worldairlineawards.com/
+2026-05-04 23:33:50.612 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:33:51.623 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://worldairlineawards.us18.list-manage.com/subscribe/post
+2026-05-04 23:33:53.562 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-04 23:34:00.284 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.skyscanner.com
+2026-05-04 23:34:03.962 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.skyscanner.net
+2026-05-04 23:34:10.345 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.delta.com
+2026-05-04 23:34:15.491 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.kayak.com
+2026-05-04 23:34:15.492 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/London-LON
+2026-05-04 23:34:16.015 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dubai-Intl-DXB
+2026-05-04 23:34:16.161 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Toronto-YTO
+2026-05-04 23:34:16.236 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/India-IN0/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:34:16.513 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels.32821.hotel.ksp
+2026-05-04 23:34:16.723 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-Airport-Hotel-Grand-Delhi.2490641.ksp
+2026-05-04 23:34:16.884 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-The-Prime-Balaji-Deluxe-New-Delhi-Railway-Station.311282.ksp
+2026-05-04 23:34:16.951 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-bloomrooms-New-Delhi-Railway-Station.551110.ksp
+2026-05-04 23:34:17.021 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-Hotel-City-Star.474024.ksp
+2026-05-04 23:34:17.832 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-Delhi-Hotels-Centaur-Hotel.131776.ksp
+2026-05-04 23:34:18.072 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Amritsar-Raja-Sansi-ATQ/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:34:18.299 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Lucknow-Amausi-LKO/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:34:18.458 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:34:18.552 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Srinagar-SXR/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:34:18.652 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Varanasi-VNS/New-Delhi-Indira-Gandhi-Intl-DEL
+2026-05-04 23:34:18.770 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-Suvarnabhumi-other-airports-BKK
+2026-05-04 23:34:18.877 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Melbourne-ME1
+2026-05-04 23:34:19.051 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Chicago-CHI
+2026-05-04 23:34:19.136 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/San-Francisco-SFO
+2026-05-04 23:34:19.404 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Atlanta-Hartsfield-Jackson-ATL
+2026-05-04 23:34:19.480 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Singapore-Changi-SIN
+2026-05-04 23:34:19.559 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/India-IN0/New-York-NYC
+2026-05-04 23:34:19.668 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels.15830.hotel.ksp
+2026-05-04 23:34:19.819 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-Central-Park-West-Hostel.2486301.ksp
+2026-05-04 23:34:19.902 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-Hi-Nyc-Hostel.98607.ksp
+2026-05-04 23:34:20.032 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-West-Side-Ymca.64846.ksp
+2026-05-04 23:34:20.105 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-Pod-51.33571.ksp
+2026-05-04 23:34:20.189 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/New-York-Hotels-The-Gallivant-Times-Square.2288317.ksp
+2026-05-04 23:34:20.402 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Mumbai-Chhatrapati-Shivaji-BOM/New-York-NYC
+2026-05-04 23:34:20.515 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/New-York-NYC
+2026-05-04 23:34:20.596 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/New-York-NYC
+2026-05-04 23:34:20.662 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Hyderabad-Rajiv-Gandhi-Intl-HYD/New-York-NYC
+2026-05-04 23:34:20.737 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-York-NYC
+2026-05-04 23:34:20.915 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Phuket-City-HKT
+2026-05-04 23:34:20.986 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78
+2026-05-04 23:34:21.059 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Boston-Logan-Intl-BOS
+2026-05-04 23:34:21.160 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Sydney-Kingsford-Smith-SYD
+2026-05-04 23:34:21.252 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Zurich-ZRH
+2026-05-04 23:34:21.411 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Vienna-Intl-VIE
+2026-05-04 23:34:21.505 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Kastrup-Copenhagen-CPH
+2026-05-04 23:34:21.571 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Ahmedabad-AMD
+2026-05-04 23:34:21.645 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Srinagar-SXR
+2026-05-04 23:34:21.716 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Patna-PAT
+2026-05-04 23:34:21.791 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Hyderabad-Rajiv-Gandhi-Intl-HYD
+2026-05-04 23:34:21.964 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78
+2026-05-04 23:34:22.111 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Los-Angeles-LAX
+2026-05-04 23:34:22.163 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Seattle-Tacoma-Intl-SEA
+2026-05-04 23:34:22.232 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-TH1
+2026-05-04 23:34:22.609 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Munich-Franz-Josef-Strauss-MUC
+2026-05-04 23:34:22.679 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Guwahati-Borjhar-GAU
+2026-05-04 23:34:22.757 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bagdogra-IXB
+2026-05-04 23:34:26.360 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.expedia.com
+2026-05-04 23:34:30.213 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.cheapflights.com
+2026-05-04 23:34:36.707 | INFO     | agents.distributor_agent:save_results:493 - Results saved to data/output/posting_results.json
+2026-05-04 23:34:36.709 | INFO     | orchestrator.workflow_orchestrator:_generate_report:212 - 📊 Report saved to data/output/report.json

@@ -1,0 +1,38 @@
+2026-05-04 22:49:27.561 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:49:27.561 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:49:27.561 | INFO     | agents.discovery_agent:search_websites_by_keywords:39 - Searching for keyword: guest post
+2026-05-04 22:49:28.091 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   google: Found 0 results
+2026-05-04 22:49:32.120 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   duckduckgo: Found 2 results
+2026-05-04 22:49:43.181 | INFO     | agents.discovery_agent:search_websites_by_keywords:74 - Total unique sites discovered: 2
+2026-05-04 22:49:43.189 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 22:49:43.217 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-04 22:49:43.969 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-04 22:49:46.263 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-04 22:49:47.545 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-04 22:49:49.227 | INFO     | agents.extractor_agent:export_posting_links:376 - Posting links exported to data/output/posting_links.json
+2026-05-04 22:49:49.227 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-04 22:49:49.228 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 2 sites...
+2026-05-04 22:49:49.228 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-04 22:49:49.228 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 2
+2026-05-04 22:49:49.228 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-04 22:49:49.228 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-04 22:49:49.229 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 2 items to data/output/no_auth_sites.json
+2026-05-04 22:49:49.229 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-04 22:49:49.230 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-04 22:49:49.230 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 2 items to data/output/classified_sites.json
+2026-05-04 22:49:49.230 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-04 22:49:49.251 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-04 22:49:49.251 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://en.wikipedia.org
+2026-05-04 22:49:49.251 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 22:49:50.106 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+2026-05-04 22:49:51.641 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://en.wikipedia.org/w/index.php
+2026-05-04 22:49:58.956 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://grokipedia.com
+2026-05-04 22:49:58.957 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: #
+2026-05-04 22:49:58.961 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:49:58.961 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /activity
+2026-05-04 22:49:58.965 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-04 22:49:58.966 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://grokipedia.com/search
+2026-05-04 22:50:01.147 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://grokipedia.com
+2026-05-04 22:50:03.263 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://grokipedia.com
+2026-05-04 22:50:10.513 | INFO     | agents.distributor_agent:save_results:417 - Results saved to data/output/posting_results.json
+2026-05-04 22:50:10.515 | INFO     | orchestrator.workflow_orchestrator:_generate_report:217 - 📊 Report saved to data/output/report.json

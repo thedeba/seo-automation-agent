@@ -1,0 +1,910 @@
+2026-05-04 22:16:50.806 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:16:50.806 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:16:50.806 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: guest post
+2026-05-04 22:16:51.120 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 22:17:02.141 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 22:17:11.732 | INFO     | agents.discovery_agent:search_websites_by_keywords:33 - Searching for keyword: write for us
+2026-05-04 22:17:12.089 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   google: Found 0 results
+2026-05-04 22:17:22.338 | INFO     | agents.discovery_agent:search_websites_by_keywords:47 -   duckduckgo: Found 30 results
+2026-05-04 22:17:31.482 | INFO     | agents.discovery_agent:search_websites_by_keywords:58 - Total unique sites discovered: 58
+2026-05-04 22:17:31.489 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 22:17:32.637 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-04 22:17:33.276 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 24 posting links on https://en.wikipedia.org
+2026-05-04 22:17:36.225 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://neilpatel.com
+2026-05-04 22:17:36.773 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 13 posting links on https://neilpatel.com
+2026-05-04 22:17:38.370 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.semrush.com
+2026-05-04 22:17:39.396 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.semrush.com
+2026-05-04 22:17:42.311 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-04 22:17:44.204 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-04 22:17:46.937 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://orbeen.com
+2026-05-04 22:17:47.800 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://orbeen.com
+2026-05-04 22:17:49.622 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.whitelabelseolab.com
+2026-05-04 22:17:51.166 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://www.whitelabelseolab.com
+2026-05-04 22:17:53.745 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.prestigelinks.com
+2026-05-04 22:17:54.363 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 42 posting links on https://www.prestigelinks.com
+2026-05-04 22:17:56.370 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://myzone.com
+2026-05-04 22:17:57.715 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 10 posting links on https://myzone.com
+2026-05-04 22:18:00.598 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://simplepage.vn
+2026-05-04 22:18:02.477 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://simplepage.vn
+2026-05-04 22:18:04.792 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://astromarketing.org
+2026-05-04 22:18:07.032 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://astromarketing.org
+2026-05-04 22:18:09.138 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://guestpostwire.com
+2026-05-04 22:18:10.740 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 28 posting links on https://guestpostwire.com
+2026-05-04 22:18:13.529 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://backlink.com.vn
+2026-05-04 22:18:17.662 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://backlink.com.vn
+2026-05-04 22:18:20.477 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://sites.google.com
+2026-05-04 22:18:23.336 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://sites.google.com
+2026-05-04 22:18:26.124 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://jeenaminfotech.com
+2026-05-04 22:18:27.738 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 12 posting links on https://jeenaminfotech.com
+2026-05-04 22:18:29.934 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://backlinko.com
+2026-05-04 22:18:30.599 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 4 posting links on https://backlinko.com
+2026-05-04 22:18:32.762 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.hostinger.com
+2026-05-04 22:18:33.689 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 8 posting links on https://www.hostinger.com
+2026-05-04 22:18:34.713 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.ryrob.com
+2026-05-04 22:18:36.794 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 13 posting links on https://www.ryrob.com
+2026-05-04 22:18:38.711 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://webseotrends.com
+2026-05-04 22:18:40.327 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 7 posting links on https://webseotrends.com
+2026-05-04 22:18:41.400 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://presswhizz.com
+2026-05-04 22:18:43.268 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 58 posting links on https://presswhizz.com
+2026-05-04 22:18:44.291 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.guestposts.biz
+2026-05-04 22:18:46.868 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 78 posting links on https://www.guestposts.biz
+2026-05-04 22:18:47.976 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.vazoola.com
+2026-05-04 22:18:50.286 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://www.vazoola.com
+2026-05-04 22:18:52.756 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://sheownsit.com
+2026-05-04 22:18:54.883 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 65 posting links on https://sheownsit.com
+2026-05-04 22:18:56.561 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://travelleague.net
+2026-05-04 22:18:58.433 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 50 posting links on https://travelleague.net
+2026-05-04 22:19:00.237 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://copyblogger.com
+2026-05-04 22:19:02.729 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 6 posting links on https://copyblogger.com
+2026-05-04 22:19:04.501 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.reblogit.com
+2026-05-04 22:19:05.355 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 65 posting links on https://www.reblogit.com
+2026-05-04 22:19:07.545 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://serpninja.io
+2026-05-04 22:19:07.873 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 8 posting links on https://serpninja.io
+2026-05-04 22:19:10.570 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.celebhomes.net
+2026-05-04 22:19:11.501 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 10 posting links on https://www.celebhomes.net
+2026-05-04 22:19:13.447 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://guestpost.com
+2026-05-04 22:19:16.358 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://guestpost.com
+2026-05-04 22:19:17.613 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://goinswriter.com
+2026-05-04 22:19:17.776 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://goinswriter.com
+2026-05-04 22:19:20.449 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://adsy.com
+2026-05-04 22:19:22.091 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 171 posting links on https://adsy.com
+2026-05-04 22:19:24.570 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-04 22:19:24.571 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 30 sites...
+2026-05-04 22:19:24.573 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-04 22:19:24.573 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 28
+2026-05-04 22:19:24.573 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 2
+2026-05-04 22:19:24.573 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-04 22:19:24.581 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 28 items to data/output/no_auth_sites.json
+2026-05-04 22:19:24.583 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 2 items to data/output/auth_sites.json
+2026-05-04 22:19:24.584 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-04 22:19:24.592 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 30 items to data/output/classified_sites.json
+2026-05-04 22:19:24.592 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-04 22:19:24.618 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-04 22:19:24.619 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://en.wikipedia.org
+2026-05-04 22:19:24.619 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 22:19:25.933 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard
+2026-05-04 22:19:26.989 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+2026-05-04 22:19:29.872 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+2026-05-04 22:19:31.380 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+2026-05-04 22:19:33.135 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+2026-05-04 22:19:34.568 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 22:19:35.789 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+2026-05-04 22:19:37.317 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Main_Page
+2026-05-04 22:19:37.320 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/wiki/Main_Page': No scheme supplied. Perhaps you meant https:///wiki/Main_Page?
+2026-05-04 22:19:37.320 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Wikipedia:Contents
+2026-05-04 22:19:37.324 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Wikipedia:Contents'
+2026-05-04 22:19:37.324 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Portal:Current_events
+2026-05-04 22:19:37.327 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Portal:Current_events'
+2026-05-04 22:19:37.327 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Special:Random
+2026-05-04 22:19:37.331 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Special:Random'
+2026-05-04 22:19:37.331 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Wikipedia:About
+2026-05-04 22:19:37.334 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Wikipedia:About'
+2026-05-04 22:19:37.334 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-04 22:19:37.342 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '//en.wikipedia.org/wiki/Wikipedia:Contact_us'
+2026-05-04 22:19:37.342 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Help:Contents
+2026-05-04 22:19:37.345 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Help:Contents'
+2026-05-04 22:19:37.345 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Help:Introduction
+2026-05-04 22:19:37.348 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Help:Introduction'
+2026-05-04 22:19:37.348 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Wikipedia:Community_portal
+2026-05-04 22:19:37.351 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Wikipedia:Community_portal'
+2026-05-04 22:19:37.351 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Special:RecentChanges
+2026-05-04 22:19:37.354 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Special:RecentChanges'
+2026-05-04 22:19:37.354 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Wikipedia:File_upload_wizard
+2026-05-04 22:19:37.357 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Wikipedia:File_upload_wizard'
+2026-05-04 22:19:37.357 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Special:SpecialPages
+2026-05-04 22:19:37.359 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Special:SpecialPages'
+2026-05-04 22:19:37.359 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /wiki/Special:Search
+2026-05-04 22:19:37.362 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for '/wiki/Special:Search'
+2026-05-04 22:19:37.362 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+2026-05-04 22:19:40.275 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 22:19:45.776 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://neilpatel.com
+2026-05-04 22:19:46.406 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/ai-writer/
+2026-05-04 22:19:46.637 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/contact/
+2026-05-04 22:19:46.852 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/blog/linkedin-articles/
+2026-05-04 22:19:47.358 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/blog/infographics/
+2026-05-04 22:19:48.049 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/blog/create-wikipedia-page/
+2026-05-04 22:19:48.383 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/blog/welcome-email-guide/
+2026-05-04 22:19:49.441 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/blog/boost-linkedin-post-views/
+2026-05-04 22:19:49.651 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://npdigital.com/solutions/data-analytics/ad-operations/?utm_medium=ref&utm_source=blog&utm_campaign=referral-services-menu&utm_content=data-analytics&utm_term=ad-operations
+2026-05-04 22:19:54.687 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://npdigital.com/solutions/creative/branding/?utm_medium=ref&utm_source=blog&utm_campaign=referral-services-menu&utm_content=creative&utm_term=branding
+2026-05-04 22:19:58.292 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://npdigital.com/solutions/creative/?utm_medium=ref&utm_source=blog&utm_campaign=referral-services-menu&utm_content=creative&utm_term=content-production
+2026-05-04 22:20:01.961 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://npdigital.com/solutions/creative/?utm_medium=ref&utm_source=blog&utm_campaign=referral-services-menu&utm_content=creative&utm_term=audio-production
+2026-05-04 22:20:04.441 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/ai-writer/
+2026-05-04 22:20:04.725 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/contact/
+2026-05-04 22:20:04.927 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/#wpcf7-f216540-p9563-o1
+2026-05-04 22:20:07.023 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://neilpatel.com/
+2026-05-04 22:20:11.346 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.semrush.com
+2026-05-04 22:20:11.348 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.semrush.com/company/contacts/
+2026-05-04 22:20:12.136 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.semrush.com/company/contacts/
+2026-05-04 22:20:13.507 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.semrush.com/us/info/
+2026-05-04 22:20:20.829 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://grokipedia.com
+2026-05-04 22:20:20.830 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 22:20:20.838 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:20:20.838 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /activity
+2026-05-04 22:20:20.844 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-04 22:20:20.844 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com/search
+2026-05-04 22:20:23.469 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-04 22:20:25.328 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-04 22:20:30.981 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://orbeen.com
+2026-05-04 22:20:33.417 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://orbeen.com/wp-json/wp/v2/posts
+2026-05-04 22:20:33.417 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/about/
+2026-05-04 22:20:34.997 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/about/
+2026-05-04 22:20:36.577 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/contact/
+2026-05-04 22:20:37.142 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/contact/
+2026-05-04 22:20:38.661 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/guest-post-backlinks/
+2026-05-04 22:20:39.184 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/
+2026-05-04 22:20:39.728 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://orbeen.com/
+2026-05-04 22:20:50.737 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.whitelabelseolab.com
+2026-05-04 22:21:01.358 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.whitelabelseolab.com/guest-post-service/
+2026-05-04 22:21:22.634 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: HTTPSConnectionPool(host='www.whitelabelseolab.com', port=443): Read timed out. (read timeout=20)
+2026-05-04 22:21:22.636 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.whitelabelseolab.com/?page_id=697
+2026-05-04 22:21:38.312 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.whitelabelseolab.com', port=443): Read timed out. (read timeout=15)
+2026-05-04 22:21:38.314 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.whitelabelseolab.com/?page_id=697
+2026-05-04 22:21:54.015 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.whitelabelseolab.com', port=443): Read timed out. (read timeout=15)
+2026-05-04 22:21:54.016 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.whitelabelseolab.com/#wpcf7-f9356-o1
+2026-05-04 22:22:15.270 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: HTTPSConnectionPool(host='www.whitelabelseolab.com', port=443): Read timed out. (read timeout=20)
+2026-05-04 22:22:15.272 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.whitelabelseolab.com/#wpcf7-f9390-o3
+2026-05-04 22:22:36.610 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: HTTPSConnectionPool(host='www.whitelabelseolab.com', port=443): Read timed out. (read timeout=20)
+2026-05-04 22:22:57.861 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: HTTPSConnectionPool(host='www.whitelabelseolab.com', port=443): Read timed out. (read timeout=20)
+2026-05-04 22:23:04.989 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.prestigelinks.com
+2026-05-04 22:23:04.989 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/about
+2026-05-04 22:23:07.457 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/contact
+2026-05-04 22:23:08.664 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/contact
+2026-05-04 22:23:09.279 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/contact
+2026-05-04 22:23:09.790 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/contact
+2026-05-04 22:23:10.303 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/post/onlyfans-seo
+2026-05-04 22:23:10.891 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/post/substack-seo
+2026-05-04 22:23:11.741 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/post/does-ai-content-rank-in-google
+2026-05-04 22:23:12.311 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/about
+2026-05-04 22:23:12.967 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/guest-post-service
+2026-05-04 22:23:15.290 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/about
+2026-05-04 22:23:15.832 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com/contact
+2026-05-04 22:23:16.653 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /checkout
+2026-05-04 22:23:16.658 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/checkout': No scheme supplied. Perhaps you meant https:///checkout?
+2026-05-04 22:23:16.659 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /special-offer
+2026-05-04 22:23:16.664 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/special-offer': No scheme supplied. Perhaps you meant https:///special-offer?
+2026-05-04 22:23:16.664 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /
+2026-05-04 22:23:16.668 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2026-05-04 22:23:16.668 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /about
+2026-05-04 22:23:16.673 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/about': No scheme supplied. Perhaps you meant https:///about?
+2026-05-04 22:23:16.673 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /packages
+2026-05-04 22:23:16.678 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/packages': No scheme supplied. Perhaps you meant https:///packages?
+2026-05-04 22:23:16.678 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /white-label-link-building
+2026-05-04 22:23:16.682 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/white-label-link-building': No scheme supplied. Perhaps you meant https:///white-label-link-building?
+2026-05-04 22:23:16.682 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /link-building-for-startups
+2026-05-04 22:23:16.686 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/link-building-for-startups': No scheme supplied. Perhaps you meant https:///link-building-for-startups?
+2026-05-04 22:23:16.686 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /high-authority-sites
+2026-05-04 22:23:16.690 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/high-authority-sites': No scheme supplied. Perhaps you meant https:///high-authority-sites?
+2026-05-04 22:23:16.690 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /blog
+2026-05-04 22:23:16.694 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/blog': No scheme supplied. Perhaps you meant https:///blog?
+2026-05-04 22:23:16.694 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 22:23:16.697 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:23:16.697 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /contact
+2026-05-04 22:23:16.700 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/contact': No scheme supplied. Perhaps you meant https:///contact?
+2026-05-04 22:23:16.701 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://thedigitalintellect.com/
+2026-05-04 22:23:21.212 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: mailto:hello@prestigelinks.com?subject=Link%20Building%20Inquiry
+2026-05-04 22:23:21.217 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for 'mailto:hello@prestigelinks.com?subject=Link%20Building%20Inquiry'
+2026-05-04 22:23:21.217 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /backlink-quality-check
+2026-05-04 22:23:21.223 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/backlink-quality-check': No scheme supplied. Perhaps you meant https:///backlink-quality-check?
+2026-05-04 22:23:21.223 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /post/onlyfans-seo
+2026-05-04 22:23:21.229 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/post/onlyfans-seo': No scheme supplied. Perhaps you meant https:///post/onlyfans-seo?
+2026-05-04 22:23:21.229 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /post/substack-seo
+2026-05-04 22:23:21.233 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/post/substack-seo': No scheme supplied. Perhaps you meant https:///post/substack-seo?
+2026-05-04 22:23:21.233 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /post/does-ai-content-rank-in-google
+2026-05-04 22:23:21.237 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/post/does-ai-content-rank-in-google': No scheme supplied. Perhaps you meant https:///post/does-ai-content-rank-in-google?
+2026-05-04 22:23:21.237 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /old-home
+2026-05-04 22:23:21.240 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/old-home': No scheme supplied. Perhaps you meant https:///old-home?
+2026-05-04 22:23:21.241 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.facebook.com/PrestigeLinks-104333338858565
+2026-05-04 22:23:22.452 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://twitter.com/prestigelinkspr
+2026-05-04 22:23:27.816 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.instagram.com/prestigelinkspr/
+2026-05-04 22:23:28.843 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /buy-backlinks
+2026-05-04 22:23:28.846 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/buy-backlinks': No scheme supplied. Perhaps you meant https:///buy-backlinks?
+2026-05-04 22:23:28.847 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /guest-post-service
+2026-05-04 22:23:28.850 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/guest-post-service': No scheme supplied. Perhaps you meant https:///guest-post-service?
+2026-05-04 22:23:28.850 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /link-building-new-york
+2026-05-04 22:23:28.853 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/link-building-new-york': No scheme supplied. Perhaps you meant https:///link-building-new-york?
+2026-05-04 22:23:28.853 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /link-building-texas
+2026-05-04 22:23:28.856 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/link-building-texas': No scheme supplied. Perhaps you meant https:///link-building-texas?
+2026-05-04 22:23:28.856 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /link-building-canada
+2026-05-04 22:23:28.859 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/link-building-canada': No scheme supplied. Perhaps you meant https:///link-building-canada?
+2026-05-04 22:23:28.859 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /terms
+2026-05-04 22:23:28.861 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/terms': No scheme supplied. Perhaps you meant https:///terms?
+2026-05-04 22:23:28.862 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /privacy
+2026-05-04 22:23:28.864 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/privacy': No scheme supplied. Perhaps you meant https:///privacy?
+2026-05-04 22:23:28.864 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /scholarship
+2026-05-04 22:23:28.867 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/scholarship': No scheme supplied. Perhaps you meant https:///scholarship?
+2026-05-04 22:23:28.867 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: mailto:hello@prestigelinks.com
+2026-05-04 22:23:28.870 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for 'mailto:hello@prestigelinks.com'
+2026-05-04 22:23:28.871 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com
+2026-05-04 22:23:29.759 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com
+2026-05-04 22:23:30.329 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com
+2026-05-04 22:23:30.888 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com
+2026-05-04 22:23:32.296 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.prestigelinks.com
+2026-05-04 22:23:32.937 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://forms.prestigelinks.com/submit/subscribe
+2026-05-04 22:23:34.040 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://forms.prestigelinks.com/submit/subscribe
+2026-05-04 22:23:41.310 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://myzone.com
+2026-05-04 22:23:43.584 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://myzone.com/wp-json/wp/v2/posts
+2026-05-04 22:23:43.584 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/contact/
+2026-05-04 22:23:45.629 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/contact/
+2026-05-04 22:23:46.864 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/contact/
+2026-05-04 22:23:47.939 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/contact/
+2026-05-04 22:23:49.043 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/guest-post-outreach-in-5-steps/
+2026-05-04 22:23:50.370 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/50-ways-to-improve-your-websites-conversion-rate/
+2026-05-04 22:23:52.916 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/how-ecommerce-has-changed-during-covid-19/
+2026-05-04 22:23:53.976 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/blog/
+2026-05-04 22:23:55.357 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/contact/
+2026-05-04 22:23:56.439 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.com/about
+2026-05-04 22:23:58.502 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://myzone.us8.list-manage.com/subscribe/post?u=be65b600b7a3e1632370d3403&id=2376eafa4b
+2026-05-04 22:24:04.080 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://simplepage.vn
+2026-05-04 22:24:05.287 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://simplepage.vn/wp-json/wp/v2/posts
+2026-05-04 22:24:08.676 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://astromarketing.org
+2026-05-04 22:24:15.022 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://astromarketing.org/wp-json/wp/v2/posts
+2026-05-04 22:24:15.022 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://astromarketing.org/guest-post/
+2026-05-04 22:24:17.187 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://astromarketing.org/contact/
+2026-05-04 22:24:19.734 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://astromarketing.org/contact/
+2026-05-04 22:24:27.286 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://guestpostwire.com
+2026-05-04 22:24:27.287 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/page/submit-guest-post
+2026-05-04 22:24:28.839 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/new-construction-loans-in-california-key-requirements-and-pitfalls-1828
+2026-05-04 22:24:29.765 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/new-construction-loans-in-california-key-requirements-and-pitfalls-1828
+2026-05-04 22:24:30.788 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/what-is-guest-posting-in-seo-45
+2026-05-04 22:24:32.224 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/what-is-guest-posting-in-seo-45
+2026-05-04 22:24:33.131 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/new-construction-loans-in-california-key-requirements-and-pitfalls-1828
+2026-05-04 22:24:34.680 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/new-construction-loans-in-california-key-requirements-and-pitfalls-1828
+2026-05-04 22:24:35.489 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/new-construction-loans-in-california-key-requirements-and-pitfalls-1828
+2026-05-04 22:24:36.422 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/new-construction-loans-in-california-key-requirements-and-pitfalls-1828
+2026-05-04 22:24:37.205 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/what-is-guest-posting-in-seo-45
+2026-05-04 22:24:37.941 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/what-is-guest-posting-in-seo-45
+2026-05-04 22:24:38.810 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/page/about
+2026-05-04 22:24:39.631 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/contact
+2026-05-04 22:24:40.351 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/page/write-for-us
+2026-05-04 22:24:41.062 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com
+2026-05-04 22:24:42.969 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/health-guest-posting-6
+2026-05-04 22:24:44.088 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/family-guest-posting-9
+2026-05-04 22:24:45.594 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/business-guest-posting-4
+2026-05-04 22:24:46.448 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/education-guest-posting-8
+2026-05-04 22:24:47.239 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/lifestyle-guest-posting-5
+2026-05-04 22:24:48.049 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/technology-guest-posting-1
+2026-05-04 22:24:48.812 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/sports-guest-posting-3
+2026-05-04 22:24:49.636 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/fashion-guest-posting-2
+2026-05-04 22:24:50.413 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/category/gadgets-guest-posting-7
+2026-05-04 22:24:51.359 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 22:24:51.365 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:24:51.366 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/page/privacy
+2026-05-04 22:24:52.184 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/page/terms
+2026-05-04 22:24:53.511 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/page/affiliate-disclosure
+2026-05-04 22:24:54.381 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/search
+2026-05-04 22:24:55.329 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/search
+2026-05-04 22:24:56.110 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpostwire.com/newsletter/subscribe
+2026-05-04 22:25:05.101 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://backlink.com.vn
+2026-05-04 22:25:08.505 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://backlink.com.vn/wp-json/wp/v2/posts
+2026-05-04 22:25:08.505 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlink.com.vn/guest-post-service
+2026-05-04 22:25:11.550 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlink.com.vn/
+2026-05-04 22:25:15.030 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlink.com.vn/
+2026-05-04 22:25:31.537 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://sites.google.com
+2026-05-04 22:25:36.013 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://jeenaminfotech.com
+2026-05-04 22:25:37.760 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://jeenaminfotech.com/wp-json/wp/v2/posts
+2026-05-04 22:25:37.760 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/guest-posting/
+2026-05-04 22:25:38.868 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:41.172 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/guest-posting/
+2026-05-04 22:25:42.219 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:43.364 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:44.418 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:45.485 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:46.502 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/blog/
+2026-05-04 22:25:48.004 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:49.069 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/contact/
+2026-05-04 22:25:50.086 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/guest-posting/
+2026-05-04 22:25:51.135 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com/guest-posting/
+2026-05-04 22:25:52.300 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://jeenaminfotech.com
+2026-05-04 22:26:01.387 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://backlinko.com
+2026-05-04 22:26:01.388 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlinko.com/llms-txt
+2026-05-04 22:26:02.514 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlinko.com/write-a-blog-post
+2026-05-04 22:26:03.973 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlinko.com/how-to-create-a-website
+2026-05-04 22:26:04.807 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlinko.com/contact
+2026-05-04 22:26:05.509 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://backlinko.com
+2026-05-04 22:26:06.384 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.aweber.com/scripts/addlead.pl
+2026-05-04 22:26:12.704 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.hostinger.com
+2026-05-04 22:26:12.704 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/business-email
+2026-05-04 22:26:13.193 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/email-marketing
+2026-05-04 22:26:13.610 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/about
+2026-05-04 22:26:13.804 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/contacts
+2026-05-04 22:26:13.921 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/horizons
+2026-05-04 22:26:14.243 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/website-builder
+2026-05-04 22:26:14.430 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/about
+2026-05-04 22:26:14.546 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.hostinger.com/contacts
+2026-05-04 22:26:19.165 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.ryrob.com
+2026-05-04 22:26:22.767 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://www.ryrob.com/wp-json/wp/v2/posts
+2026-05-04 22:26:22.768 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/ai-article-writer/
+2026-05-04 22:26:24.050 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/paragraph-rewriter/
+2026-05-04 22:26:25.576 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/about/
+2026-05-04 22:26:27.830 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/about/
+2026-05-04 22:26:29.027 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/contact/
+2026-05-04 22:26:30.780 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/contact/
+2026-05-04 22:26:31.867 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/ai-article-writer/
+2026-05-04 22:26:34.168 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/paragraph-rewriter/
+2026-05-04 22:26:36.057 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/about/
+2026-05-04 22:26:37.294 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/contact/
+2026-05-04 22:26:38.486 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://mightyshare.io/
+2026-05-04 22:26:39.725 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/about/
+2026-05-04 22:26:40.943 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/contact/
+2026-05-04 22:26:42.032 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/
+2026-05-04 22:26:43.562 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.ryrob.com/
+2026-05-04 22:26:49.010 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://webseotrends.com
+2026-05-04 22:26:51.693 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://webseotrends.com/wp-json/wp/v2/posts
+2026-05-04 22:26:51.693 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:26:53.843 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:26:55.141 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:26:56.487 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:26:57.716 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:26:58.965 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:27:00.223 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/contact-us/
+2026-05-04 22:27:01.623 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://webseotrends.com/
+2026-05-04 22:27:08.881 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.guestposts.biz
+2026-05-04 22:27:09.817 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/sites-for-publishing-guest-posts
+2026-05-04 22:27:12.483 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://ootb.pro/contentassets/videos/GP-Social-Post.mp4
+2026-05-04 22:27:25.313 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://vapingposts.com/
+2026-05-04 22:27:28.559 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://casinoposts.io/
+2026-05-04 22:27:30.976 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/Media-Kit/Guest-Posts-Media-Kit.pdf
+2026-05-04 22:27:32.903 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.contakts.ai/
+2026-05-04 22:27:37.266 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/contact-us/
+2026-05-04 22:27:39.143 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/importance-of-guest-posts/
+2026-05-04 22:27:39.921 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/submit-your-site-for-guestposts/
+2026-05-04 22:27:40.711 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/contact-us/
+2026-05-04 22:27:41.770 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/Checklist-for-Writing-Guest-Posts.pdf
+2026-05-04 22:27:42.775 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://api.whatsapp.com/send?phone=971506449103&text=
+2026-05-04 22:27:43.621 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/
+2026-05-04 22:27:44.380 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/order-form/
+2026-05-04 22:27:45.337 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/Media-Kit/Guest-Posts-Media-Kit.pdf?cache=0
+2026-05-04 22:27:47.346 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/packages/
+2026-05-04 22:27:48.365 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /sites-for-publishing-guest-posts
+2026-05-04 22:27:48.369 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/sites-for-publishing-guest-posts': No scheme supplied. Perhaps you meant https:///sites-for-publishing-guest-posts?
+2026-05-04 22:27:48.369 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /imp-of-seo/
+2026-05-04 22:27:48.375 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/imp-of-seo/': No scheme supplied. Perhaps you meant https:///imp-of-seo/?
+2026-05-04 22:27:48.375 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/generative-engine-optimization-geo/
+2026-05-04 22:27:49.351 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.onlywebinars.com
+2026-05-04 22:27:53.856 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/video/
+2026-05-04 22:27:54.866 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/articles/
+2026-05-04 22:27:56.513 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/business-listings/
+2026-05-04 22:27:57.488 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /importance-of-guest-posts/
+2026-05-04 22:27:57.494 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/importance-of-guest-posts/': No scheme supplied. Perhaps you meant https:///importance-of-guest-posts/?
+2026-05-04 22:27:57.494 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /importance-of-textlinks/
+2026-05-04 22:27:57.498 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/importance-of-textlinks/': No scheme supplied. Perhaps you meant https:///importance-of-textlinks/?
+2026-05-04 22:27:57.498 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /imp-of-ppc
+2026-05-04 22:27:57.501 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/imp-of-ppc': No scheme supplied. Perhaps you meant https:///imp-of-ppc?
+2026-05-04 22:27:57.501 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://pressreleasenetwork.com/
+2026-05-04 22:28:01.428 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/webinars/
+2026-05-04 22:28:02.454 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 22:28:02.461 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:28:02.461 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/2026/04/10/the-roi-of-seo/
+2026-05-04 22:28:03.344 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/2026/04/08/how-to-build-a-future-proof-business-in-times-of-crisis/
+2026-05-04 22:28:04.303 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/2026/03/25/10-powerful-link-building-tips-and-tricks-that-actually-work-in-2026/
+2026-05-04 22:28:05.124 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/page/2/
+2026-05-04 22:28:06.031 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/page/3/
+2026-05-04 22:28:06.802 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/page/4/
+2026-05-04 22:28:08.043 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/page/5/
+2026-05-04 22:28:09.022 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/page/135/
+2026-05-04 22:28:10.069 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/articles/
+2026-05-04 22:28:11.436 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://www.dubaicityguide.com/
+2026-05-04 22:28:15.744 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cyber-gear.com/
+2026-05-04 22:28:18.761 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://thegreenecostore.com/
+2026-05-04 22:28:19.760 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cybergearnetwork.com/
+2026-05-04 22:28:21.693 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cyber-gear.com
+2026-05-04 22:28:21.951 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-04 22:28:21.951 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://www.go-green.ae/
+2026-05-04 22:28:26.702 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://www.middleeasttoday.net/
+2026-05-04 22:28:31.332 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.gulfcapital.com
+2026-05-04 22:28:35.483 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.uaetoday.com/
+2026-05-04 22:28:37.682 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.dubaishoppingguide.com/
+2026-05-04 22:28:40.668 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://middleeastevents.com/
+2026-05-04 22:28:42.978 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://dubaiverse.io/
+2026-05-04 22:28:51.842 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://web3gpt.io/
+2026-05-04 22:28:55.293 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/
+2026-05-04 22:28:58.364 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.thegreenecostore.com/
+2026-05-04 22:28:59.734 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://seonearme.io/
+2026-05-04 22:29:03.151 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /contact-us/
+2026-05-04 22:29:03.157 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/contact-us/': No scheme supplied. Perhaps you meant https:///contact-us/?
+2026-05-04 22:29:03.158 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/Media-Kit/Guest-Posts-Media-Kit.docx?cache=0
+2026-05-04 22:29:05.581 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /order-form/
+2026-05-04 22:29:05.583 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/order-form/': No scheme supplied. Perhaps you meant https:///order-form/?
+2026-05-04 22:29:05.584 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /imp-of-ppc/
+2026-05-04 22:29:05.586 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/imp-of-ppc/': No scheme supplied. Perhaps you meant https:///imp-of-ppc/?
+2026-05-04 22:29:05.586 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /submit-your-site-for-guestposts/
+2026-05-04 22:29:05.589 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/submit-your-site-for-guestposts/': No scheme supplied. Perhaps you meant https:///submit-your-site-for-guestposts/?
+2026-05-04 22:29:05.589 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/about-us/
+2026-05-04 22:29:07.765 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/sitemap.xml
+2026-05-04 22:29:08.267 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/privacy-policy/
+2026-05-04 22:29:09.315 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/newsletter-subscription/
+2026-05-04 22:29:10.079 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/wp-content/uploads/2024/10/THE-SEO-DOSSIER.pdf
+2026-05-04 22:29:16.566 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/Guest-Posts-Brochure.pdf
+2026-05-04 22:29:18.302 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/wp-content/uploads/2024/05/The-Role-of-Artificial-Intelligence-in-Digital-Marketing.pdf
+2026-05-04 22:29:20.663 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /The-Link-Building-Terms.pdf
+2026-05-04 22:29:20.665 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/The-Link-Building-Terms.pdf': No scheme supplied. Perhaps you meant https:///The-Link-Building-Terms.pdf?
+2026-05-04 22:29:20.665 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /Checklist-for-Writing-Guest-Posts.pdf
+2026-05-04 22:29:20.668 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/Checklist-for-Writing-Guest-Posts.pdf': No scheme supplied. Perhaps you meant https:///Checklist-for-Writing-Guest-Posts.pdf?
+2026-05-04 22:29:20.668 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://prnearme.io/
+2026-05-04 22:29:24.580 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://thebluewhale.ai/courses/top-15-ai-tools-for-seo/
+2026-05-04 22:29:27.313 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bloggingagent.ai/
+2026-05-04 22:29:29.352 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestposts.biz/Top-50-AI-Tools-for-SEO-GuestPosts-Biz.pdf
+2026-05-04 22:29:35.624 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: mailto:info@cyber-gear.com?subject=Enquiry from Guest Posts Website
+2026-05-04 22:29:35.627 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: No connection adapters were found for 'mailto:info@cyber-gear.com?subject=Enquiry from Guest Posts Website'
+2026-05-04 22:29:35.627 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://twitter.com/GuestPostsBiz
+2026-05-04 22:29:41.530 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/in/guestpostsbiz/
+2026-05-04 22:29:42.396 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.instagram.com/guestposts.biz
+2026-05-04 22:29:43.129 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://facebook.com/guestposts.biz
+2026-05-04 22:29:45.496 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.youtube.com/@CyberGearUAE/videos
+2026-05-04 22:29:46.543 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.guestposts.biz/
+2026-05-04 22:30:07.320 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.vazoola.com
+2026-05-04 22:30:07.321 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.vazoola.com/blog-title-generator
+2026-05-04 22:30:08.673 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.vazoola.com/solutions/link-building-services/guest-post
+2026-05-04 22:30:09.003 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.vazoola.com/contact
+2026-05-04 22:30:13.152 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://sheownsit.com
+2026-05-04 22:30:15.777 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://sheownsit.com/wp-json/wp/v2/posts
+2026-05-04 22:30:15.778 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/about/
+2026-05-04 22:30:16.806 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/guest-post-submissions/
+2026-05-04 22:30:17.563 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/contact/
+2026-05-04 22:30:18.338 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/the-curve-authority-founder-charlotte-jackson/
+2026-05-04 22:30:19.087 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/amber-duncan-found-life-after-debt/
+2026-05-04 22:30:19.775 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/meet-life-coach-joni-woods/
+2026-05-04 22:30:20.451 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/clarity-not-budgeting-is-your-first-financial-step/
+2026-05-04 22:30:21.146 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/shoshanna-raven-8-figure-business-coach-living-brave/
+2026-05-04 22:30:21.925 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/neha-shah-diaspora-nutrition/
+2026-05-04 22:30:22.745 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/lois-castill/
+2026-05-04 22:30:23.397 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/lois-castill/
+2026-05-04 22:30:24.118 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/singer-songwriter-stefanie-michaela/
+2026-05-04 22:30:24.897 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/singer-songwriter-stefanie-michaela/
+2026-05-04 22:30:25.860 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/the-most-powerful-word-in-business-thanks/
+2026-05-04 22:30:26.639 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/samara-tricarico-co-founder-of-the-endurant-movement/
+2026-05-04 22:30:27.288 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/small-businesses-can-run-profitable-ppc-campaigns-on-a-budget/
+2026-05-04 22:30:28.032 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/haley-whitfield-corporate-controller-united-franchise-group/
+2026-05-04 22:30:28.781 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/home-upgrades-that-improve-everyday-living/
+2026-05-04 22:30:29.087 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-04 22:30:29.087 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/simple-home-maintenance-habits-that-save-time-and-money/
+2026-05-04 22:30:31.959 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/the-curve-authority-founder-charlotte-jackson/
+2026-05-04 22:30:32.677 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/amber-duncan-found-life-after-debt/
+2026-05-04 22:30:33.355 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/why-local-seo-is-best-marketing-investment-for-small-businesses/
+2026-05-04 22:30:34.112 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/bike-insurance-and-third-party-liability/
+2026-05-04 22:30:34.886 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/spider-hoodie-a-complete-guide/
+2026-05-04 22:30:35.645 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/meet-life-coach-joni-woods/
+2026-05-04 22:30:36.359 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/best-side-hustles/
+2026-05-04 22:30:36.992 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/what-the-barbie-movie-can-teach-us-about-women-in-business/
+2026-05-04 22:30:37.748 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/angela-garganos-guide-to-entrepreneurship/
+2026-05-04 22:30:38.513 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/entrepreneurs-take-24-days-off/
+2026-05-04 22:30:39.358 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/the-curve-authority-founder-charlotte-jackson/
+2026-05-04 22:30:40.069 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/amber-duncan-found-life-after-debt/
+2026-05-04 22:30:40.891 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/why-local-seo-is-best-marketing-investment-for-small-businesses/
+2026-05-04 22:30:41.684 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/chasing-records-is-killing-your-caseload/
+2026-05-04 22:30:42.317 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/why-feminine-energy-is-the-most-underrated-business-strategy/
+2026-05-04 22:30:42.964 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/how-to-stop-saying-yes-when-you-really-mean-no/
+2026-05-04 22:30:43.690 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/basics-that-keep-people-happy-at-work/
+2026-05-04 22:30:44.454 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/your-freedom-is-on-the-other-side-of-what-youre-afraid-to-do/
+2026-05-04 22:30:45.262 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/visual-storytelling-how-to-create-short-form-videos/
+2026-05-04 22:30:45.990 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/visual-storytelling-how-to-create-short-form-videos/
+2026-05-04 22:30:46.643 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/visual-storytelling-how-to-create-short-form-videos/
+2026-05-04 22:30:47.524 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/meet-aimee-ravichandran-abundantly-social-founder/
+2026-05-04 22:30:48.236 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-04 22:30:48.236 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/marketing-strategies-to-elevate-your-social-media/
+2026-05-04 22:30:51.026 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/how-to-build-a-social-media-presence-that-attracts-clients/
+2026-05-04 22:30:51.825 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.facebook.com/sheownsit
+2026-05-04 22:30:52.872 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://twitter.com/sheownsitco
+2026-05-04 22:30:57.865 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.instagram.com/sheownsitco/
+2026-05-04 22:30:58.660 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://sheownsit.com
+2026-05-04 22:31:00.790 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/contributors/
+2026-05-04 22:31:01.516 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/
+2026-05-04 22:31:02.272 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/business/
+2026-05-04 22:31:03.089 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/marketing-pr/
+2026-05-04 22:31:03.743 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/social-media/
+2026-05-04 22:31:04.524 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/money/
+2026-05-04 22:31:05.186 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/life/
+2026-05-04 22:31:05.849 | ERROR    | agents.distributor_agent:_submit_form:320 -   Form submission error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-04 22:31:05.849 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/resources/
+2026-05-04 22:31:07.182 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-04 22:31:07.183 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.amazon.com/hz/wishlist/ls/SACXSUUH0704?ref_=wl_share
+2026-05-04 22:31:11.324 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://amzn.to/4j4Kxuw
+2026-05-04 22:31:17.246 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://amzn.to/4e9xDZI
+2026-05-04 22:31:22.701 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://amzn.to/3XeObbR
+2026-05-04 22:31:26.917 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://amzn.to/47bAy1T
+2026-05-04 22:31:30.556 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/business/small-business/
+2026-05-04 22:31:32.970 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/life/mindset/
+2026-05-04 22:31:33.705 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.pinterest.com/melissaonline/_saved/
+2026-05-04 22:31:35.086 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://twitter.com/MelissaOnline
+2026-05-04 22:31:38.089 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-04 22:31:38.096 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-04 22:31:38.097 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com/
+2026-05-04 22:31:39.792 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://sheownsit.com
+2026-05-04 22:31:45.594 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://travelleague.net
+2026-05-04 22:31:47.121 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://travelleague.net/wp-json/wp/v2/posts
+2026-05-04 22:31:47.122 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://travelleague.net/contact/
+2026-05-04 22:31:48.450 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://travelleague.net/guest-posting-service/
+2026-05-04 22:31:49.983 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftravelleague.net&t=Travel%20League
+2026-05-04 22:31:53.578 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: http://twitter.com/share?text=Travel%20League&url=https%3A%2F%2Ftravelleague.net&via=travelleaguenet
+2026-05-04 22:31:54.264 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://bufferapp.com/add?url=https%3A%2F%2Ftravelleague.net&title=Travel%20League
+2026-05-04 22:31:57.754 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 22:32:01.887 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://copyblogger.com
+2026-05-04 22:32:05.117 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://copyblogger.com/wp-json/wp/v2/posts
+2026-05-04 22:32:05.118 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/about/
+2026-05-04 22:32:07.088 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/academy/
+2026-05-04 22:32:09.248 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/how-to-become-a-better-copywriter/
+2026-05-04 22:32:09.325 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/how-to-make-money-as-a-copywriter/
+2026-05-04 22:32:11.390 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/linkedin-post-templates/
+2026-05-04 22:32:14.131 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/make-money-as-a-freelance-writer/
+2026-05-04 22:32:14.214 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://copyblogger.com/
+2026-05-04 22:32:24.439 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.reblogit.com
+2026-05-04 22:32:25.496 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://www.reblogit.com/wp-json/wp/v2/posts
+2026-05-04 22:32:25.496 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.reblogit.com/guest-posting-sites-list/
+2026-05-04 22:32:25.936 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.reblogit.com/write-for-us/
+2026-05-04 22:32:26.196 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.reblogit.com/contact-us/
+2026-05-04 22:32:26.977 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.reblogit.com/how-to-start-a-blog-and-make-money/
+2026-05-04 22:32:27.495 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://news.google.com/publications/CAAqBwgKMJbS0gsw1e3pAw
+2026-05-04 22:32:31.247 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 22:32:35.738 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://serpninja.io
+2026-05-04 22:32:38.165 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://serpninja.io/wp-json/wp/v2/posts
+2026-05-04 22:32:38.166 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/guest-post-service/
+2026-05-04 22:32:38.670 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/contact/
+2026-05-04 22:32:39.765 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/guest-post-service/
+2026-05-04 22:32:39.905 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/contact/
+2026-05-04 22:32:40.170 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/guest-post-service/
+2026-05-04 22:32:40.308 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/guest-posts/
+2026-05-04 22:32:41.042 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/guest-post-service/
+2026-05-04 22:32:41.280 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io/contact/
+2026-05-04 22:32:41.375 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://serpninja.io
+2026-05-04 22:32:49.179 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.celebhomes.net
+2026-05-04 22:32:49.632 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/cost-to-get-published-in-cnbc/
+2026-05-04 22:32:49.891 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/tag/new-york/
+2026-05-04 22:32:50.643 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/tag/new-jersey/
+2026-05-04 22:32:52.553 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/contact-us/
+2026-05-04 22:32:53.532 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/cost-to-get-published-in-cnbc/
+2026-05-04 22:32:53.768 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/page/2/
+2026-05-04 22:32:54.488 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/cost-to-get-published-in-cnbc/
+2026-05-04 22:32:54.865 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/contact-us/
+2026-05-04 22:32:55.476 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/contact-us/
+2026-05-04 22:32:55.612 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/cost-to-get-published-in-cnbc/
+2026-05-04 22:32:55.932 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.celebhomes.net/
+2026-05-04 22:33:02.554 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://guestpost.com
+2026-05-04 22:33:04.327 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://guestpost.com/wp-json/wp/v2/posts
+2026-05-04 22:33:04.328 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://guestpost.com/contact
+2026-05-04 22:33:13.374 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://goinswriter.com
+2026-05-04 22:33:16.685 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://presswhizz.com
+2026-05-04 22:33:19.675 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://presswhizz.com/wp-json/wp/v2/posts
+2026-05-04 22:33:19.676 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/contact-us/
+2026-05-04 22:33:21.101 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/contact-us/
+2026-05-04 22:33:22.752 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/contact-us/
+2026-05-04 22:33:24.199 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/services/guest-posts/
+2026-05-04 22:33:25.465 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com
+2026-05-04 22:33:25.618 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/about-us/
+2026-05-04 22:33:26.896 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/
+2026-05-04 22:33:26.900 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/': No scheme supplied. Perhaps you meant https:///services/?
+2026-05-04 22:33:26.901 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/ai-seo-company
+2026-05-04 22:33:26.904 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/ai-seo-company': No scheme supplied. Perhaps you meant https:///services/ai-seo-company?
+2026-05-04 22:33:26.904 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/guest-posts/
+2026-05-04 22:33:26.908 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/guest-posts/': No scheme supplied. Perhaps you meant https:///services/guest-posts/?
+2026-05-04 22:33:26.908 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/niche-edits/
+2026-05-04 22:33:26.912 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/niche-edits/': No scheme supplied. Perhaps you meant https:///services/niche-edits/?
+2026-05-04 22:33:26.912 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/entity-stacking-service/
+2026-05-04 22:33:26.915 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/entity-stacking-service/': No scheme supplied. Perhaps you meant https:///services/entity-stacking-service/?
+2026-05-04 22:33:26.915 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/managed-service/
+2026-05-04 22:33:26.918 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/managed-service/': No scheme supplied. Perhaps you meant https:///services/managed-service/?
+2026-05-04 22:33:26.918 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/link-building-packages/
+2026-05-04 22:33:26.921 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/link-building-packages/': No scheme supplied. Perhaps you meant https:///services/link-building-packages/?
+2026-05-04 22:33:26.921 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/tier-2-links/
+2026-05-04 22:33:26.924 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/tier-2-links/': No scheme supplied. Perhaps you meant https:///services/tier-2-links/?
+2026-05-04 22:33:26.925 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/igaming-link-building/
+2026-05-04 22:33:26.928 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/igaming-link-building/': No scheme supplied. Perhaps you meant https:///services/igaming-link-building/?
+2026-05-04 22:33:26.928 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /services/saas-link-building-agency/
+2026-05-04 22:33:26.930 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/services/saas-link-building-agency/': No scheme supplied. Perhaps you meant https:///services/saas-link-building-agency/?
+2026-05-04 22:33:26.931 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/case-studies/
+2026-05-04 22:33:28.217 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /case-studies/igaming-crypto/
+2026-05-04 22:33:28.222 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/case-studies/igaming-crypto/': No scheme supplied. Perhaps you meant https:///case-studies/igaming-crypto/?
+2026-05-04 22:33:28.223 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /case-studies/high-ticket-ecommerce-site/
+2026-05-04 22:33:28.227 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/case-studies/high-ticket-ecommerce-site/': No scheme supplied. Perhaps you meant https:///case-studies/high-ticket-ecommerce-site/?
+2026-05-04 22:33:28.227 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /case-studies/local-site/
+2026-05-04 22:33:28.231 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/case-studies/local-site/': No scheme supplied. Perhaps you meant https:///case-studies/local-site/?
+2026-05-04 22:33:28.231 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /case-studies/casino-affiliate/
+2026-05-04 22:33:28.235 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/case-studies/casino-affiliate/': No scheme supplied. Perhaps you meant https:///case-studies/casino-affiliate/?
+2026-05-04 22:33:28.235 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://presswhizz.com/blog/
+2026-05-04 22:33:29.043 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://app.presswhizz.com/signup
+2026-05-04 22:33:31.364 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://app.presswhizz.com/auth/login
+2026-05-04 22:33:32.751 | INFO     | agents.distributor_agent:_submit_form:317 -   Form submission successful!
+2026-05-04 22:33:36.020 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://adsy.com
+2026-05-04 22:33:36.021 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/contact
+2026-05-04 22:33:38.067 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/contact
+2026-05-04 22:33:39.116 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://maps.app.goo.gl/ZSQDgRtb2ixAcxrD6
+2026-05-04 22:33:41.054 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://maps.app.goo.gl/ZSQDgRtb2ixAcxrD6
+2026-05-04 22:33:41.809 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/seo-for-news-sites
+2026-05-04 22:33:44.177 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/contact
+2026-05-04 22:33:45.095 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/
+2026-05-04 22:33:45.669 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/sports-guest-post
+2026-05-04 22:33:46.673 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/fashion-write-for-us
+2026-05-04 22:33:47.717 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/health-guest-posting
+2026-05-04 22:33:48.791 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/finance-guest-post
+2026-05-04 22:33:49.903 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/travel-write-for-us
+2026-05-04 22:33:50.927 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/technology-guest-post
+2026-05-04 22:33:51.951 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/music-guest-post
+2026-05-04 22:33:52.962 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/real-estate-guest-posts
+2026-05-04 22:33:53.892 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/parent-blog-write-for-us
+2026-05-04 22:33:54.761 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/home-improvement-write-for-us
+2026-05-04 22:33:55.682 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/lawyer-guest-posting
+2026-05-04 22:33:56.662 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/automotive-guest-post
+2026-05-04 22:33:57.681 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/news-guest-posting
+2026-05-04 22:33:58.615 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/food-blogs
+2026-05-04 22:33:59.551 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/business-blogs
+2026-05-04 22:34:00.445 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/photography-guest-post
+2026-05-04 22:34:01.349 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/legal-guest-post
+2026-05-04 22:34:02.280 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/design-guest-post
+2026-05-04 22:34:03.178 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/women-guest-post
+2026-05-04 22:34:04.061 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/pet-blogs
+2026-05-04 22:34:05.085 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/shopping-blog
+2026-05-04 22:34:06.068 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/get-paid-to-post-links
+2026-05-04 22:34:08.164 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/create-website-earn-money
+2026-05-04 22:34:10.258 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/blog-writers
+2026-05-04 22:34:12.354 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/sponsored-blog-posts
+2026-05-04 22:34:13.452 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/seo-guest-posting
+2026-05-04 22:34:14.483 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/guest-posting-websites
+2026-05-04 22:34:15.851 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/backlinks
+2026-05-04 22:34:18.460 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/write-for-us-key
+2026-05-04 22:34:19.306 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://adsy.com/guest-blogging-article-links
+2026-05-04 22:34:21.268 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /
+2026-05-04 22:34:21.271 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2026-05-04 22:34:21.271 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /blog
+2026-05-04 22:34:21.275 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/blog': No scheme supplied. Perhaps you meant https:///blog?
+2026-05-04 22:34:21.275 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /faq
+2026-05-04 22:34:21.278 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/faq': No scheme supplied. Perhaps you meant https:///faq?
+2026-05-04 22:34:21.278 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /contact
+2026-05-04 22:34:21.281 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/contact': No scheme supplied. Perhaps you meant https:///contact?
+2026-05-04 22:34:21.281 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://cp.adsy.com
+2026-05-04 22:34:24.442 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /for-brands
+2026-05-04 22:34:24.445 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/for-brands': No scheme supplied. Perhaps you meant https:///for-brands?
+2026-05-04 22:34:24.446 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /for-agencies
+2026-05-04 22:34:24.449 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/for-agencies': No scheme supplied. Perhaps you meant https:///for-agencies?
+2026-05-04 22:34:24.450 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /digital-pr
+2026-05-04 22:34:24.452 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/digital-pr': No scheme supplied. Perhaps you meant https:///digital-pr?
+2026-05-04 22:34:24.453 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /solutions/content-marketing-strategy
+2026-05-04 22:34:24.456 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/solutions/content-marketing-strategy': No scheme supplied. Perhaps you meant https:///solutions/content-marketing-strategy?
+2026-05-04 22:34:24.456 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /solutions/pr-marketing-services
+2026-05-04 22:34:24.460 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/solutions/pr-marketing-services': No scheme supplied. Perhaps you meant https:///solutions/pr-marketing-services?
+2026-05-04 22:34:24.460 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /solutions/email-marketing-services
+2026-05-04 22:34:24.463 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/solutions/email-marketing-services': No scheme supplied. Perhaps you meant https:///solutions/email-marketing-services?
+2026-05-04 22:34:24.464 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /solutions/seo-services
+2026-05-04 22:34:24.467 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/solutions/seo-services': No scheme supplied. Perhaps you meant https:///solutions/seo-services?
+2026-05-04 22:34:24.467 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /solutions/conversion-rate-optimization
+2026-05-04 22:34:24.470 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/solutions/conversion-rate-optimization': No scheme supplied. Perhaps you meant https:///solutions/conversion-rate-optimization?
+2026-05-04 22:34:24.470 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /marketers
+2026-05-04 22:34:24.475 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/marketers': No scheme supplied. Perhaps you meant https:///marketers?
+2026-05-04 22:34:24.475 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /link-insertion
+2026-05-04 22:34:24.478 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/link-insertion': No scheme supplied. Perhaps you meant https:///link-insertion?
+2026-05-04 22:34:24.479 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /linkbuilding-agency
+2026-05-04 22:34:24.482 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/linkbuilding-agency': No scheme supplied. Perhaps you meant https:///linkbuilding-agency?
+2026-05-04 22:34:24.482 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://t.me/adsycom
+2026-05-04 22:34:25.226 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.facebook.com/adsy.platform/
+2026-05-04 22:34:26.144 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://twitter.com/Adsy_Com
+2026-05-04 22:34:30.473 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.linkedin.com/company/adsy/
+2026-05-04 22:34:31.232 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.youtube.com/@adsycontentmarketingplatform
+2026-05-04 22:34:31.994 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://open.spotify.com/show/77yLaR8xvpcNqWeQZbPWub?si=6sAGSJT8QhiWZATif-un7Q&nd=1&dlsi=d964e91f43a0423e
+2026-05-04 22:34:32.356 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://techbullion.com
+2026-05-04 22:34:32.803 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://msn.com
+2026-05-04 22:34:34.503 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://metapress.com
+2026-05-04 22:34:36.890 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://apnews.com
+2026-05-04 22:34:40.178 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /sign-up?guide=free
+2026-05-04 22:34:40.182 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/sign-up?guide=free': No scheme supplied. Perhaps you meant https:///sign-up?guide=free?
+2026-05-04 22:34:40.182 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://maps.app.goo.gl/K7VQMaCjVdrMkUSi9
+2026-05-04 22:34:42.943 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://maps.app.goo.gl/R4JkLpbgYNs1oEFr8
+2026-05-04 22:34:43.320 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://maps.app.goo.gl/qjxwxPd8LjckVsmt8
+2026-05-04 22:34:45.100 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.google.com/maps/contrib/113494494189022465242/reviews?hl=en
+2026-05-04 22:34:45.590 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.google.com/maps/contrib/113704671192015250514/reviews?hl=en
+2026-05-04 22:34:45.911 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.google.com/maps/contrib/104638853547617967459/reviews?hl=en
+2026-05-04 22:34:46.217 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.google.com/maps/contrib/110628241499165603263/reviews?hl=en
+2026-05-04 22:34:46.526 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.trustpilot.com/review/adsy.com
+2026-05-04 22:34:46.765 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: seo-for-travel-website-ten-proven-strategies-increase-organic-bookings
+2026-05-04 22:34:46.769 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL 'seo-for-travel-website-ten-proven-strategies-increase-organic-bookings': No scheme supplied. Perhaps you meant https://seo-for-travel-website-ten-proven-strategies-increase-organic-bookings?
+2026-05-04 22:34:46.769 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: what-marketing-research-how-brands-turn-data-into-better-decisions
+2026-05-04 22:34:46.772 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL 'what-marketing-research-how-brands-turn-data-into-better-decisions': No scheme supplied. Perhaps you meant https://what-marketing-research-how-brands-turn-data-into-better-decisions?
+2026-05-04 22:34:46.772 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: seo-for-news-sites
+2026-05-04 22:34:46.776 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL 'seo-for-news-sites': No scheme supplied. Perhaps you meant https://seo-for-news-sites?
+2026-05-04 22:34:46.776 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://accounts.google.com/o/oauth2/auth?redirect_uri=https://cp.adsy.com/site/google&response_type=code&client_id=186989203856-ut34fie9moj38arblu25g6172uq92f6m.apps.googleusercontent.com&scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile&state=L19fX19fdG9w
+2026-05-04 22:34:47.619 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.facebook.com/dialog/oauth?client_id=946532699328853&redirect_uri=https://cp.adsy.com/site/facebook&response_type=code&scope=email,public_profile
+2026-05-04 22:34:49.086 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /terms-and-conditions
+2026-05-04 22:34:49.091 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/terms-and-conditions': No scheme supplied. Perhaps you meant https:///terms-and-conditions?
+2026-05-04 22:34:49.091 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /privacy-policy
+2026-05-04 22:34:49.096 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/privacy-policy': No scheme supplied. Perhaps you meant https:///privacy-policy?
+2026-05-04 22:34:49.096 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /api-service
+2026-05-04 22:34:49.100 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/api-service': No scheme supplied. Perhaps you meant https:///api-service?
+2026-05-04 22:34:49.100 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /managed-services
+2026-05-04 22:34:49.104 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/managed-services': No scheme supplied. Perhaps you meant https:///managed-services?
+2026-05-04 22:34:49.104 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /earn
+2026-05-04 22:34:49.108 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/earn': No scheme supplied. Perhaps you meant https:///earn?
+2026-05-04 22:34:49.108 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #get_thematic_backlinks_tab
+2026-05-04 22:34:49.111 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#get_thematic_backlinks_tab': No scheme supplied. Perhaps you meant https://#get_thematic_backlinks_tab?
+2026-05-04 22:34:49.112 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #earn_with_us_tab
+2026-05-04 22:34:49.115 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#earn_with_us_tab': No scheme supplied. Perhaps you meant https://#earn_with_us_tab?
+2026-05-04 22:34:49.116 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #content_services_tab
+2026-05-04 22:34:49.119 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#content_services_tab': No scheme supplied. Perhaps you meant https://#content_services_tab?
+2026-05-04 22:34:49.119 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #backlink_services_tab
+2026-05-04 22:34:49.121 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#backlink_services_tab': No scheme supplied. Perhaps you meant https://#backlink_services_tab?
+2026-05-04 22:34:49.122 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /sports-guest-post
+2026-05-04 22:34:49.126 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/sports-guest-post': No scheme supplied. Perhaps you meant https:///sports-guest-post?
+2026-05-04 22:34:49.126 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /fashion-write-for-us
+2026-05-04 22:34:49.130 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/fashion-write-for-us': No scheme supplied. Perhaps you meant https:///fashion-write-for-us?
+2026-05-04 22:34:49.131 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /health-guest-posting
+2026-05-04 22:34:49.134 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/health-guest-posting': No scheme supplied. Perhaps you meant https:///health-guest-posting?
+2026-05-04 22:34:49.134 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /finance-guest-post
+2026-05-04 22:34:49.137 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/finance-guest-post': No scheme supplied. Perhaps you meant https:///finance-guest-post?
+2026-05-04 22:34:49.137 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /travel-write-for-us
+2026-05-04 22:34:49.140 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/travel-write-for-us': No scheme supplied. Perhaps you meant https:///travel-write-for-us?
+2026-05-04 22:34:49.141 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /technology-guest-post
+2026-05-04 22:34:49.144 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/technology-guest-post': No scheme supplied. Perhaps you meant https:///technology-guest-post?
+2026-05-04 22:34:49.144 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /music-guest-post
+2026-05-04 22:34:49.147 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/music-guest-post': No scheme supplied. Perhaps you meant https:///music-guest-post?
+2026-05-04 22:34:49.147 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /real-estate-guest-posts
+2026-05-04 22:34:49.150 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/real-estate-guest-posts': No scheme supplied. Perhaps you meant https:///real-estate-guest-posts?
+2026-05-04 22:34:49.150 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /parent-blog-write-for-us
+2026-05-04 22:34:49.152 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/parent-blog-write-for-us': No scheme supplied. Perhaps you meant https:///parent-blog-write-for-us?
+2026-05-04 22:34:49.152 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /home-improvement-write-for-us
+2026-05-04 22:34:49.155 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/home-improvement-write-for-us': No scheme supplied. Perhaps you meant https:///home-improvement-write-for-us?
+2026-05-04 22:34:49.155 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /lawyer-guest-posting
+2026-05-04 22:34:49.159 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/lawyer-guest-posting': No scheme supplied. Perhaps you meant https:///lawyer-guest-posting?
+2026-05-04 22:34:49.159 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /automotive-guest-post
+2026-05-04 22:34:49.162 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/automotive-guest-post': No scheme supplied. Perhaps you meant https:///automotive-guest-post?
+2026-05-04 22:34:49.162 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /government-backlinks
+2026-05-04 22:34:49.166 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/government-backlinks': No scheme supplied. Perhaps you meant https:///government-backlinks?
+2026-05-04 22:34:49.166 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /news-guest-posting
+2026-05-04 22:34:49.168 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/news-guest-posting': No scheme supplied. Perhaps you meant https:///news-guest-posting?
+2026-05-04 22:34:49.169 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /food-blogs
+2026-05-04 22:34:49.171 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/food-blogs': No scheme supplied. Perhaps you meant https:///food-blogs?
+2026-05-04 22:34:49.171 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /web-design-blogs
+2026-05-04 22:34:49.174 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/web-design-blogs': No scheme supplied. Perhaps you meant https:///web-design-blogs?
+2026-05-04 22:34:49.174 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /business-blogs
+2026-05-04 22:34:49.177 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/business-blogs': No scheme supplied. Perhaps you meant https:///business-blogs?
+2026-05-04 22:34:49.177 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /lifestyle-blogs
+2026-05-04 22:34:49.179 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/lifestyle-blogs': No scheme supplied. Perhaps you meant https:///lifestyle-blogs?
+2026-05-04 22:34:49.179 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /photography-guest-post
+2026-05-04 22:34:49.182 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/photography-guest-post': No scheme supplied. Perhaps you meant https:///photography-guest-post?
+2026-05-04 22:34:49.182 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /legal-guest-post
+2026-05-04 22:34:49.184 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/legal-guest-post': No scheme supplied. Perhaps you meant https:///legal-guest-post?
+2026-05-04 22:34:49.185 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /design-guest-post
+2026-05-04 22:34:49.187 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/design-guest-post': No scheme supplied. Perhaps you meant https:///design-guest-post?
+2026-05-04 22:34:49.187 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /women-guest-post
+2026-05-04 22:34:49.190 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/women-guest-post': No scheme supplied. Perhaps you meant https:///women-guest-post?
+2026-05-04 22:34:49.190 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /mommy-blogs
+2026-05-04 22:34:49.193 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/mommy-blogs': No scheme supplied. Perhaps you meant https:///mommy-blogs?
+2026-05-04 22:34:49.193 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /pet-blogs
+2026-05-04 22:34:49.196 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/pet-blogs': No scheme supplied. Perhaps you meant https:///pet-blogs?
+2026-05-04 22:34:49.196 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /self-improvement-blogs
+2026-05-04 22:34:49.198 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/self-improvement-blogs': No scheme supplied. Perhaps you meant https:///self-improvement-blogs?
+2026-05-04 22:34:49.198 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /yoga-blogs
+2026-05-04 22:34:49.201 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/yoga-blogs': No scheme supplied. Perhaps you meant https:///yoga-blogs?
+2026-05-04 22:34:49.201 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /political-blogs
+2026-05-04 22:34:49.203 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/political-blogs': No scheme supplied. Perhaps you meant https:///political-blogs?
+2026-05-04 22:34:49.203 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /faith-blogs
+2026-05-04 22:34:49.205 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/faith-blogs': No scheme supplied. Perhaps you meant https:///faith-blogs?
+2026-05-04 22:34:49.205 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /family-blogs
+2026-05-04 22:34:49.209 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/family-blogs': No scheme supplied. Perhaps you meant https:///family-blogs?
+2026-05-04 22:34:49.209 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /dental-blogs
+2026-05-04 22:34:49.212 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/dental-blogs': No scheme supplied. Perhaps you meant https:///dental-blogs?
+2026-05-04 22:34:49.212 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /entertainment-blogs
+2026-05-04 22:34:49.214 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/entertainment-blogs': No scheme supplied. Perhaps you meant https:///entertainment-blogs?
+2026-05-04 22:34:49.214 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /insurance-blogs
+2026-05-04 22:34:49.217 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/insurance-blogs': No scheme supplied. Perhaps you meant https:///insurance-blogs?
+2026-05-04 22:34:49.217 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /sales-blogs
+2026-05-04 22:34:49.219 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/sales-blogs': No scheme supplied. Perhaps you meant https:///sales-blogs?
+2026-05-04 22:34:49.219 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /outdoor-blogs
+2026-05-04 22:34:49.222 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/outdoor-blogs': No scheme supplied. Perhaps you meant https:///outdoor-blogs?
+2026-05-04 22:34:49.222 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /shopping-blog
+2026-05-04 22:34:49.225 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/shopping-blog': No scheme supplied. Perhaps you meant https:///shopping-blog?
+2026-05-04 22:34:49.225 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /diet-blog
+2026-05-04 22:34:49.228 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/diet-blog': No scheme supplied. Perhaps you meant https:///diet-blog?
+2026-05-04 22:34:49.228 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /career-blogs
+2026-05-04 22:34:49.230 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/career-blogs': No scheme supplied. Perhaps you meant https:///career-blogs?
+2026-05-04 22:34:49.230 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /contextual-backlinks
+2026-05-04 22:34:49.233 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/contextual-backlinks': No scheme supplied. Perhaps you meant https:///contextual-backlinks?
+2026-05-04 22:34:49.233 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /uk-backlinks
+2026-05-04 22:34:49.235 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/uk-backlinks': No scheme supplied. Perhaps you meant https:///uk-backlinks?
+2026-05-04 22:34:49.235 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /indian-backlink
+2026-05-04 22:34:49.238 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/indian-backlink': No scheme supplied. Perhaps you meant https:///indian-backlink?
+2026-05-04 22:34:49.238 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /marketing-blogs
+2026-05-04 22:34:49.241 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/marketing-blogs': No scheme supplied. Perhaps you meant https:///marketing-blogs?
+2026-05-04 22:34:49.241 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /construction-blogs
+2026-05-04 22:34:49.244 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/construction-blogs': No scheme supplied. Perhaps you meant https:///construction-blogs?
+2026-05-04 22:34:49.244 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /beauty
+2026-05-04 22:34:49.246 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/beauty': No scheme supplied. Perhaps you meant https:///beauty?
+2026-05-04 22:34:49.246 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /gaming
+2026-05-04 22:34:49.249 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/gaming': No scheme supplied. Perhaps you meant https:///gaming?
+2026-05-04 22:34:49.249 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /green-living
+2026-05-04 22:34:49.251 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/green-living': No scheme supplied. Perhaps you meant https:///green-living?
+2026-05-04 22:34:49.251 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /gadgets
+2026-05-04 22:34:49.253 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/gadgets': No scheme supplied. Perhaps you meant https:///gadgets?
+2026-05-04 22:34:49.253 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /software
+2026-05-04 22:34:49.256 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/software': No scheme supplied. Perhaps you meant https:///software?
+2026-05-04 22:34:49.257 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /e-commerce
+2026-05-04 22:34:49.259 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/e-commerce': No scheme supplied. Perhaps you meant https:///e-commerce?
+2026-05-04 22:34:49.259 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /complete-guide-to-edu-backlinks
+2026-05-04 22:34:49.262 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/complete-guide-to-edu-backlinks': No scheme supplied. Perhaps you meant https:///complete-guide-to-edu-backlinks?
+2026-05-04 22:34:49.262 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /get-paid-to-post-links
+2026-05-04 22:34:49.265 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/get-paid-to-post-links': No scheme supplied. Perhaps you meant https:///get-paid-to-post-links?
+2026-05-04 22:34:49.265 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /monetize-a-blog
+2026-05-04 22:34:49.267 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/monetize-a-blog': No scheme supplied. Perhaps you meant https:///monetize-a-blog?
+2026-05-04 22:34:49.267 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /earn-money-from-blog
+2026-05-04 22:34:49.270 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/earn-money-from-blog': No scheme supplied. Perhaps you meant https:///earn-money-from-blog?
+2026-05-04 22:34:49.270 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /create-website-earn-money
+2026-05-04 22:34:49.273 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/create-website-earn-money': No scheme supplied. Perhaps you meant https:///create-website-earn-money?
+2026-05-04 22:34:49.273 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /make-money-on-what-you-love
+2026-05-04 22:34:49.276 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/make-money-on-what-you-love': No scheme supplied. Perhaps you meant https:///make-money-on-what-you-love?
+2026-05-04 22:34:49.276 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /engaging-content
+2026-05-04 22:34:49.279 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/engaging-content': No scheme supplied. Perhaps you meant https:///engaging-content?
+2026-05-04 22:34:49.279 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /content-syndication
+2026-05-04 22:34:49.281 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/content-syndication': No scheme supplied. Perhaps you meant https:///content-syndication?
+2026-05-04 22:34:49.281 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /content-distribution
+2026-05-04 22:34:49.283 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/content-distribution': No scheme supplied. Perhaps you meant https:///content-distribution?
+2026-05-04 22:34:49.284 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /content-creation
+2026-05-04 22:34:49.286 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/content-creation': No scheme supplied. Perhaps you meant https:///content-creation?
+2026-05-04 22:34:49.286 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /article-distribution
+2026-05-04 22:34:49.288 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/article-distribution': No scheme supplied. Perhaps you meant https:///article-distribution?
+2026-05-04 22:34:49.288 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /blog-writers
+2026-05-04 22:34:49.291 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/blog-writers': No scheme supplied. Perhaps you meant https:///blog-writers?
+2026-05-04 22:34:49.291 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /how-to-send-and-create-a-press-release
+2026-05-04 22:34:49.294 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/how-to-send-and-create-a-press-release': No scheme supplied. Perhaps you meant https:///how-to-send-and-create-a-press-release?
+2026-05-04 22:34:49.294 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /submission-article-guide
+2026-05-04 22:34:49.297 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/submission-article-guide': No scheme supplied. Perhaps you meant https:///submission-article-guide?
+2026-05-04 22:34:49.297 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /SEO-link-building-services
+2026-05-04 22:34:49.299 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/SEO-link-building-services': No scheme supplied. Perhaps you meant https:///SEO-link-building-services?
+2026-05-04 22:34:49.299 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /paid-backlink-service
+2026-05-04 22:34:49.301 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/paid-backlink-service': No scheme supplied. Perhaps you meant https:///paid-backlink-service?
+2026-05-04 22:34:49.302 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /get-dofollow-valid-backlinks
+2026-05-04 22:34:49.304 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/get-dofollow-valid-backlinks': No scheme supplied. Perhaps you meant https:///get-dofollow-valid-backlinks?
+2026-05-04 22:34:49.304 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /best-link-building-in-the-USA
+2026-05-04 22:34:49.307 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/best-link-building-in-the-USA': No scheme supplied. Perhaps you meant https:///best-link-building-in-the-USA?
+2026-05-04 22:34:49.307 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /best-place-to-pr-backlinks
+2026-05-04 22:34:49.310 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/best-place-to-pr-backlinks': No scheme supplied. Perhaps you meant https:///best-place-to-pr-backlinks?
+2026-05-04 22:34:49.310 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /buy-backlink-packages-at-a-moderate-price
+2026-05-04 22:34:49.312 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/buy-backlink-packages-at-a-moderate-price': No scheme supplied. Perhaps you meant https:///buy-backlink-packages-at-a-moderate-price?
+2026-05-04 22:34:49.313 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /high-quality-links
+2026-05-04 22:34:49.315 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/high-quality-links': No scheme supplied. Perhaps you meant https:///high-quality-links?
+2026-05-04 22:34:49.315 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /outsource-link-building
+2026-05-04 22:34:49.317 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/outsource-link-building': No scheme supplied. Perhaps you meant https:///outsource-link-building?
+2026-05-04 22:34:49.318 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /sponsored-blog-posts
+2026-05-04 22:34:49.320 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/sponsored-blog-posts': No scheme supplied. Perhaps you meant https:///sponsored-blog-posts?
+2026-05-04 22:34:49.320 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /white-hat-backlinks
+2026-05-04 22:34:49.323 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/white-hat-backlinks': No scheme supplied. Perhaps you meant https:///white-hat-backlinks?
+2026-05-04 22:34:49.323 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /seo-guest-posting
+2026-05-04 22:34:49.326 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/seo-guest-posting': No scheme supplied. Perhaps you meant https:///seo-guest-posting?
+2026-05-04 22:34:49.326 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /buy-backlinks
+2026-05-04 22:34:49.329 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/buy-backlinks': No scheme supplied. Perhaps you meant https:///buy-backlinks?
+2026-05-04 22:34:49.329 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /organic-seo
+2026-05-04 22:34:49.331 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/organic-seo': No scheme supplied. Perhaps you meant https:///organic-seo?
+2026-05-04 22:34:49.331 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /guest-posting-websites
+2026-05-04 22:34:49.334 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/guest-posting-websites': No scheme supplied. Perhaps you meant https:///guest-posting-websites?
+2026-05-04 22:34:49.334 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /manual-link-building
+2026-05-04 22:34:49.336 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/manual-link-building': No scheme supplied. Perhaps you meant https:///manual-link-building?
+2026-05-04 22:34:49.336 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /link-building-services
+2026-05-04 22:34:49.338 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/link-building-services': No scheme supplied. Perhaps you meant https:///link-building-services?
+2026-05-04 22:34:49.339 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /blogger-outreach
+2026-05-04 22:34:49.341 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/blogger-outreach': No scheme supplied. Perhaps you meant https:///blogger-outreach?
+2026-05-04 22:34:49.341 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /backlinks
+2026-05-04 22:34:49.344 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/backlinks': No scheme supplied. Perhaps you meant https:///backlinks?
+2026-05-04 22:34:49.344 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /linkbuilding
+2026-05-04 22:34:49.346 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/linkbuilding': No scheme supplied. Perhaps you meant https:///linkbuilding?
+2026-05-04 22:34:49.347 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /write-for-us-key
+2026-05-04 22:34:49.349 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/write-for-us-key': No scheme supplied. Perhaps you meant https:///write-for-us-key?
+2026-05-04 22:34:49.349 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /guest-blogging-article-links
+2026-05-04 22:34:49.351 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/guest-blogging-article-links': No scheme supplied. Perhaps you meant https:///guest-blogging-article-links?
+2026-05-04 22:34:49.351 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://x.com/Adsy_Com
+2026-05-04 22:34:57.624 | INFO     | agents.distributor_agent:save_results:414 - Results saved to data/output/posting_results.json
+2026-05-04 22:34:57.626 | INFO     | orchestrator.workflow_orchestrator:_generate_report:212 - 📊 Report saved to data/output/report.json

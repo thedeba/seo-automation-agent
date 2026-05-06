@@ -1,0 +1,15 @@
+2026-05-04 22:50:22.009 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:50:22.009 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:50:22.009 | INFO     | agents.discovery_agent:search_websites_by_keywords:39 - Searching for keyword: guest post
+2026-05-04 22:50:22.338 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   google: Found 0 results
+2026-05-04 22:50:25.638 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   duckduckgo: Found 2 results
+2026-05-04 22:50:33.861 | INFO     | agents.discovery_agent:search_websites_by_keywords:66 - Filtering websites with recent activity (last 24 hours)...
+2026-05-04 22:50:33.862 | INFO     | utils.content_recency_detector:filter_recently_active_websites:293 - Filtering 2 websites for recent activity (last 24 hours)
+2026-05-04 22:50:33.862 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://en.wikipedia.org
+2026-05-04 22:50:37.864 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://en.wikipedia.org
+2026-05-04 22:50:37.865 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://grokipedia.com
+2026-05-04 22:50:42.178 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://grokipedia.com
+2026-05-04 22:50:42.178 | INFO     | utils.content_recency_detector:filter_recently_active_websites:309 - Found 0 recently active websites out of 2 checked
+2026-05-04 22:50:42.178 | INFO     | agents.discovery_agent:search_websites_by_keywords:71 - Activity filtering complete: 0/0 sites have recent posts
+2026-05-04 22:50:42.179 | INFO     | agents.discovery_agent:search_websites_by_keywords:74 - Total unique sites discovered: 0
+2026-05-04 22:50:42.182 | WARNING  | orchestrator.workflow_orchestrator:run:77 - No sites discovered!

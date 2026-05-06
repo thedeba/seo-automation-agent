@@ -1,0 +1,1072 @@
+[
+  {
+    "domain": "https://en.wikipedia.org",
+    "url": "https://en.wikipedia.org",
+    "posting_forms": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+        "text": "Contact Wikipedia",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information",
+        "text": "Legal & safety contacts",
+        "internal": false,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://en.wikipedia.org/w/index.php",
+        "method": "GET",
+        "type": "form",
+        "form_id": "form_0",
+        "form_class": "minerva-search-form",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "title",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "search",
+            "type": "search",
+            "placeholder": "Search Wikipedia"
+          }
+        ]
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 615,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": true,
+      "has_wp_admin": false,
+      "indicators": [
+        "login_link",
+        "register_link"
+      ]
+    },
+    "cms_detected": "ghost",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.alaskaair.com",
+    "url": "https://www.alaskaair.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "ghost",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://grokipedia.com",
+    "url": "https://grokipedia.com",
+    "posting_forms": [
+      {
+        "url": "#",
+        "text": "Sign in",
+        "posting_probability": "low"
+      },
+      {
+        "url": "/activity",
+        "text": "View my suggestions",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://grokipedia.com/search",
+        "method": "GET",
+        "type": "form",
+        "form_id": "search-form",
+        "form_class": "relative h-12",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "q",
+            "type": "text",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "url": "https://grokipedia.com",
+        "method": "GET",
+        "type": "form",
+        "form_id": "contribute-article-form",
+        "form_class": "flex flex-col gap-5",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "",
+            "type": "text",
+            "placeholder": "e.g., Quantum error correction, SpaceX Starship"
+          },
+          {
+            "name": "",
+            "type": "textarea",
+            "placeholder": "Why is this topic interesting? Any key points to cover?"
+          }
+        ]
+      },
+      {
+        "url": "https://grokipedia.com",
+        "method": "GET",
+        "type": "form",
+        "form_id": "contribute-edit-form",
+        "form_class": "hidden flex flex-col gap-5",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "",
+            "type": "url",
+            "placeholder": "https://example.com/source"
+          },
+          {
+            "name": "",
+            "type": "textarea",
+            "placeholder": "What needs fixing? e.g., 'Birth year should be 1990, not 1989'"
+          },
+          {
+            "name": "",
+            "type": "textarea",
+            "placeholder": "Paste or write the corrected text here"
+          }
+        ]
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 5,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": [
+        "login_link",
+        "login_link"
+      ]
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.airlines.org",
+    "url": "https://www.airlines.org",
+    "posting_forms": [
+      {
+        "url": "https://www.airlines.org",
+        "method": "GET",
+        "type": "form",
+        "form_id": "smartbrief-signup",
+        "form_class": "",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "email",
+            "type": "email",
+            "placeholder": "Email"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "url": "https://www.airlines.org/",
+        "method": "GET",
+        "type": "form",
+        "form_id": "form_1",
+        "form_class": "search-form",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "s",
+            "type": "search",
+            "placeholder": "Search\u2026"
+          }
+        ]
+      }
+    ],
+    "article_urls": [
+      "https://www.airlines.org/news/a4a-statement-on-spirit-airlines-ceasing-operations/",
+      "https://www.airlines.org/news/",
+      "https://www.airlines.org/blog/"
+    ],
+    "all_links_count": 51,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": true,
+      "indicators": []
+    },
+    "cms_detected": "wordpress",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.suncountry.com",
+    "url": "https://www.suncountry.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.corendonairlines.com",
+    "url": "https://www.corendonairlines.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.southwest.com",
+    "url": "https://www.southwest.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.aa.com",
+    "url": "https://www.aa.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.united.com",
+    "url": "https://www.united.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.flyfrontier.com",
+    "url": "https://www.flyfrontier.com",
+    "posting_forms": [
+      {
+        "url": "https://booking.flyfrontier.com/Flight/Status#flightStatus-tab",
+        "method": "POST",
+        "type": "form",
+        "form_id": "flight-status-search-form",
+        "form_class": "flight-status-form",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "__RequestVerificationTokenForm",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "statusType",
+            "type": "radio",
+            "placeholder": ""
+          },
+          {
+            "name": "statusType",
+            "type": "radio",
+            "placeholder": ""
+          },
+          {
+            "name": "originFS",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "Origin",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "destinationFS",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "Destination",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "FlightNumber",
+            "type": "text",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 62,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.airliners.net",
+    "url": "https://www.airliners.net",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://airlines.einnews.com:443",
+    "url": "https://airlines.einnews.com:443",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 1,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.worldairlineawards.com",
+    "url": "https://www.worldairlineawards.com",
+    "posting_forms": [
+      {
+        "url": "https://www.worldairlineawards.com/contact-us/",
+        "text": "Contact",
+        "internal": true,
+        "title_attr": "",
+        "class": "nav-link",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://www.worldairlineawards.com/contact-us/",
+        "text": "Contact",
+        "internal": true,
+        "title_attr": "",
+        "class": "nav-item text-left btn btn-link w-100 bg-white label--dark-blue",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://www.worldairlineawards.com/the-2026-world-airline-awards-ceremony-to-take-place-in-london-in-september/",
+        "text": "The 2026 World Airline Awards to be announced in September 2026\nPosted by Skytrax on 23rd April 2026",
+        "internal": true,
+        "title_attr": "",
+        "class": "d-block d-flex flex-column card-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.worldairlineawards.com/the-2025-world-airline-awards-in-photos/",
+        "text": "The 2025 World Airline Awards in photos\nPosted by Skytrax on 19th June 2025",
+        "internal": true,
+        "title_attr": "",
+        "class": "d-block d-flex flex-column card-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.worldairlineawards.com/qatar-airways-is-named-the-worlds-best-airline-at-2025-world-airline-awards/",
+        "text": "Qatar Airways is named the World\u2019s Best Airline at 2025 World Airline Awards\nPosted by Skytrax on 17th June 2025",
+        "internal": true,
+        "title_attr": "",
+        "class": "d-block d-flex flex-column card-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.worldairlineawards.com/contact-us/",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://www.worldairlineawards.com/",
+        "method": "GET",
+        "type": "form",
+        "form_id": "form_0",
+        "form_class": "searchexpandable",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "s",
+            "type": "search",
+            "placeholder": "Search \u2026"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "url": "https://www.worldairlineawards.com/",
+        "method": "GET",
+        "type": "form",
+        "form_id": "form_1",
+        "form_class": "needs-validation",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "s",
+            "type": "search",
+            "placeholder": "Search"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "url": "https://worldairlineawards.us18.list-manage.com/subscribe/post",
+        "method": "POST",
+        "type": "form",
+        "form_id": "form_2",
+        "form_class": "",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "u",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "id",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "",
+            "type": "checkbox",
+            "placeholder": ""
+          },
+          {
+            "name": "MERGE0",
+            "type": "email",
+            "placeholder": "Your email address"
+          },
+          {
+            "name": "",
+            "type": "submit",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "article_urls": [
+      "https://www.worldairlineawards.com/news/"
+    ],
+    "all_links_count": 120,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": true,
+      "indicators": []
+    },
+    "cms_detected": "wordpress",
+    "has_contact_form": true,
+    "possible_posting_pages": [
+      {
+        "url": "https://www.worldairlineawards.com/wp-admin/post-new.php",
+        "text": "WordPress New Post",
+        "slug": "/wp-admin/post-new.php"
+      }
+    ]
+  },
+  {
+    "domain": "https://www.skyscanner.com",
+    "url": "https://www.skyscanner.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.skyscanner.net",
+    "url": "https://www.skyscanner.net",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.delta.com",
+    "url": "https://www.delta.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.kayak.com",
+    "url": "https://www.kayak.com",
+    "posting_forms": [
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/London-LON",
+        "text": "Flight New Delhi - London (DEL - LON)\u20b9\u00a046,084+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dubai-Intl-DXB",
+        "text": "Flight New Delhi - Dubai (DEL - DXB)\u20b9\u00a020,482+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Toronto-YTO",
+        "text": "Flight New Delhi - Toronto (DEL - YTO)\u20b9\u00a085,436+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/India-IN0/New-Delhi-Indira-Gandhi-Intl-DEL",
+        "text": "FLIGHTS",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-Delhi-Hotels.32821.hotel.ksp",
+        "text": "HOTELS",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-Delhi-Hotels-Airport-Hotel-Grand-Delhi.2490641.ksp",
+        "text": "Airport Hotel Grand\u20b9\u00a01,328+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-Delhi-Hotels-The-Prime-Balaji-Deluxe-New-Delhi-Railway-Station.311282.ksp",
+        "text": "Hotel The Prime Balaji Deluxe, City Centre, With Free Airport Pickup\u20b9\u00a02,274+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-Delhi-Hotels-bloomrooms-New-Delhi-Railway-Station.551110.ksp",
+        "text": "Bloomrooms @ New Delhi Railway Station\u20b9\u00a02,560+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-Delhi-Hotels-Hotel-City-Star.474024.ksp",
+        "text": "Hotel City Star\u20b9\u00a02,655+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-Delhi-Hotels-Centaur-Hotel.131776.ksp",
+        "text": "Centaur Hotel\u20b9\u00a03,319+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Amritsar-Raja-Sansi-ATQ/New-Delhi-Indira-Gandhi-Intl-DEL",
+        "text": "Flight Amritsar - New Delhi (ATQ - DEL)\u20b9\u00a06,164+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Lucknow-Amausi-LKO/New-Delhi-Indira-Gandhi-Intl-DEL",
+        "text": "Flight Lucknow - New Delhi (LKO - DEL)\u20b9\u00a06,543+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-Delhi-Indira-Gandhi-Intl-DEL",
+        "text": "Flight Ahmedabad - New Delhi (AMD - DEL)\u20b9\u00a08,344+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Srinagar-SXR/New-Delhi-Indira-Gandhi-Intl-DEL",
+        "text": "Flight Srinagar - New Delhi (SXR - DEL)\u20b9\u00a09,198+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Varanasi-VNS/New-Delhi-Indira-Gandhi-Intl-DEL",
+        "text": "Flight Varanasi - New Delhi (VNS - DEL)\u20b9\u00a09,293+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-Suvarnabhumi-other-airports-BKK",
+        "text": "Flight New Delhi - Bangkok (DEL - BKK)\u20b9\u00a023,801+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Melbourne-ME1",
+        "text": "Flight New Delhi \u2013 Melbourne\u20b9\u00a056,894+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Chicago-CHI",
+        "text": "Flight New Delhi - Chicago (DEL - CHI)\u20b9\u00a073,298+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/San-Francisco-SFO",
+        "text": "Flight New Delhi - San Francisco (DEL - SFO)\u20b9\u00a084,393+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Atlanta-Hartsfield-Jackson-ATL",
+        "text": "Flight New Delhi - Atlanta (DEL - ATL)\u20b9\u00a082,022+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Singapore-Changi-SIN",
+        "text": "Flight New Delhi - Singapore (DEL - SIN)\u20b9\u00a021,146+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/India-IN0/New-York-NYC",
+        "text": "FLIGHTS",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-York-Hotels.15830.hotel.ksp",
+        "text": "HOTELS",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-York-Hotels-Central-Park-West-Hostel.2486301.ksp",
+        "text": "Central Park West Hostel\u20b9\u00a05,026+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-York-Hotels-Hi-Nyc-Hostel.98607.ksp",
+        "text": "Hi New York City Hostel\u20b9\u00a05,974+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-York-Hotels-West-Side-Ymca.64846.ksp",
+        "text": "West Side Ymca\u20b9\u00a07,993+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-York-Hotels-Pod-51.33571.ksp",
+        "text": "Pod 51\u20b9\u00a014,071+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/New-York-Hotels-The-Gallivant-Times-Square.2288317.ksp",
+        "text": "The Gallivant Times Square\u20b9\u00a014,236+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Mumbai-Chhatrapati-Shivaji-BOM/New-York-NYC",
+        "text": "Flight Mumbai - New York (BOM - NYC)\u20b9\u00a066,755+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/New-York-NYC",
+        "text": "Flight New Delhi - New York (DEL - NYC)\u20b9\u00a066,945+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/New-York-NYC",
+        "text": "Flight Bengaluru - New York (BLR - NYC)\u20b9\u00a067,135+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Hyderabad-Rajiv-Gandhi-Intl-HYD/New-York-NYC",
+        "text": "Flight Hyderabad - New York (HYD - NYC)\u20b9\u00a069,411+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-York-NYC",
+        "text": "Flight Ahmedabad - New York (AMD - NYC)\u20b9\u00a070,928+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Phuket-City-HKT",
+        "text": "Flight New Delhi - Phuket City (DEL - HKT)\u20b9\u00a025,982+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78",
+        "text": "Flight New Delhi \u2013 Dallas\u20b9\u00a067,893+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Boston-Logan-Intl-BOS",
+        "text": "Flight New Delhi - Boston (DEL - BOS)\u20b9\u00a072,919+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Sydney-Kingsford-Smith-SYD",
+        "text": "Flight New Delhi - Sydney (DEL - SYD)\u20b9\u00a054,713+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Zurich-ZRH",
+        "text": "Flight New Delhi - Zurich (DEL - ZRH)\u20b9\u00a041,627+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Vienna-Intl-VIE",
+        "text": "Flight New Delhi - Vienna (DEL - VIE)\u20b9\u00a044,282+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Kastrup-Copenhagen-CPH",
+        "text": "Flight New Delhi - Copenhagen (DEL - CPH)\u20b9\u00a044,567+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Ahmedabad-AMD",
+        "text": "Flight New Delhi - Ahmedabad (DEL - AMD)\u20b9\u00a08,534+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Srinagar-SXR",
+        "text": "Flight New Delhi - Srinagar (DEL - SXR)\u20b9\u00a08,534+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Patna-PAT",
+        "text": "Flight New Delhi - Patna (DEL - PAT)\u20b9\u00a08,819+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Hyderabad-Rajiv-Gandhi-Intl-HYD",
+        "text": "Flight New Delhi - Hyderabad (DEL - HYD)\u20b9\u00a010,051+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78",
+        "text": "Flight New Delhi - Dallas (DEL - A78)\u20b9\u00a067,893+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Los-Angeles-LAX",
+        "text": "Flight New Delhi - Los Angeles (DEL - LAX)\u20b9\u00a067,893+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Seattle-Tacoma-Intl-SEA",
+        "text": "Flight New Delhi - Seattle (DEL - SEA)\u20b9\u00a075,859+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-TH1",
+        "text": "Flight New Delhi - Bangkok (DEL - TH1)\u20b9\u00a023,801+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Munich-Franz-Josef-Strauss-MUC",
+        "text": "Flight New Delhi - Munich (DEL - MUC)\u20b9\u00a053,954+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Guwahati-Borjhar-GAU",
+        "text": "Flight New Delhi - Guwahati (DEL - GAU)\u20b9\u00a014,034+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bagdogra-IXB",
+        "text": "Flight New Delhi - Bagdogra (DEL - IXB)\u20b9\u00a011,284+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 507,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.expedia.com",
+    "url": "https://www.expedia.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.cheapflights.com",
+    "url": "https://www.cheapflights.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 273,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  }
+]

@@ -1,0 +1,15 @@
+2026-05-04 22:46:27.756 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:46:27.756 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:46:27.756 | INFO     | agents.discovery_agent:search_websites_by_keywords:39 - Searching for keyword: guest post
+2026-05-04 22:46:28.305 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   google: Found 0 results
+2026-05-04 22:46:32.871 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   duckduckgo: Found 2 results
+2026-05-04 22:46:43.836 | INFO     | agents.discovery_agent:search_websites_by_keywords:66 - Filtering websites younger than 24 hours...
+2026-05-04 22:46:43.837 | INFO     | utils.website_age_detector:filter_recent_websites:76 - Filtering 2 websites for age <= 24 hours
+2026-05-04 22:46:43.837 | INFO     | utils.website_age_detector:get_domain_age:26 - Checking domain age for: en.wikipedia.org
+2026-05-04 22:46:49.244 | INFO     | utils.website_age_detector:filter_recent_websites:88 - ❌ Site too old: https://en.wikipedia.org (221825.1 hours old)
+2026-05-04 22:46:49.244 | INFO     | utils.website_age_detector:get_domain_age:26 - Checking domain age for: grokipedia.com
+2026-05-04 22:47:03.322 | INFO     | utils.website_age_detector:filter_recent_websites:88 - ❌ Site too old: https://grokipedia.com (8917.2 hours old)
+2026-05-04 22:47:03.323 | INFO     | utils.website_age_detector:filter_recent_websites:92 - Found 0 recent websites out of 2 checked
+2026-05-04 22:47:03.323 | INFO     | agents.discovery_agent:search_websites_by_keywords:71 - Age filtering complete: 0/0 sites are recent
+2026-05-04 22:47:03.323 | INFO     | agents.discovery_agent:search_websites_by_keywords:74 - Total unique sites discovered: 0
+2026-05-04 22:47:03.325 | WARNING  | orchestrator.workflow_orchestrator:run:77 - No sites discovered!

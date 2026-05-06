@@ -1,0 +1,27 @@
+serpapi:
+  max_results_per_keyword: 50
+  country: "us"
+  language: "en"
+
+extraction:
+  max_posting_links_per_site: 20
+  patterns:
+    posting:
+      - "*/submit*"
+      - "*/post*"
+      - "*/publish*"
+    article:
+      - "*/blog/*"
+      - "*/article/*"
+
+distribution:
+  rate_limit_delay: 2  # seconds between requests
+  max_retries: 3
+  timeout: 30
+
+content:
+  accepted_formats:
+    - ".pdf"
+    - ".txt"
+    - ".md"
+  max_file_size_mb: 10

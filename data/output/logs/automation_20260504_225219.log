@@ -1,0 +1,169 @@
+2026-05-04 22:52:19.367 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-04 22:52:19.368 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-04 22:52:19.368 | INFO     | agents.discovery_agent:search_websites_by_keywords:39 - Searching for keyword: guest post
+2026-05-04 22:52:19.752 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   google: Found 0 results
+2026-05-04 22:52:30.429 | INFO     | agents.discovery_agent:search_websites_by_keywords:53 -   duckduckgo: Found 47 results
+2026-05-04 22:52:39.049 | INFO     | agents.discovery_agent:search_websites_by_keywords:66 - Filtering websites with recent activity (last 72 hours)...
+2026-05-04 22:52:39.050 | INFO     | utils.content_recency_detector:filter_recently_active_websites:293 - Filtering 47 websites for recent activity (last 72 hours)
+2026-05-04 22:52:39.050 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://en.wikipedia.org
+2026-05-04 22:52:42.836 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://en.wikipedia.org
+2026-05-04 22:52:42.836 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.semrush.com
+2026-05-04 22:52:43.672 | ERROR    | utils.content_recency_detector:extract_recent_posts:89 - Error checking content recency for https://www.semrush.com: 403 Client Error: Forbidden for url: https://www.semrush.com/
+2026-05-04 22:52:43.676 | WARNING  | utils.content_recency_detector:filter_recently_active_websites:307 - ⚠️  Could not check activity for: https://www.semrush.com
+2026-05-04 22:52:43.676 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://neilpatel.com
+2026-05-04 22:52:47.623 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://neilpatel.com
+2026-05-04 22:52:47.623 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://guestpost.com
+2026-05-04 22:52:53.475 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://guestpost.com
+2026-05-04 22:52:53.476 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://grokipedia.com
+2026-05-04 22:52:57.907 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://grokipedia.com
+2026-05-04 22:52:57.908 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://goinswriter.com
+2026-05-04 22:53:01.196 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://goinswriter.com
+2026-05-04 22:53:01.197 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://adsy.com
+2026-05-04 22:53:05.996 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://adsy.com
+2026-05-04 22:53:05.997 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.techasoft.com
+2026-05-04 22:53:09.750 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.techasoft.com
+2026-05-04 22:53:09.750 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://zapier.com
+2026-05-04 22:53:13.261 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://zapier.com
+2026-05-04 22:53:13.261 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://optinmonster.com
+2026-05-04 22:53:17.189 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://optinmonster.com
+2026-05-04 22:53:17.190 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://copyhackers.com
+2026-05-04 22:53:21.388 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://copyhackers.com
+2026-05-04 22:53:21.388 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://mailchimp.com
+2026-05-04 22:53:25.039 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://mailchimp.com
+2026-05-04 22:53:25.039 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.fiverr.com
+2026-05-04 22:53:29.718 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.fiverr.com
+2026-05-04 22:53:29.719 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.hubspot.com
+2026-05-04 22:53:35.479 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.hubspot.com
+2026-05-04 22:53:35.479 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.buzzstream.com
+2026-05-04 22:53:39.952 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.buzzstream.com
+2026-05-04 22:53:39.952 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://linkbuilder.io
+2026-05-04 22:53:44.413 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://linkbuilder.io
+2026-05-04 22:53:44.413 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://en.ryte.com
+2026-05-04 22:53:48.417 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://en.ryte.com
+2026-05-04 22:53:48.417 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://prposting.com
+2026-05-04 22:53:53.019 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://prposting.com
+2026-05-04 22:53:53.019 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://consultivo.in
+2026-05-04 22:53:57.167 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://consultivo.in
+2026-05-04 22:53:57.168 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://medium.com
+2026-05-04 22:54:00.561 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://medium.com
+2026-05-04 22:54:00.562 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.eofire.com
+2026-05-04 22:54:02.293 | ERROR    | utils.content_recency_detector:extract_recent_posts:89 - Error checking content recency for https://www.eofire.com: can't compare offset-naive and offset-aware datetimes
+2026-05-04 22:54:02.294 | WARNING  | utils.content_recency_detector:filter_recently_active_websites:307 - ⚠️  Could not check activity for: https://www.eofire.com
+2026-05-04 22:54:02.294 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://moz.com
+2026-05-04 22:54:05.746 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://moz.com
+2026-05-04 22:54:05.746 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://contentadore.com
+2026-05-04 22:54:11.253 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://contentadore.com
+2026-05-04 22:54:11.254 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://portent.com
+2026-05-04 22:54:14.853 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://portent.com
+2026-05-04 22:54:14.854 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://blogtec.io
+2026-05-04 22:54:20.416 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://blogtec.io
+2026-05-04 22:54:20.417 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://wordpress.morningside.edu
+2026-05-04 22:54:25.656 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://wordpress.morningside.edu
+2026-05-04 22:54:25.657 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.textbroker.com
+2026-05-04 22:54:27.506 | ERROR    | utils.content_recency_detector:extract_recent_posts:89 - Error checking content recency for https://www.textbroker.com: 403 Client Error: Forbidden for url: https://www.textbroker.com/
+2026-05-04 22:54:27.508 | WARNING  | utils.content_recency_detector:filter_recently_active_websites:307 - ⚠️  Could not check activity for: https://www.textbroker.com
+2026-05-04 22:54:27.508 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://problogger.com
+2026-05-04 22:54:31.374 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://problogger.com
+2026-05-04 22:54:31.375 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.linkedin.com
+2026-05-04 22:54:35.323 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.linkedin.com
+2026-05-04 22:54:35.323 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://mona.media
+2026-05-04 22:54:39.620 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://mona.media
+2026-05-04 22:54:39.620 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://writingcooperative.com
+2026-05-04 22:54:44.717 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://writingcooperative.com
+2026-05-04 22:54:44.718 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.guestposts.biz
+2026-05-04 22:54:49.166 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.guestposts.biz
+2026-05-04 22:54:49.166 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.vazoola.com
+2026-05-04 22:54:54.537 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.vazoola.com
+2026-05-04 22:54:54.538 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://sheownsit.com
+2026-05-04 22:54:56.203 | ERROR    | utils.content_recency_detector:extract_recent_posts:89 - Error checking content recency for https://sheownsit.com: 403 Client Error: Forbidden for url: https://sheownsit.com/
+2026-05-04 22:54:56.207 | WARNING  | utils.content_recency_detector:filter_recently_active_websites:307 - ⚠️  Could not check activity for: https://sheownsit.com
+2026-05-04 22:54:56.207 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://travelleague.net
+2026-05-04 22:55:00.991 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://travelleague.net
+2026-05-04 22:55:00.991 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://copyblogger.com
+2026-05-04 22:55:01.386 | ERROR    | utils.content_recency_detector:extract_recent_posts:89 - Error checking content recency for https://copyblogger.com: can't compare offset-naive and offset-aware datetimes
+2026-05-04 22:55:01.388 | WARNING  | utils.content_recency_detector:filter_recently_active_websites:307 - ⚠️  Could not check activity for: https://copyblogger.com
+2026-05-04 22:55:01.388 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.reblogit.com
+2026-05-04 22:55:04.995 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.reblogit.com
+2026-05-04 22:55:04.995 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://serpninja.io
+2026-05-04 22:55:08.468 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://serpninja.io
+2026-05-04 22:55:08.468 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.celebhomes.net
+2026-05-04 22:55:09.093 | ERROR    | utils.content_recency_detector:extract_recent_posts:89 - Error checking content recency for https://www.celebhomes.net: can't compare offset-naive and offset-aware datetimes
+2026-05-04 22:55:09.094 | WARNING  | utils.content_recency_detector:filter_recently_active_websites:307 - ⚠️  Could not check activity for: https://www.celebhomes.net
+2026-05-04 22:55:09.094 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://backlinko.com
+2026-05-04 22:55:13.249 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://backlinko.com
+2026-05-04 22:55:13.250 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.hostinger.com
+2026-05-04 22:55:16.864 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.hostinger.com
+2026-05-04 22:55:16.864 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.ryrob.com
+2026-05-04 22:55:21.435 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.ryrob.com
+2026-05-04 22:55:21.435 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://webseotrends.com
+2026-05-04 22:55:26.174 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://webseotrends.com
+2026-05-04 22:55:26.174 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://presswhizz.com
+2026-05-04 22:55:30.202 | INFO     | utils.content_recency_detector:filter_recently_active_websites:303 - ✅ Recently active: https://presswhizz.com (1 recent posts)
+2026-05-04 22:55:30.203 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://brandstory.in
+2026-05-04 22:55:35.085 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://brandstory.in
+2026-05-04 22:55:35.085 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://www.guestposts.com
+2026-05-04 22:55:39.429 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://www.guestposts.com
+2026-05-04 22:55:39.430 | INFO     | utils.content_recency_detector:extract_recent_posts:47 - Checking recent content on: https://guestposts.com
+2026-05-04 22:55:43.584 | INFO     | utils.content_recency_detector:filter_recently_active_websites:305 - ❌ No recent activity: https://guestposts.com
+2026-05-04 22:55:43.585 | INFO     | utils.content_recency_detector:filter_recently_active_websites:309 - Found 1 recently active websites out of 47 checked
+2026-05-04 22:55:43.585 | INFO     | agents.discovery_agent:search_websites_by_keywords:71 - Activity filtering complete: 1/1 sites have recent posts
+2026-05-04 22:55:43.585 | INFO     | agents.discovery_agent:search_websites_by_keywords:74 - Total unique sites discovered: 1
+2026-05-04 22:55:43.590 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-04 22:55:43.612 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://presswhizz.com
+2026-05-04 22:55:44.009 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 58 posting links on https://presswhizz.com
+2026-05-04 22:55:45.703 | INFO     | agents.extractor_agent:export_posting_links:376 - Posting links exported to data/output/posting_links.json
+2026-05-04 22:55:45.703 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-04 22:55:45.703 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 1 sites...
+2026-05-04 22:55:45.703 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-04 22:55:45.703 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 0
+2026-05-04 22:55:45.704 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 1
+2026-05-04 22:55:45.704 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-04 22:55:45.704 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/no_auth_sites.json
+2026-05-04 22:55:45.706 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 1 items to data/output/auth_sites.json
+2026-05-04 22:55:45.706 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-04 22:55:45.708 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 1 items to data/output/classified_sites.json
+2026-05-04 22:55:45.709 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-04 22:55:45.756 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-04 22:55:45.756 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://presswhizz.com
+2026-05-04 22:55:47.664 | INFO     | agents.distributor_agent:_post_to_wordpress:200 -   WordPress REST API found at https://presswhizz.com/wp-json/wp/v2/posts
+2026-05-04 22:55:47.665 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/contact-us/
+2026-05-04 22:55:48.872 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/contact-us/
+2026-05-04 22:55:50.356 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/contact-us/
+2026-05-04 22:55:51.820 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/services/guest-posts/
+2026-05-04 22:55:52.573 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com
+2026-05-04 22:55:52.782 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/about-us/
+2026-05-04 22:55:53.476 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/
+2026-05-04 22:55:53.479 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/': No scheme supplied. Perhaps you meant https:///services/?
+2026-05-04 22:55:53.480 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/ai-seo-company
+2026-05-04 22:55:53.484 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/ai-seo-company': No scheme supplied. Perhaps you meant https:///services/ai-seo-company?
+2026-05-04 22:55:53.484 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/guest-posts/
+2026-05-04 22:55:53.488 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/guest-posts/': No scheme supplied. Perhaps you meant https:///services/guest-posts/?
+2026-05-04 22:55:53.488 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/niche-edits/
+2026-05-04 22:55:53.491 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/niche-edits/': No scheme supplied. Perhaps you meant https:///services/niche-edits/?
+2026-05-04 22:55:53.491 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/entity-stacking-service/
+2026-05-04 22:55:53.495 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/entity-stacking-service/': No scheme supplied. Perhaps you meant https:///services/entity-stacking-service/?
+2026-05-04 22:55:53.495 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/managed-service/
+2026-05-04 22:55:53.498 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/managed-service/': No scheme supplied. Perhaps you meant https:///services/managed-service/?
+2026-05-04 22:55:53.498 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/link-building-packages/
+2026-05-04 22:55:53.501 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/link-building-packages/': No scheme supplied. Perhaps you meant https:///services/link-building-packages/?
+2026-05-04 22:55:53.502 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/tier-2-links/
+2026-05-04 22:55:53.505 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/tier-2-links/': No scheme supplied. Perhaps you meant https:///services/tier-2-links/?
+2026-05-04 22:55:53.505 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/igaming-link-building/
+2026-05-04 22:55:53.508 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/igaming-link-building/': No scheme supplied. Perhaps you meant https:///services/igaming-link-building/?
+2026-05-04 22:55:53.508 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /services/saas-link-building-agency/
+2026-05-04 22:55:53.511 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/services/saas-link-building-agency/': No scheme supplied. Perhaps you meant https:///services/saas-link-building-agency/?
+2026-05-04 22:55:53.511 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/case-studies/
+2026-05-04 22:55:53.916 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /case-studies/igaming-crypto/
+2026-05-04 22:55:53.920 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/case-studies/igaming-crypto/': No scheme supplied. Perhaps you meant https:///case-studies/igaming-crypto/?
+2026-05-04 22:55:53.920 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /case-studies/high-ticket-ecommerce-site/
+2026-05-04 22:55:53.925 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/case-studies/high-ticket-ecommerce-site/': No scheme supplied. Perhaps you meant https:///case-studies/high-ticket-ecommerce-site/?
+2026-05-04 22:55:53.926 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /case-studies/local-site/
+2026-05-04 22:55:53.929 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/case-studies/local-site/': No scheme supplied. Perhaps you meant https:///case-studies/local-site/?
+2026-05-04 22:55:53.929 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: /case-studies/casino-affiliate/
+2026-05-04 22:55:53.933 | ERROR    | agents.distributor_agent:_attempt_posting:170 -   Form error: Invalid URL '/case-studies/casino-affiliate/': No scheme supplied. Perhaps you meant https:///case-studies/casino-affiliate/?
+2026-05-04 22:55:53.933 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://presswhizz.com/blog/
+2026-05-04 22:55:54.219 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://app.presswhizz.com/signup
+2026-05-04 22:55:56.534 | INFO     | agents.distributor_agent:_attempt_posting:147 -   Trying form: https://app.presswhizz.com/auth/login
+2026-05-04 22:55:57.881 | INFO     | agents.distributor_agent:_submit_form:320 -   Form submission successful!
+2026-05-04 22:56:03.285 | INFO     | agents.distributor_agent:save_results:417 - Results saved to data/output/posting_results.json
+2026-05-04 22:56:03.286 | INFO     | orchestrator.workflow_orchestrator:_generate_report:217 - 📊 Report saved to data/output/report.json
