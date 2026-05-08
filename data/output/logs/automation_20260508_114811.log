@@ -1,0 +1,70 @@
+2026-05-08 11:48:11.452 | INFO     | orchestrator.workflow_orchestrator:run:69 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:48:11.452 | INFO     | orchestrator.workflow_orchestrator:run:75 - Phase 1/4: Website Discovery
+2026-05-08 11:48:11.452 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: guest post
+2026-05-08 11:48:12.164 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   google: Found 0 results
+2026-05-08 11:48:17.196 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 5 results
+2026-05-08 11:48:20.659 | INFO     | agents.discovery_agent:_filter_recent_sites:300 -   Filtered to 4 sites (prioritizing recent updates) out of 5
+2026-05-08 11:48:25.788 | INFO     | agents.discovery_agent:search_websites_by_keywords:69 - Total unique sites discovered: 4
+2026-05-08 11:48:25.795 | INFO     | orchestrator.workflow_orchestrator:run:83 - Phase 2/4: Extracting Posting Links
+2026-05-08 11:48:25.825 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://neilpatel.com
+2026-05-08 11:48:26.673 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 13 posting links on https://neilpatel.com
+2026-05-08 11:48:28.261 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-08 11:48:29.670 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-08 11:48:32.178 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://backlinko.com
+2026-05-08 11:48:32.712 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 4 posting links on https://backlinko.com
+2026-05-08 11:48:35.213 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.semrush.com
+2026-05-08 11:48:36.027 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.semrush.com
+2026-05-08 11:48:37.860 | INFO     | orchestrator.workflow_orchestrator:run:87 - Phase 3/4: Classifying Sites
+2026-05-08 11:48:37.861 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 4 sites...
+2026-05-08 11:48:37.861 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-08 11:48:37.861 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 4
+2026-05-08 11:48:37.861 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-08 11:48:37.861 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-08 11:48:37.865 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 4 items to data/output/no_auth_sites.json
+2026-05-08 11:48:37.866 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-08 11:48:37.867 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-08 11:48:37.868 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 4 items to data/output/classified_sites.json
+2026-05-08 11:48:37.868 | INFO     | orchestrator.workflow_orchestrator:run:91 - Phase 4/4: Distributing Content
+2026-05-08 11:48:37.907 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: None
+2026-05-08 11:48:37.908 | ERROR    | orchestrator.workflow_orchestrator:run:100 - Workflow failed: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+2026-05-08 11:48:37.908 | ERROR    | __main__:main:213 - Fatal error: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+Traceback (most recent call last):
+
+  File "/Users/macbook/Desktop/seo-automation-agent/main.py", line 217, in <module>
+    main()
+    └ <function main at 0x103671120>
+
+> File "/Users/macbook/Desktop/seo-automation-agent/main.py", line 186, in main
+    results = agent.run(keywords, args.content, credentials)
+              │     │   │         │    │        └ {}
+              │     │   │         │    └ None
+              │     │   │         └ Namespace(keywords='guest post', keywords_file=None, urls=None, content=None, engines='google,duckduckgo', max_sites=5, depth...
+              │     │   └ ['guest post']
+              │     └ <function SEOAutomationAgent.run at 0x134c8d120>
+              └ <orchestrator.workflow_orchestrator.SEOAutomationAgent object at 0x134c40980>
+
+  File "/Users/macbook/Desktop/seo-automation-agent/orchestrator/workflow_orchestrator.py", line 92, in run
+    self.distribution_results = self._phase_distribution(
+    │    │                      │    └ <function SEOAutomationAgent._phase_distribution at 0x134d25120>
+    │    │                      └ <orchestrator.workflow_orchestrator.SEOAutomationAgent object at 0x134c40980>
+    │    └ {}
+    └ <orchestrator.workflow_orchestrator.SEOAutomationAgent object at 0x134c40980>
+
+  File "/Users/macbook/Desktop/seo-automation-agent/orchestrator/workflow_orchestrator.py", line 192, in _phase_distribution
+    results = self.distributor.distribute_content(
+              │    │           └ <function ContentDistributor.distribute_content at 0x134d24720>
+              │    └ <agents.distributor_agent.ContentDistributor object at 0x1343ee540>
+              └ <orchestrator.workflow_orchestrator.SEOAutomationAgent object at 0x134c40980>
+
+  File "/Users/macbook/Desktop/seo-automation-agent/agents/distributor_agent.py", line 39, in distribute_content
+    if not Path(content_path).exists():
+           │    └ None
+           └ <class 'pathlib.Path'>
+
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 1163, in __init__
+    super().__init__(*args)
+                      └ (None,)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 373, in __init__
+    raise TypeError(
+
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'

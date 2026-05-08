@@ -1,0 +1,32 @@
+2026-05-08 11:49:59.139 | INFO     | orchestrator.workflow_orchestrator:run:69 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:49:59.139 | INFO     | orchestrator.workflow_orchestrator:run:75 - Phase 1/4: Website Discovery
+2026-05-08 11:49:59.139 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: guest post
+2026-05-08 11:50:02.277 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 5 results
+2026-05-08 11:50:05.633 | INFO     | agents.discovery_agent:_filter_recent_sites:300 -   Filtered to 4 sites (prioritizing recent updates) out of 5
+2026-05-08 11:50:15.400 | INFO     | agents.discovery_agent:search_websites_by_keywords:69 - Total unique sites discovered: 4
+2026-05-08 11:50:15.409 | INFO     | orchestrator.workflow_orchestrator:run:83 - Phase 2/4: Extracting Posting Links
+2026-05-08 11:50:15.440 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://neilpatel.com
+2026-05-08 11:50:15.887 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 13 posting links on https://neilpatel.com
+2026-05-08 11:50:17.672 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-08 11:50:19.197 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-08 11:50:20.498 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://backlinko.com
+2026-05-08 11:50:21.071 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 4 posting links on https://backlinko.com
+2026-05-08 11:50:22.792 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.semrush.com
+2026-05-08 11:50:23.583 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.semrush.com
+2026-05-08 11:50:25.065 | INFO     | orchestrator.workflow_orchestrator:run:87 - Phase 3/4: Classifying Sites
+2026-05-08 11:50:25.066 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 4 sites...
+2026-05-08 11:50:25.066 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-08 11:50:25.066 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 4
+2026-05-08 11:50:25.066 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-08 11:50:25.066 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-08 11:50:25.070 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 4 items to data/output/no_auth_sites.json
+2026-05-08 11:50:25.071 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-08 11:50:25.072 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-08 11:50:25.073 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 4 items to data/output/classified_sites.json
+2026-05-08 11:50:25.073 | INFO     | orchestrator.workflow_orchestrator:run:91 - Phase 4/4: Distributing Content
+2026-05-08 11:50:25.111 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-08 11:50:25.822 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://neilpatel.com/wp-json/wp/v2/posts
+2026-05-08 11:50:51.054 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-08 11:50:51.060 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-08 11:51:24.868 | INFO     | agents.distributor_agent:save_results:499 - Results saved to data/output/posting_results.json
+2026-05-08 11:51:24.870 | INFO     | orchestrator.workflow_orchestrator:_generate_report:221 - 📊 Report saved to data/output/report.json

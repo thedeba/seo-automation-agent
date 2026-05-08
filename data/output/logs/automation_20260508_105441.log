@@ -1,0 +1,43 @@
+2026-05-08 10:54:41.233 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 10:54:41.233 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-08 10:54:41.233 | INFO     | agents.discovery_agent:search_websites_by_keywords:34 - Searching for keyword: airlines
+2026-05-08 10:54:42.959 | ERROR    | agents.discovery_agent:_search_google:80 - Google search error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dairlines%26num%3D52%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgTYar-4GJrn9c8GIjDDlhkbBv1CBcDTUtCLDK2_H5DvfxPYmp4pddMZt1H_0DjX5B2s5ZU0rfmKuhcYyC0yAnJSWgFD
+2026-05-08 10:54:42.964 | INFO     | agents.discovery_agent:search_websites_by_keywords:48 -   google: Found 0 results
+2026-05-08 10:54:54.622 | INFO     | agents.discovery_agent:search_websites_by_keywords:48 -   duckduckgo: Found 35 results
+2026-05-08 10:55:03.014 | INFO     | agents.discovery_agent:search_websites_by_keywords:59 - Total unique sites discovered: 33
+2026-05-08 10:55:03.020 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-08 10:55:03.050 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-08 10:55:06.320 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-08 10:55:07.562 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlines.org
+2026-05-08 10:55:08.599 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airlines.org
+2026-05-08 10:55:10.223 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alaskaair.com
+2026-05-08 10:55:14.861 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alaskaair.com
+2026-05-08 10:55:17.734 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.suncountry.com
+2026-05-08 10:55:19.251 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.suncountry.com
+2026-05-08 10:55:20.264 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-08 10:55:21.627 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-08 10:55:23.616 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.youtube.com
+2026-05-08 10:55:25.902 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 6 posting links on https://www.youtube.com
+2026-05-08 10:55:28.391 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.tiktok.com
+2026-05-08 10:55:30.118 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.tiktok.com
+2026-05-08 10:55:31.575 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.s7.ru
+2026-05-08 10:56:07.548 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.s7.ru: HTTPSConnectionPool(host='www.s7.ru', port=443): Read timed out. (read timeout=10)
+2026-05-08 10:56:09.559 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://southwindairlines.com
+2026-05-08 10:56:44.899 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://southwindairlines.com: HTTPSConnectionPool(host='southwindairlines.com', port=443): Read timed out. (read timeout=10)
+2026-05-08 10:56:46.733 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.euronews.com
+2026-05-08 10:56:48.734 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.euronews.com
+2026-05-08 10:56:50.331 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.united.com
+2026-05-08 10:56:51.680 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.united.com
+2026-05-08 10:56:54.439 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.copaair.com
+2026-05-08 10:56:55.820 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.copaair.com
+2026-05-08 10:56:57.270 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.starlux-airlines.com
+2026-05-08 10:57:01.471 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.starlux-airlines.com
+2026-05-08 10:57:03.719 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cnbc.com
+2026-05-08 10:57:05.942 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 4 posting links on https://www.cnbc.com
+2026-05-08 10:57:07.195 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.southwest.com
+2026-05-08 10:57:08.558 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.southwest.com
+2026-05-08 10:57:09.777 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.aa.com
+2026-05-08 10:57:18.532 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.aa.com: 403 Client Error: Forbidden for url: https://www.aa.com/
+2026-05-08 10:57:20.708 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.spirit.com
+2026-05-08 10:57:24.160 | WARNING  | __main__:main:194 - 
+⚠️  Interrupted by user

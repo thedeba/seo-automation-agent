@@ -1,0 +1,7 @@
+2026-05-08 11:43:05.289 | INFO     | orchestrator.workflow_orchestrator:run:69 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:43:05.290 | INFO     | orchestrator.workflow_orchestrator:run:75 - Phase 1/4: Website Discovery
+2026-05-08 11:43:05.290 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: guest post
+2026-05-08 11:43:06.298 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   google: Found 0 results
+2026-05-08 11:43:10.466 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 0 results
+2026-05-08 11:43:19.698 | INFO     | agents.discovery_agent:search_websites_by_keywords:67 - Total unique sites discovered: 0
+2026-05-08 11:43:19.702 | WARNING  | orchestrator.workflow_orchestrator:run:79 - No sites discovered!

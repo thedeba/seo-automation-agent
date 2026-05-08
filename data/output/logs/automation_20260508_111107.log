@@ -1,0 +1,16 @@
+2026-05-08 11:11:07.064 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:11:07.064 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-08 11:11:07.064 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: airlines
+2026-05-08 11:11:09.292 | ERROR    | agents.discovery_agent:_search_google:81 - Google search error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dairlines%26num%3D52%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgTYar-4GPTu9c8GIjCkt7rG9NNqTxkb8jjWlQCN3_kJpG0vLn29WD6R_Ckpmg0TTBKB3_tt_rNqRDtCKtcyAnJSWgFD
+2026-05-08 11:11:09.296 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   google: Found 0 results
+2026-05-08 11:11:21.005 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 35 results
+2026-05-08 11:11:28.976 | INFO     | agents.discovery_agent:search_websites_by_keywords:60 - Total unique sites discovered: 33
+2026-05-08 11:11:28.982 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-08 11:11:29.016 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-08 11:11:31.065 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-08 11:11:33.279 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlines.org
+2026-05-08 11:11:34.384 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airlines.org
+2026-05-08 11:11:36.051 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alaskaair.com
+2026-05-08 11:11:40.075 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alaskaair.com
+2026-05-08 11:11:42.026 | WARNING  | __main__:main:198 - 
+⚠️  Interrupted by user

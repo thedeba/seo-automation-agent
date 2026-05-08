@@ -1,0 +1,8 @@
+2026-05-08 11:45:40.934 | INFO     | orchestrator.workflow_orchestrator:run:69 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:45:40.934 | INFO     | orchestrator.workflow_orchestrator:run:75 - Phase 1/4: Website Discovery
+2026-05-08 11:45:40.934 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: guest post
+2026-05-08 11:45:42.044 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   google: Found 0 results
+2026-05-08 11:45:48.186 | ERROR    | agents.discovery_agent:_search_duckduckgo:124 - DuckDuckGo search error: 'WebsiteDiscoveryAgent' object has no attribute '_normalize_attr'
+2026-05-08 11:45:48.186 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 0 results
+2026-05-08 11:45:55.619 | INFO     | agents.discovery_agent:search_websites_by_keywords:69 - Total unique sites discovered: 0
+2026-05-08 11:45:55.625 | WARNING  | orchestrator.workflow_orchestrator:run:79 - No sites discovered!

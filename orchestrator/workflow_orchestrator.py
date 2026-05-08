@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional
@@ -55,6 +56,7 @@ class SEOAutomationAgent:
         log_dir = Path("data/output/logs")
         log_dir.mkdir(parents=True, exist_ok=True)
         
+        # Add file handler (console handler is already configured in main.py)
         logger.add(
             log_dir / f"automation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log",
             rotation="100 MB",
@@ -118,8 +120,15 @@ class SEOAutomationAgent:
             sitemap_sites = self.discovery.discover_using_sitemaps(url)
             all_sites.extend(sitemap_sites)
         
+        # Filter for recently updated sites
+        all_sites = self.discovery._filter_recent_sites(all_sites)
+        
         # Deduplicate
-        self.discovered_sites = pd.DataFrame(all_sites).drop_duplicates(subset=['domain'])
+        df = pd.DataFrame(all_sites).drop_duplicates(subset=['domain'])
+        # Sort by last_modified descending (most recent first), then by rank ascending
+        df['last_modified'] = pd.to_datetime(df['last_modified'], errors='coerce')
+        df = df.sort_values(by=['last_modified', 'rank'], ascending=[False, True], na_position='last')
+        self.discovered_sites = df
         
         logger.info(f"Discovered {len(self.discovered_sites)} sites from {len(seed_urls)} seed URLs")
         

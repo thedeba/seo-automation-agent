@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from urllib.parse import urljoin, urlparse
 import time
 import random
@@ -14,7 +14,7 @@ import re
 class ContentDistributor:
     """Agent for distributing content without APIs"""
     
-    def __init__(self, sites_without_auth: List[Dict], sites_with_auth: List[Dict]):
+    def __init__(self, sites_without_auth: List[Dict], sites_with_auth: List[Dict], posting_credentials: Optional[Dict] = None):
         self.ua = UserAgent()
         self.open_sites = sites_without_auth
         self.auth_sites = sites_with_auth
@@ -32,7 +32,7 @@ class ContentDistributor:
         ]
         
     def distribute_content(self, content_path: str, 
-                          posting_credentials: Dict = None) -> Dict:
+                          posting_credentials: Optional[Dict] = None) -> Dict:
         """Main distribution method"""
         logger.info(f"Starting content distribution for: {content_path}")
         
@@ -59,7 +59,7 @@ class ContentDistributor:
         all_sites = self.open_sites + self.auth_sites
         
         for site in all_sites:
-            logger.info(f"Attempting to post to: {site.get('domain', 'Unknown')}")
+            logger.debug(f"Attempting to post to: {site.get('domain', 'Unknown')}")
             
             attempt = self._attempt_posting(site, content, content_type, content_path)
             
@@ -141,7 +141,7 @@ class ContentDistributor:
             if not form_url:
                 continue
             
-            logger.info(f"  Trying form: {form_url}")
+            logger.debug(f"  Trying form: {form_url}")
             
             # Get the form page
             try:
@@ -234,8 +234,14 @@ class ContentDistributor:
             logger.error(f"  WordPress XML-RPC error: {str(e)}")
         
         return result
+
+    def _get_attr_value(self, tag: Tag, attr_name: str, default: str = '') -> str:
+        value = tag.get(attr_name, default)
+        if isinstance(value, list):
+            return str(value[0]) if value else default
+        return str(value or default)
     
-    def _submit_form(self, form: BeautifulSoup, form_url: str, 
+    def _submit_form(self, form: Tag, form_url: str, 
                     content: Dict, content_type: str, content_path: str) -> Dict:
         """Submit content through a web form with intelligent file upload logic"""
         result = {'success': False, 'method_used': 'form_submission'}
@@ -243,15 +249,15 @@ class ContentDistributor:
         # Analyze form fields
         form_data = {}
         file_fields = []
-        action = form.get('action', '')
-        method = form.get('method', 'post').lower()
+        action = self._get_attr_value(form, 'action')
+        method = self._get_attr_value(form, 'method', 'post').lower()
         submit_url = urljoin(form_url, action) if action else form_url
         
         # Collect all input fields
         for input_field in form.find_all('input'):
-            name = input_field.get('name', '')
-            field_type = input_field.get('type', 'text').lower()
-            value = input_field.get('value', '')
+            name = self._get_attr_value(input_field, 'name')
+            field_type = self._get_attr_value(input_field, 'type', 'text').lower()
+            value = self._get_attr_value(input_field, 'value')
             
             if field_type == 'file':
                 file_fields.append(name)
@@ -266,12 +272,12 @@ class ContentDistributor:
                 elif any(kw in name.lower() for kw in ['url', 'website']):
                     form_data[name] = 'https://example.com'  # Placeholder
             elif field_type in ['checkbox', 'radio']:
-                if input_field.get('checked'):
+                if self._get_attr_value(input_field, 'checked'):
                     form_data[name] = value
         
         # Collect textarea fields
         for textarea in form.find_all('textarea'):
-            name = textarea.get('name', '')
+            name = self._get_attr_value(textarea, 'name')
             if any(kw in name.lower() for kw in ['content', 'body', 'message', 'description', 'comment']):
                 form_data[name] = content.get('body', '')
             elif any(kw in name.lower() for kw in ['title', 'subject']):
@@ -279,14 +285,14 @@ class ContentDistributor:
         
         # Collect select fields
         for select in form.find_all('select'):
-            name = select.get('name', '')
+            name = self._get_attr_value(select, 'name')
             selected = select.find('option', selected=True)
             if selected:
-                form_data[name] = selected.get('value', selected.get_text())
+                form_data[name] = self._get_attr_value(selected, 'value', selected.get_text())
             else:
                 first_option = select.find('option')
                 if first_option:
-                    form_data[name] = first_option.get('value', first_option.get_text())
+                    form_data[name] = self._get_attr_value(first_option, 'value', first_option.get_text())
         
         # Submit the form with intelligent file upload logic
         try:
@@ -295,7 +301,7 @@ class ContentDistributor:
             # Determine submission strategy
             if file_fields and content_type == 'pdf':
                 # PDF available and form has file upload - prioritize PDF upload
-                logger.info(f"  Found {len(file_fields)} file upload fields, submitting PDF file")
+                logger.debug(f"  Found {len(file_fields)} file upload fields, submitting PDF file")
                 files = {}
                 
                 # Try to upload PDF to file fields
@@ -330,7 +336,7 @@ class ContentDistributor:
                     
             elif file_fields and content_type in ['text', 'markdown']:
                 # Text content but form has file upload - create text file
-                logger.info(f"  Found {len(file_fields)} file upload fields, creating text file for upload")
+                logger.debug(f"  Found {len(file_fields)} file upload fields, creating text file for upload")
                 files = {}
                 
                 # Create temporary text file
@@ -370,7 +376,7 @@ class ContentDistributor:
                     )
             else:
                 # No file upload fields or not applicable - submit as text
-                logger.info(f"  No file upload fields available, submitting as text")
+                logger.debug(f"  No file upload fields available, submitting as text")
                 if method == 'post':
                     response = self.session.post(
                         submit_url,

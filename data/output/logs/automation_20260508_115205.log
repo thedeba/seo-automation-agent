@@ -1,0 +1,124 @@
+2026-05-08 11:52:05.355 | INFO     | orchestrator.workflow_orchestrator:run:69 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:52:05.355 | INFO     | orchestrator.workflow_orchestrator:run:75 - Phase 1/4: Website Discovery
+2026-05-08 11:52:05.355 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: airlines
+2026-05-08 11:52:09.285 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 49 results
+2026-05-08 11:53:20.188 | INFO     | agents.discovery_agent:_filter_recent_sites:300 -   Filtered to 42 sites (prioritizing recent updates) out of 49
+2026-05-08 11:53:28.294 | INFO     | agents.discovery_agent:search_websites_by_keywords:69 - Total unique sites discovered: 40
+2026-05-08 11:53:28.310 | INFO     | orchestrator.workflow_orchestrator:run:83 - Phase 2/4: Extracting Posting Links
+2026-05-08 11:53:28.347 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.malaysiaairlines.com
+2026-05-08 11:53:28.809 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.malaysiaairlines.com
+2026-05-08 11:53:30.856 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.flyfrontier.com
+2026-05-08 11:53:33.905 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.flyfrontier.com
+2026-05-08 11:53:35.388 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alaskaair.com
+2026-05-08 11:53:38.170 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alaskaair.com
+2026-05-08 11:53:40.499 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-08 11:53:43.391 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-08 11:53:44.937 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.s7.ru
+2026-05-08 11:53:50.530 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.s7.ru: 503 Server Error: Service Temporarily Unavailable for url: https://www.s7.ru/
+2026-05-08 11:53:53.360 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.tiktok.com
+2026-05-08 11:53:54.256 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 46 posting links on https://www.tiktok.com
+2026-05-08 11:53:55.411 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://southwindairlines.com
+2026-05-08 11:54:28.839 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://southwindairlines.com: HTTPSConnectionPool(host='southwindairlines.com', port=443): Read timed out. (read timeout=10)
+2026-05-08 11:54:31.796 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://tenor.com
+2026-05-08 11:54:32.977 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://tenor.com
+2026-05-08 11:54:35.010 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.euronews.com
+2026-05-08 11:54:40.051 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.euronews.com: 406 Client Error: Not Acceptable for url: https://www.euronews.com/
+2026-05-08 11:54:41.921 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.makemytrip.com
+2026-05-08 11:55:14.562 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.makemytrip.com: HTTPSConnectionPool(host='www.makemytrip.com', port=443): Read timed out. (read timeout=10)
+2026-05-08 11:55:15.810 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.expedia.co.in
+2026-05-08 11:55:20.033 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.expedia.co.in: 429 Client Error: Too Many Requests for url: https://www.expedia.co.in/
+2026-05-08 11:55:22.674 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.justdial.com
+2026-05-08 11:55:23.005 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.justdial.com
+2026-05-08 11:55:24.640 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://airlines.iata.org
+2026-05-08 11:55:28.516 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://airlines.iata.org
+2026-05-08 11:55:29.906 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.discover-airlines.com
+2026-05-08 11:55:35.902 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.discover-airlines.com: 403 Client Error: Forbidden for url: https://www.discover-airlines.com/
+2026-05-08 11:55:38.504 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cleartrip.com
+2026-05-08 11:55:38.947 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 23 posting links on https://www.cleartrip.com
+2026-05-08 11:55:40.761 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.bankbazaar.com
+2026-05-08 11:55:41.090 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 3 posting links on https://www.bankbazaar.com
+2026-05-08 11:55:43.965 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlines.org
+2026-05-08 11:55:44.374 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airlines.org
+2026-05-08 11:55:46.196 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cnbc.com
+2026-05-08 11:55:46.647 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.cnbc.com
+2026-05-08 11:55:48.747 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.suncountry.com
+2026-05-08 11:55:49.977 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.suncountry.com
+2026-05-08 11:55:52.788 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.united.com
+2026-05-08 11:56:27.547 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.united.com: HTTPSConnectionPool(host='www.united.com', port=443): Read timed out. (read timeout=10)
+2026-05-08 11:56:29.684 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.aa.com
+2026-05-08 11:56:35.051 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.aa.com: 403 Client Error: Forbidden for url: https://www.aa.com/
+2026-05-08 11:56:37.807 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.youtube.com
+2026-05-08 11:56:38.842 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.youtube.com
+2026-05-08 11:56:40.344 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.skyscanner.com
+2026-05-08 11:56:41.861 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.skyscanner.com
+2026-05-08 11:56:44.800 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.englishclub.com
+2026-05-08 11:56:45.863 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://www.englishclub.com
+2026-05-08 11:56:48.665 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airliners.net
+2026-05-08 11:56:48.734 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airliners.net
+2026-05-08 11:56:50.315 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://airlines.einnews.com:443
+2026-05-08 11:56:52.695 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://airlines.einnews.com:443
+2026-05-08 11:56:54.049 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.worldairlineawards.com
+2026-05-08 11:56:55.537 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 6 posting links on https://www.worldairlineawards.com
+2026-05-08 11:56:58.530 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.delta.com
+2026-05-08 11:57:00.281 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.delta.com
+2026-05-08 11:57:01.331 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.kayak.com
+2026-05-08 11:57:04.641 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 53 posting links on https://www.kayak.com
+2026-05-08 11:57:06.798 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.expedia.com
+2026-05-08 11:57:12.877 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.expedia.com: 429 Client Error: Too Many Requests for url: https://www.expedia.com/
+2026-05-08 11:57:14.732 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cheapflights.com
+2026-05-08 11:57:19.470 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.cheapflights.com
+2026-05-08 11:57:20.968 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.priceline.com
+2026-05-08 11:57:26.357 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.priceline.com: 403 Client Error: Forbidden for url: https://www.priceline.com/
+2026-05-08 11:57:29.148 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.instagram.com
+2026-05-08 11:57:29.790 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.instagram.com
+2026-05-08 11:57:31.562 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlineratings.com
+2026-05-08 11:57:32.164 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.airlineratings.com
+2026-05-08 11:57:33.525 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.goindigo.in
+2026-05-08 11:57:33.865 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 17 posting links on https://www.goindigo.in
+2026-05-08 11:57:36.402 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airindia.com
+2026-05-08 11:57:37.862 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 17 posting links on https://www.airindia.com
+2026-05-08 11:57:39.148 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.jazeeraairways.com
+2026-05-08 11:57:40.095 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.jazeeraairways.com
+2026-05-08 11:57:42.579 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.google.com
+2026-05-08 11:57:43.221 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://www.google.com
+2026-05-08 11:57:44.550 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.allegiantair.com
+2026-05-08 11:57:45.140 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.allegiantair.com
+2026-05-08 11:57:47.753 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.britishairways.com
+2026-05-08 11:57:48.920 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.britishairways.com
+2026-05-08 11:57:50.171 | INFO     | orchestrator.workflow_orchestrator:run:87 - Phase 3/4: Classifying Sites
+2026-05-08 11:57:50.172 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 40 sites...
+2026-05-08 11:57:50.174 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-08 11:57:50.174 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 40
+2026-05-08 11:57:50.175 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-08 11:57:50.175 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-08 11:57:50.183 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 40 items to data/output/no_auth_sites.json
+2026-05-08 11:57:50.184 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-08 11:57:50.185 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-08 11:57:50.190 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 40 items to data/output/classified_sites.json
+2026-05-08 11:57:50.191 | INFO     | orchestrator.workflow_orchestrator:run:91 - Phase 4/4: Distributing Content
+2026-05-08 11:57:50.268 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-08 11:58:20.399 | ERROR    | agents.distributor_agent:_submit_form:405 -   Form submission error: HTTPSConnectionPool(host='booking.flyfrontier.com', port=443): Read timed out. (read timeout=20)
+2026-05-08 11:58:31.405 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-08 11:58:31.409 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-08 11:58:51.089 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2026-05-08 12:02:20.084 | INFO     | agents.distributor_agent:_post_to_wordpress:197 -   WordPress REST API found at https://www.worldairlineawards.com/wp-json/wp/v2/posts
+2026-05-08 12:04:05.565 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:04:26.313 | ERROR    | agents.distributor_agent:_submit_form:405 -   Form submission error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=20)
+2026-05-08 12:04:41.768 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:04:56.858 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:05:11.930 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:05:27.081 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:05:42.487 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:05:58.213 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:06:13.638 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.goindigo.in', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:06:35.960 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:06:51.042 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:07:07.185 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:07:22.256 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:07:37.500 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:07:52.868 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:08:07.958 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:08:23.281 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=15)
+2026-05-08 12:08:36.077 | INFO     | agents.distributor_agent:_submit_form:402 -   Form submission successful!
+2026-05-08 12:08:51.014 | INFO     | agents.distributor_agent:save_results:499 - Results saved to data/output/posting_results.json
+2026-05-08 12:08:51.016 | INFO     | orchestrator.workflow_orchestrator:_generate_report:221 - 📊 Report saved to data/output/report.json

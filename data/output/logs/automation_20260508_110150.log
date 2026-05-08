@@ -1,0 +1,144 @@
+2026-05-08 11:01:50.195 | INFO     | orchestrator.workflow_orchestrator:run:67 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:01:50.195 | INFO     | orchestrator.workflow_orchestrator:run:73 - Phase 1/4: Website Discovery
+2026-05-08 11:01:50.195 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: airlines
+2026-05-08 11:01:52.411 | ERROR    | agents.discovery_agent:_search_google:81 - Google search error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dairlines%26num%3D52%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgTYar-4GMfq9c8GIjDdjCl7agOgGfhoWT2zUZha-Fdzi_m-2O6qTQ7rBhWwsITasYHruT705_Ze1mZ6L4wyAnJSWgFD
+2026-05-08 11:01:52.415 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   google: Found 0 results
+2026-05-08 11:02:01.360 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 35 results
+2026-05-08 11:02:12.248 | INFO     | agents.discovery_agent:search_websites_by_keywords:60 - Total unique sites discovered: 33
+2026-05-08 11:02:12.257 | INFO     | orchestrator.workflow_orchestrator:run:81 - Phase 2/4: Extracting Posting Links
+2026-05-08 11:02:12.292 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-08 11:02:14.146 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://en.wikipedia.org
+2026-05-08 11:02:15.680 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlines.org
+2026-05-08 11:02:17.524 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airlines.org
+2026-05-08 11:02:19.613 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alaskaair.com
+2026-05-08 11:02:23.786 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alaskaair.com
+2026-05-08 11:02:26.304 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.suncountry.com
+2026-05-08 11:02:27.747 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.suncountry.com
+2026-05-08 11:02:29.808 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-08 11:02:31.287 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-08 11:02:33.541 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.united.com
+2026-05-08 11:02:35.750 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.united.com
+2026-05-08 11:02:37.159 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.copaair.com
+2026-05-08 11:02:38.633 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.copaair.com
+2026-05-08 11:02:41.559 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.starlux-airlines.com
+2026-05-08 11:02:47.918 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.starlux-airlines.com
+2026-05-08 11:02:50.777 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.cnbc.com
+2026-05-08 11:02:52.870 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 4 posting links on https://www.cnbc.com
+2026-05-08 11:02:54.356 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.youtube.com
+2026-05-08 11:02:57.057 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.youtube.com
+2026-05-08 11:02:59.778 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.s7.ru
+2026-05-08 11:03:05.285 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.s7.ru: 503 Server Error: Service Temporarily Unavailable for url: https://www.s7.ru/
+2026-05-08 11:03:07.901 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.tiktok.com
+2026-05-08 11:03:09.439 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.tiktok.com
+2026-05-08 11:03:12.412 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.euronews.com
+2026-05-08 11:03:14.004 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.euronews.com
+2026-05-08 11:03:15.183 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.southwest.com
+2026-05-08 11:03:16.602 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.southwest.com
+2026-05-08 11:03:18.623 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.aa.com
+2026-05-08 11:03:25.809 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.aa.com: 403 Client Error: Forbidden for url: https://www.aa.com/
+2026-05-08 11:03:26.866 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.spirit.com
+2026-05-08 11:03:29.643 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.spirit.com
+2026-05-08 11:03:32.017 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.flyfrontier.com
+2026-05-08 11:03:34.676 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.flyfrontier.com
+2026-05-08 11:03:36.030 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.foxnews.com
+2026-05-08 11:03:37.558 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 17 posting links on https://www.foxnews.com
+2026-05-08 11:03:38.597 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airliners.net
+2026-05-08 11:03:39.570 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.airliners.net
+2026-05-08 11:03:41.470 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://airlines.einnews.com:443
+2026-05-08 11:03:42.980 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://airlines.einnews.com:443
+2026-05-08 11:03:44.814 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.worldairlineawards.com
+2026-05-08 11:03:46.621 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 6 posting links on https://www.worldairlineawards.com
+2026-05-08 11:03:49.405 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.skyscanner.com
+2026-05-08 11:03:50.595 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.skyscanner.com
+2026-05-08 11:03:52.817 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.shutterstock.com
+2026-05-08 11:03:59.217 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.shutterstock.com: 403 Client Error: HTTP Forbidden for url: https://www.shutterstock.com/
+2026-05-08 11:04:01.226 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.englishclub.com
+2026-05-08 11:04:02.384 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 5 posting links on https://www.englishclub.com
+2026-05-08 11:04:03.463 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://uk.pinterest.com
+2026-05-08 11:04:05.096 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://uk.pinterest.com
+2026-05-08 11:04:06.701 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.delta.com
+2026-05-08 11:04:08.667 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.delta.com
+2026-05-08 11:04:11.578 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.allegiantair.com
+2026-05-08 11:04:18.126 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.allegiantair.com: 403 Client Error: Forbidden for url: https://www.allegiantair.com/
+2026-05-08 11:04:19.766 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.britishairways.com
+2026-05-08 11:04:55.777 | ERROR    | agents.extractor_agent:_fetch_page:92 - Failed to fetch https://www.britishairways.com: HTTPSConnectionPool(host='www.britishairways.com', port=443): Read timed out. (read timeout=10)
+2026-05-08 11:04:58.596 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.jetblue.com
+2026-05-08 11:04:59.885 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 1 posting links on https://www.jetblue.com
+2026-05-08 11:05:01.153 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.kayak.com
+2026-05-08 11:05:04.398 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 28 posting links on https://www.kayak.com
+2026-05-08 11:05:07.105 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.flypdx.com
+2026-05-08 11:05:09.725 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 4 posting links on https://www.flypdx.com
+2026-05-08 11:05:10.751 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.instagram.com
+2026-05-08 11:05:14.814 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.instagram.com
+2026-05-08 11:05:16.504 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.airlineratings.com
+2026-05-08 11:05:19.252 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://www.airlineratings.com
+2026-05-08 11:05:21.973 | INFO     | orchestrator.workflow_orchestrator:run:85 - Phase 3/4: Classifying Sites
+2026-05-08 11:05:21.973 | INFO     | agents.classifier_agent:classify_sites:16 - Classifying 33 sites...
+2026-05-08 11:05:21.974 | INFO     | agents.classifier_agent:classify_sites:28 - Classification complete:
+2026-05-08 11:05:21.974 | INFO     | agents.classifier_agent:classify_sites:29 -   - No auth needed: 33
+2026-05-08 11:05:21.974 | INFO     | agents.classifier_agent:classify_sites:30 -   - Auth required: 0
+2026-05-08 11:05:21.974 | INFO     | agents.classifier_agent:classify_sites:31 -   - Uncertain: 0
+2026-05-08 11:05:21.980 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 33 items to data/output/no_auth_sites.json
+2026-05-08 11:05:21.981 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/auth_sites.json
+2026-05-08 11:05:21.982 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 0 items to data/output/uncertain_sites.json
+2026-05-08 11:05:21.985 | INFO     | agents.classifier_agent:export_classifications:88 - Exported 33 items to data/output/classified_sites.json
+2026-05-08 11:05:21.985 | INFO     | orchestrator.workflow_orchestrator:run:89 - Phase 4/4: Distributing Content
+2026-05-08 11:05:22.019 | INFO     | agents.distributor_agent:distribute_content:37 - Starting content distribution for: data/input/content_to_post.txt
+2026-05-08 11:05:22.020 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://en.wikipedia.org
+2026-05-08 11:05:22.020 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+2026-05-08 11:05:23.946 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:05:24.503 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+2026-05-08 11:05:26.406 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:05:27.082 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://en.wikipedia.org/w/index.php
+2026-05-08 11:05:28.571 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:05:34.304 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.airlines.org
+2026-05-08 11:05:36.090 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.airlines.org
+2026-05-08 11:05:36.990 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:05:37.713 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.airlines.org/
+2026-05-08 11:05:38.308 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:05:42.178 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.alaskaair.com
+2026-05-08 11:05:47.139 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.suncountry.com
+2026-05-08 11:05:51.681 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://grokipedia.com
+2026-05-08 11:05:51.682 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: #
+2026-05-08 11:05:51.694 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '#': No scheme supplied. Perhaps you meant https://#?
+2026-05-08 11:05:51.694 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: /activity
+2026-05-08 11:05:51.700 | ERROR    | agents.distributor_agent:_attempt_posting:167 -   Form error: Invalid URL '/activity': No scheme supplied. Perhaps you meant https:///activity?
+2026-05-08 11:05:51.700 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com/search
+2026-05-08 11:05:56.348 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:05:57.574 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-08 11:05:59.626 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:06:01.510 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://grokipedia.com
+2026-05-08 11:06:03.115 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:06:09.549 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.united.com
+2026-05-08 11:06:13.177 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.copaair.com
+2026-05-08 11:06:19.507 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.starlux-airlines.com
+2026-05-08 11:06:19.508 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.starlux-airlines.com/en-US/support/contact-us/contact-information
+2026-05-08 11:06:24.644 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:06:25.224 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.starlux-airlines.com/en-US/support/contact-us/group-business-inquiry
+2026-05-08 11:06:27.973 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:06:28.910 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.starlux-airlines.com/en-US/search-result
+2026-05-08 11:06:31.890 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:06:37.457 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.cnbc.com
+2026-05-08 11:06:37.459 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cnbc.com/2026/05/07/coinbase-coin-earnings-q1-2026.html
+2026-05-08 11:06:49.025 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cnbc.com/about/
+2026-05-08 11:06:53.158 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://help.cnbc.com/contact/
+2026-05-08 11:07:01.479 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://together.nbcuni.com/advertise/?utm_source=cnbc&utm_medium=referral&utm_campaign=property_ad_pages
+2026-05-08 11:07:02.574 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.cnbc.com
+2026-05-08 11:07:03.875 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:07:09.247 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.youtube.com
+2026-05-08 11:07:13.934 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.s7.ru
+2026-05-08 11:07:18.133 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.tiktok.com
+2026-05-08 11:07:21.722 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.euronews.com
+2026-05-08 11:07:27.562 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.southwest.com
+2026-05-08 11:07:31.936 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.aa.com
+2026-05-08 11:07:35.786 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.spirit.com
+2026-05-08 11:07:41.221 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.flyfrontier.com
+2026-05-08 11:07:41.222 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://booking.flyfrontier.com/Flight/Status#flightStatus-tab
+2026-05-08 11:07:43.968 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:08:07.138 | ERROR    | agents.distributor_agent:_submit_form:399 -   Form submission error: HTTPSConnectionPool(host='booking.flyfrontier.com', port=443): Read timed out. (read timeout=20)
+2026-05-08 11:08:13.645 | INFO     | agents.distributor_agent:distribute_content:62 - Attempting to post to: https://www.foxnews.com
+2026-05-08 11:08:13.646 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.foxnews.com/about
+2026-05-08 11:08:24.540 | INFO     | agents.distributor_agent:_submit_form:373 -   No file upload fields available, submitting as text
+2026-05-08 11:08:25.352 | INFO     | agents.distributor_agent:_attempt_posting:144 -   Trying form: https://www.foxnews.com/contact
+2026-05-08 11:08:26.832 | WARNING  | __main__:main:198 - 
+⚠️  Interrupted by user

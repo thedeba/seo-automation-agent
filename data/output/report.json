@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-05-04T23:34:36.708320",
-  "duration_minutes": "4.3",
-  "sites_discovered": 19,
-  "sites_analyzed": 19,
+  "timestamp": "2026-05-08T12:08:51.015016",
+  "duration_minutes": "16.8",
+  "sites_discovered": 40,
+  "sites_analyzed": 40,
   "classification": {
-    "total_sites": 19,
-    "no_auth_required": 19,
+    "total_sites": 40,
+    "no_auth_required": 40,
     "auth_required": 0,
     "uncertain": 0,
     "no_auth_percentage": "100.0%"
   },
   "distribution_summary": {
-    "total_attempted": 19,
-    "successful": 0,
-    "failed": 19,
+    "total_attempted": 40,
+    "successful": 1,
+    "failed": 39,
     "partial_success": 0,
-    "success_rate": "0.0%"
+    "success_rate": "2.5%"
   }
 }

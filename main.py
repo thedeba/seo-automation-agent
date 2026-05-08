@@ -15,6 +15,14 @@ import json
 from orchestrator.workflow_orchestrator import SEOAutomationAgent
 from utils.validators import validate_keywords, validate_file_path
 
+# Setup clean logging format
+logger.remove()
+logger.add(
+    sys.stderr,
+    format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}",
+    level="INFO"
+)
+
 def parse_arguments():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(
@@ -49,8 +57,8 @@ Examples:
     
     parser.add_argument('-c', '--content', type=str,
                        help='Content file to distribute')
-    parser.add_argument('--engines', type=str, default='google,duckduckgo',
-                       help='Search engines to use (default: google,duckduckgo)')
+    parser.add_argument('--engines', type=str, default='duckduckgo',
+                       help='Search engines to use (default: duckduckgo)')
     parser.add_argument('--max-sites', type=int, default=50,
                        help='Max sites to process (default: 30)')
     parser.add_argument('--depth', type=int, default=1,
@@ -105,6 +113,19 @@ def main():
         if validate_file_path(default_keywords_file):
             args.keywords_file = default_keywords_file
             logger.info(f"Auto-detected keywords file: {default_keywords_file}")
+    
+    # Auto-detect content if keywords provided but no content
+    if not args.content and (args.keywords or args.keywords_file or args.urls):
+        default_content_files = [
+            "data/input/content_to_post.txt",
+            "data/input/content_to_post.pdf"
+        ]
+        
+        for content_file in default_content_files:
+            if validate_file_path(content_file):
+                args.content = content_file
+                logger.info(f"Auto-detected content file: {content_file}")
+                break
         
         if not args.content:
             logger.error("No content file found in data/input/ directory")
@@ -122,7 +143,11 @@ def main():
     # Setup logging
     if args.verbose:
         logger.remove()
-        logger.add(sys.stderr, level="DEBUG")
+        logger.add(
+            sys.stderr,
+            format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}",
+            level="DEBUG"
+        )
     
     try:
         # Get search inputs
@@ -169,10 +194,14 @@ def main():
         })
         
         # Run workflow
+        results = {}
         if keywords:
             results = agent.run(keywords, args.content, credentials)
         elif seed_urls:
             results = agent.run_from_urls(seed_urls, args.content, credentials)
+        else:
+            logger.error("No keywords or seed URLs were provided to run the workflow.")
+            sys.exit(1)
         
         # Print results
         print("\n" + "="*60)

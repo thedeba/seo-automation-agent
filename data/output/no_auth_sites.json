@@ -1,59 +1,91 @@
 [
   {
-    "domain": "https://en.wikipedia.org",
-    "url": "https://en.wikipedia.org",
+    "domain": "https://www.malaysiaairlines.com",
+    "url": "https://www.malaysiaairlines.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.flyfrontier.com",
+    "url": "https://www.flyfrontier.com",
     "posting_forms": [
       {
-        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
-        "text": "Contact Wikipedia",
-        "internal": true,
-        "title_attr": "",
-        "class": "",
-        "posting_probability": "medium"
-      },
-      {
-        "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information",
-        "text": "Legal & safety contacts",
-        "internal": false,
-        "title_attr": "",
-        "class": "",
-        "posting_probability": "medium"
-      },
-      {
-        "url": "https://en.wikipedia.org/w/index.php",
-        "method": "GET",
+        "url": "https://booking.flyfrontier.com/Flight/Status#flightStatus-tab",
+        "method": "POST",
         "type": "form",
-        "form_id": "form_0",
-        "form_class": "minerva-search-form",
+        "form_id": "flight-status-search-form",
+        "form_class": "flight-status-form",
         "has_file_upload": false,
         "fields": [
           {
-            "name": "title",
+            "name": "__RequestVerificationTokenForm",
             "type": "hidden",
             "placeholder": ""
           },
           {
-            "name": "search",
-            "type": "search",
-            "placeholder": "Search Wikipedia"
+            "name": "statusType",
+            "type": "radio",
+            "placeholder": ""
+          },
+          {
+            "name": "statusType",
+            "type": "radio",
+            "placeholder": ""
+          },
+          {
+            "name": "originFS",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "Origin",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "destinationFS",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "Destination",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "FlightNumber",
+            "type": "text",
+            "placeholder": ""
           }
         ]
       }
     ],
     "article_urls": [],
-    "all_links_count": 615,
+    "all_links_count": 66,
     "login_required": {
       "has_login_form": false,
       "has_register_form": false,
-      "has_login_link": true,
+      "has_login_link": false,
       "has_register_link": true,
       "has_wp_admin": false,
       "indicators": [
-        "login_link",
+        "register_link",
         "register_link"
       ]
     },
-    "cms_detected": "ghost",
+    "cms_detected": "unknown",
     "has_contact_form": true,
     "possible_posting_pages": []
   },
@@ -168,6 +200,703 @@
     "possible_posting_pages": []
   },
   {
+    "domain": "https://www.s7.ru",
+    "url": "https://www.s7.ru",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.tiktok.com",
+    "url": "https://www.tiktok.com",
+    "posting_forms": [
+      {
+        "url": "https://www.tiktok.com/for-good?lang=en",
+        "text": "Create real change",
+        "internal": true,
+        "title_attr": "",
+        "class": "typography-base_b8SoO typography-base-size-medium_9UEFr typography-base-weight-medium_uOCpD",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.tiktok.com/contact?lang=en",
+        "text": "Contact",
+        "internal": true,
+        "title_attr": "",
+        "class": "typography-base_b8SoO typography-base-size-small_DebiY",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "/",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://tiktokeconomicimpact.com/?gad_source=1&gad_campaignid=21105539190&gbraid=0AAAAApbYvmzE4yjXpNPFuwvo3k0kki3en&gclid=Cj0KCQjwgIXCBhDBARIsAELC9Zhhb8r4I0RGQdcOiYtmXu3LpLQctF9BgZZqD2LdQ2tV8f-0sj_Ac6saAolgEALw_wcB",
+        "text": "$24.2 BILLION",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/en-gb/the-tiktok-effect",
+        "text": "\u00a31.63 BILLION",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/en-eu/the-tiktok-effect-european-small-business-boost-revealed-by-new-oxford-economics-report",
+        "text": "\u20ac4.8 BILLION",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/creator-academy?lang=en",
+        "text": "Join the academy",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/safety?lang=en",
+        "text": "TikTok Safety Center",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/privacy?lang=en",
+        "text": "TikTok Privacy Center",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/honoring-apitiktok-community-in-celebration-of-asian-and-pacific-islander-heritage-month?lang=en",
+        "text": "",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/?lang=en&tag=community",
+        "text": "Community",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/?lang=en&tag=news",
+        "text": "News",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/?lang=en&tag=product",
+        "text": "Product",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/6-billion-tracks-saved-w-tt-add-to-music-app?lang=en",
+        "text": "TikTok's 'Add to Music App' Surpasses 6 Billion Track Saves in the Past Year",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/noah-kahan-great-divide-tiktok-fan-experience?lang=en",
+        "text": "TikTok and Noah Kahan Team Up for Exclusive Preview of The Great Divide Album",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/tiktoks-goes-behind-the-breakthrough-with-sienna-spiro?lang=en",
+        "text": "TikTok Goes \u2018Behind the Breakthrough\u2019 with SIENNA SPIRO",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://newsroom.tiktok.com?lang=en",
+        "text": "View the newsroom",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6709824272505768200",
+        "text": "Advertising & Sales",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6704215864629004552",
+        "text": "Product",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6709824272514156812",
+        "text": "Design",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6704215901438216462",
+        "text": "Marketing & Communications",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6704215862603155720",
+        "text": "Technology",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6704215882479962371",
+        "text": "Global Operations",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/search?job_category_id_list=6704215913488451847",
+        "text": "Corporate Functions",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/about?lang=en",
+        "text": "About",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://shop.tiktok.com/",
+        "text": "Store",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://lifeattiktok.com/",
+        "text": "Careers",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.bytedance.com/en",
+        "text": "ByteDance",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://developers.tiktok.com/",
+        "text": "TikTok For Developers",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://effecthouse.tiktok.com/?lang=en",
+        "text": "Effect House",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://ads.tiktok.com/business/en",
+        "text": "Advertise",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/browse?lang=en",
+        "text": "Browse",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/embed?lang=en",
+        "text": "Embed",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/tiktok-rewards?lang=en",
+        "text": "Rewards",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://support.tiktok.com/en",
+        "text": "Help Center",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/community-guidelines?lang=en",
+        "text": "Community Guidelines",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/transparency?lang=en",
+        "text": "Transparency",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/accessibility?lang=en",
+        "text": "Accessibility",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com?lang=en",
+        "text": "TikTok",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.linkedin.com/company/tiktok",
+        "text": "LinkedIn",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.youtube.com/tiktok",
+        "text": "Youtube",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.instagram.com/tiktok",
+        "text": "Instagram",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/legal/page/row/terms-of-service/en",
+        "text": "Terms of Service",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/legal/page/us/privacy-policy/en",
+        "text": "Privacy",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/legal/page/global/copyright-policy/en",
+        "text": "Intellectual Property Policy",
+        "posting_probability": "low"
+      },
+      {
+        "url": "https://www.tiktok.com/legal/page/global/law-enforcement/en",
+        "text": "Law Enforcement",
+        "posting_probability": "low"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 70,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://southwindairlines.com",
+    "url": "https://southwindairlines.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://tenor.com",
+    "url": "https://tenor.com",
+    "posting_forms": [
+      {
+        "url": "https://tenor.com/gif-maker?utm_source=nav-bar&utm_medium=internal&utm_campaign=gif-maker-entrypoints",
+        "text": "Create",
+        "internal": true,
+        "title_attr": "",
+        "class": "button upload-button",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://support.google.com/tenor/gethelp?hl=en",
+        "text": "Contact Us",
+        "internal": false,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://tenor.com",
+        "method": "GET",
+        "type": "form",
+        "form_id": "form_0",
+        "form_class": "SearchBar",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "q",
+            "type": "text",
+            "placeholder": "Search for GIFs and Stickers"
+          }
+        ]
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 226,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.euronews.com",
+    "url": "https://www.euronews.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.makemytrip.com",
+    "url": "https://www.makemytrip.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.expedia.co.in",
+    "url": "https://www.expedia.co.in",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.justdial.com",
+    "url": "https://www.justdial.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://airlines.iata.org",
+    "url": "https://airlines.iata.org",
+    "posting_forms": [
+      {
+        "url": "https://airlines.iata.org/2026/04/08/aviation-ready-contactless-travel",
+        "text": "Data Aviation is ready for contactless travel",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://airlines.iata.org/contact-us",
+        "text": "Contact us",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "high"
+      }
+    ],
+    "article_urls": [
+      "https://airlines.iata.org/2026/03/16/iata-raises-important-questions-about-australian-airports",
+      "https://airlines.iata.org/2026/02/03/maximizing-airport-footprint",
+      "https://airlines.iata.org/2025/12/16/report-shows-10-years-worsening-atc-delays",
+      "https://airlines.iata.org/2025/11/20/rising-above-5-keys-futureproof-airline-payments-and-business",
+      "https://airlines.iata.org/2026/04/27/bringing-carbon-credits-market",
+      "https://airlines.iata.org/2025/10/28/acron-aviation-collaborates-airbus-deliver-25-hour-cvr-upgrade",
+      "https://airlines.iata.org/issues/2023/11/iata-slots-special-supplement-2023",
+      "https://airlines.iata.org/2026/04/08/identifying-challenges-cybersecurity",
+      "https://airlines.iata.org/2026/03/17/air-travel-demand-double-2050",
+      "https://airlines.iata.org/2026/04/14/ensuring-transparency-saf-environmental-benefits",
+      "https://airlines.iata.org/2026/03/10/solid-year-safety-performance",
+      "https://airlines.iata.org/2026/05/06/unforgiving-industry",
+      "https://airlines.iata.org/2025/05/30/evolution-airline-operations-solutions",
+      "https://airlines.iata.org/2026/04/08/aviation-ready-contactless-travel"
+    ],
+    "all_links_count": 165,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": true,
+      "has_wp_admin": false,
+      "indicators": [
+        "register_link",
+        "register_link"
+      ]
+    },
+    "cms_detected": "drupal",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.discover-airlines.com",
+    "url": "https://www.discover-airlines.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.cleartrip.com",
+    "url": "https://www.cleartrip.com",
+    "posting_forms": [
+      {
+        "url": "https://www.cleartrip.com/about",
+        "text": "About Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-c299cab0-0 bJuueR c-secondary-500 fs-14 pr-4 pb-2",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-goa-flights.html",
+        "text": "Delhi Goa flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-kolkata-flights.html",
+        "text": "Delhi Kolkata flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-mumbai-flights.html",
+        "text": "Delhi Mumbai flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-bangalore-flights.html",
+        "text": "Delhi Bangalore flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-hyderabad-flights.html",
+        "text": "Delhi to Hyderabad Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-kolkata-flights.html",
+        "text": "Delhi to Kolkata Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-ahmedabad-flights.html",
+        "text": "Delhi to Ahmedabad Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-guwahati-flights.html",
+        "text": "Delhi to Guwahati Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-srinagar-flights.html",
+        "text": "Delhi to Srinagar Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-bagdogra-flights.html",
+        "text": "Delhi to Bagdogra Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-indore-flights.html",
+        "text": "Delhi to Indore Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-singapore-flights.html",
+        "text": "Delhi Singapore flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-bangkok-flights.html",
+        "text": "Delhi Bangkok flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-dubai-flights.html",
+        "text": "Delhi Dubai flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-london-flights.html",
+        "text": "Delhi to London flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-toronto-flights.html",
+        "text": "Delhi to Toronto flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-new-york-flights.html",
+        "text": "Delhi to New york flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-paris-flights.html",
+        "text": "Delhi to Paris flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-hong-kong-flights.html",
+        "text": "Delhi to Hong Kong flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-kuwait-flights.html",
+        "text": "Delhi to Kuwait Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-kathmandu-flights.html",
+        "text": "Delhi to Kathmandu Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cleartrip.com/flight-schedule/new-delhi-dubai-flights.html",
+        "text": "Delhi to Dubai Flights",
+        "internal": true,
+        "title_attr": "",
+        "class": "sc-7c99540f-2 fFewma fs-10 pr-1 pb-1",
+        "posting_probability": "medium"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 476,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.bankbazaar.com",
+    "url": "https://www.bankbazaar.com",
+    "posting_forms": [
+      {
+        "url": "https://www.bankbazaar.com/contact-us.html",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "Contact Us",
+        "class": "inline-flex hover:underline no-underline",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.bankbazaar.com/fixed-deposit/post-office-fixed-deposit-rate.html",
+        "text": "Post Office Fixed Deposit",
+        "internal": true,
+        "title_attr": "Post Office Fixed Deposit",
+        "class": "inline-flex hover:underline no-underline text-white",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://www.bankbazaar.com/contact-us.html",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "Contact Us",
+        "class": "inline-flex hover:underline no-underline text-white",
+        "posting_probability": "medium"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 182,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": true,
+      "has_wp_admin": false,
+      "indicators": [
+        "login_link",
+        "register_link"
+      ]
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
     "domain": "https://www.airlines.org",
     "url": "https://www.airlines.org",
     "posting_forms": [
@@ -210,7 +939,8 @@
     "article_urls": [
       "https://www.airlines.org/news/a4a-statement-on-spirit-airlines-ceasing-operations/",
       "https://www.airlines.org/news/",
-      "https://www.airlines.org/blog/"
+      "https://www.airlines.org/blog/",
+      "https://www.airlines.org/news/four-out-of-five-coloradans-agree-they-want-to-keep-credit-cards-rewards/"
     ],
     "all_links_count": 51,
     "login_required": {
@@ -222,6 +952,80 @@
       "indicators": []
     },
     "cms_detected": "wordpress",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.cnbc.com",
+    "url": "https://www.cnbc.com",
+    "posting_forms": [
+      {
+        "url": "https://help.cnbc.com/contact/",
+        "text": "Contact",
+        "internal": false,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://together.nbcuni.com/advertise/?utm_source=cnbc&utm_medium=referral&utm_campaign=property_ad_pages",
+        "text": "Please Contact Us",
+        "internal": false,
+        "title_attr": "",
+        "class": "CNBCFooter-sectionLink",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.cnbc.com",
+        "method": "GET",
+        "type": "form",
+        "form_id": "homePageInternational-quoteFinder-form",
+        "form_class": "QuoteFinder-form",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "",
+            "type": "search",
+            "placeholder": "Search"
+          }
+        ]
+      }
+    ],
+    "article_urls": [
+      "https://www.cnbc.com/video/2026/05/05/unicredit-ceo-control-of-commerzbank-not-the-expected-scenario.html",
+      "https://www.cnbc.com/video/2026/03/18/why-western-brands-keep-failing-in-china-and-how-winners-adapt.html",
+      "https://www.cnbc.com/2026/05/03/uk-govt-consolidate-flights-as-jet-fuel-costs-soar.html",
+      "https://www.cnbc.com/2026/05/07/iren-stock-ai-infrastructure-nvidia.html",
+      "https://www.cnbc.com/2026/05/07/ai-winners-software-datadog-stock.html",
+      "https://www.cnbc.com/2026/05/01/stocks-making-the-biggest-moves-premarket-aapl-el-roku-rddt-rblx-and-more.html",
+      "https://www.cnbc.com/2026/05/07/corning-ceo-to-cramer-deals-with-2-unnamed-hyperscalers-larger-than-6b-meta-pact.html",
+      "https://www.cnbc.com/2026/05/07/6-in-10-employees-are-hesitant-to-speak-up-at-work-says-survey.html",
+      "https://www.cnbc.com/2026/04/15/iran-conflict-oil-prices-cruise-lines.html",
+      "https://www.cnbc.com/2026/03/17/japan-tourism-visits-from-china-down-60percent-in-january-2026.html",
+      "https://www.cnbc.com/2026/05/07/nvidia-ceo-ai-partnership-corning-revitalize-american-manufacturing.html",
+      "https://www.cnbc.com/2026/05/06/lufthansa-q1-middle-east-conflict-2-billion-fuel-cost.html",
+      "https://www.cnbc.com/2026/04/04/asian-travelers-seek-other-options-as-middle-east-plans-stay-grounded.html",
+      "https://www.cnbc.com/2026/05/07/election-2026-tennessee-redistricting-gop-redraw-house-maps.html",
+      "https://www.cnbc.com/2026/05/04/nuclear-energy-europe-trump-iran-war.html",
+      "https://www.cnbc.com/video/2026/03/31/how-ireland-became-dependent-on-big-pharma-and-the-risks-ahead.html",
+      "https://www.cnbc.com/2026/05/08/cnbc-daily-open-us-iran-fire-hormuz-ceasefire-oil-markets.html",
+      "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
+      "https://www.cnbc.com/2026/05/07/french-prosecutors-probe-of-elon-musk-x-now-a-criminal-investigation.html",
+      "https://www.cnbc.com/2026/05/07/ive-studied-highly-creative-people-for-40-years4-phrases-they-never-say.html"
+    ],
+    "all_links_count": 402,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": true,
+      "has_wp_admin": false,
+      "indicators": [
+        "login_link",
+        "register_link"
+      ]
+    },
+    "cms_detected": "ghost",
     "has_contact_form": true,
     "possible_posting_pages": []
   },
@@ -244,8 +1048,8 @@
     "possible_posting_pages": []
   },
   {
-    "domain": "https://www.corendonairlines.com",
-    "url": "https://www.corendonairlines.com",
+    "domain": "https://www.united.com",
+    "url": "https://www.united.com",
     "posting_forms": [],
     "article_urls": [],
     "all_links_count": 0,
@@ -254,24 +1058,6 @@
     "has_contact_form": false,
     "possible_posting_pages": [],
     "error": "Failed to fetch page"
-  },
-  {
-    "domain": "https://www.southwest.com",
-    "url": "https://www.southwest.com",
-    "posting_forms": [],
-    "article_urls": [],
-    "all_links_count": 0,
-    "login_required": {
-      "has_login_form": false,
-      "has_register_form": false,
-      "has_login_link": false,
-      "has_register_link": false,
-      "has_wp_admin": false,
-      "indicators": []
-    },
-    "cms_detected": "unknown",
-    "has_contact_form": false,
-    "possible_posting_pages": []
   },
   {
     "domain": "https://www.aa.com",
@@ -286,8 +1072,26 @@
     "error": "Failed to fetch page"
   },
   {
-    "domain": "https://www.united.com",
-    "url": "https://www.united.com",
+    "domain": "https://www.youtube.com",
+    "url": "https://www.youtube.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "ghost",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.skyscanner.com",
+    "url": "https://www.skyscanner.com",
     "posting_forms": [],
     "article_urls": [],
     "all_links_count": 0,
@@ -304,62 +1108,54 @@
     "possible_posting_pages": []
   },
   {
-    "domain": "https://www.flyfrontier.com",
-    "url": "https://www.flyfrontier.com",
+    "domain": "https://www.englishclub.com",
+    "url": "https://www.englishclub.com",
     "posting_forms": [
       {
-        "url": "https://booking.flyfrontier.com/Flight/Status#flightStatus-tab",
-        "method": "POST",
-        "type": "form",
-        "form_id": "flight-status-search-form",
-        "form_class": "flight-status-form",
-        "has_file_upload": false,
-        "fields": [
-          {
-            "name": "__RequestVerificationTokenForm",
-            "type": "hidden",
-            "placeholder": ""
-          },
-          {
-            "name": "statusType",
-            "type": "radio",
-            "placeholder": ""
-          },
-          {
-            "name": "statusType",
-            "type": "radio",
-            "placeholder": ""
-          },
-          {
-            "name": "originFS",
-            "type": "text",
-            "placeholder": ""
-          },
-          {
-            "name": "Origin",
-            "type": "hidden",
-            "placeholder": ""
-          },
-          {
-            "name": "destinationFS",
-            "type": "text",
-            "placeholder": ""
-          },
-          {
-            "name": "Destination",
-            "type": "hidden",
-            "placeholder": ""
-          },
-          {
-            "name": "FlightNumber",
-            "type": "text",
-            "placeholder": ""
-          }
-        ]
+        "url": "https://www.englishclub.com/posters/",
+        "text": "ESL Vocabulary Posters",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.englishclub.com/about/",
+        "text": "About EnglishClub",
+        "internal": true,
+        "title_attr": "About EnglishClub",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.englishclub.com/about/",
+        "text": "About EnglishClub",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.englishclub.com/efl/contact/",
+        "text": "Contact EnglishClub",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "high"
+      },
+      {
+        "url": "https://www.englishclub.com/efl/new/",
+        "text": "New pages",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
       }
     ],
-    "article_urls": [],
-    "all_links_count": 62,
+    "article_urls": [
+      "https://www.englishclub.com/efl/category/blog/"
+    ],
+    "all_links_count": 95,
     "login_required": {
       "has_login_form": false,
       "has_register_form": false,
@@ -369,7 +1165,7 @@
       "indicators": []
     },
     "cms_detected": "unknown",
-    "has_contact_form": true,
+    "has_contact_form": false,
     "possible_posting_pages": []
   },
   {
@@ -559,42 +1355,6 @@
     ]
   },
   {
-    "domain": "https://www.skyscanner.com",
-    "url": "https://www.skyscanner.com",
-    "posting_forms": [],
-    "article_urls": [],
-    "all_links_count": 0,
-    "login_required": {
-      "has_login_form": false,
-      "has_register_form": false,
-      "has_login_link": false,
-      "has_register_link": false,
-      "has_wp_admin": false,
-      "indicators": []
-    },
-    "cms_detected": "unknown",
-    "has_contact_form": false,
-    "possible_posting_pages": []
-  },
-  {
-    "domain": "https://www.skyscanner.net",
-    "url": "https://www.skyscanner.net",
-    "posting_forms": [],
-    "article_urls": [],
-    "all_links_count": 0,
-    "login_required": {
-      "has_login_form": false,
-      "has_register_form": false,
-      "has_login_link": false,
-      "has_register_link": false,
-      "has_wp_admin": false,
-      "indicators": []
-    },
-    "cms_detected": "unknown",
-    "has_contact_form": false,
-    "possible_posting_pages": []
-  },
-  {
     "domain": "https://www.delta.com",
     "url": "https://www.delta.com",
     "posting_forms": [],
@@ -618,7 +1378,7 @@
     "posting_forms": [
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/London-LON",
-        "text": "Flight New Delhi - London (DEL - LON)\u20b9\u00a046,084+",
+        "text": "Flight New Delhi - London (DEL - LON)\u20b9\u00a046,339+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -626,7 +1386,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dubai-Intl-DXB",
-        "text": "Flight New Delhi - Dubai (DEL - DXB)\u20b9\u00a020,482+",
+        "text": "Flight New Delhi - Dubai (DEL - DXB)\u20b9\u00a020,857+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -634,7 +1394,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Toronto-YTO",
-        "text": "Flight New Delhi - Toronto (DEL - YTO)\u20b9\u00a085,436+",
+        "text": "Flight New Delhi - Toronto (DEL - YTO)\u20b9\u00a085,034+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -658,7 +1418,7 @@
       },
       {
         "url": "https://www.kayak.com/New-Delhi-Hotels-Airport-Hotel-Grand-Delhi.2490641.ksp",
-        "text": "Airport Hotel Grand\u20b9\u00a01,328+",
+        "text": "Airport Hotel Grand\u20b9\u00a01,321+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -666,7 +1426,7 @@
       },
       {
         "url": "https://www.kayak.com/New-Delhi-Hotels-The-Prime-Balaji-Deluxe-New-Delhi-Railway-Station.311282.ksp",
-        "text": "Hotel The Prime Balaji Deluxe, City Centre, With Free Airport Pickup\u20b9\u00a02,274+",
+        "text": "Hotel The Prime Balaji Deluxe, City Centre, With Free Airport Pickup\u20b9\u00a02,265+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -674,7 +1434,7 @@
       },
       {
         "url": "https://www.kayak.com/New-Delhi-Hotels-bloomrooms-New-Delhi-Railway-Station.551110.ksp",
-        "text": "Bloomrooms @ New Delhi Railway Station\u20b9\u00a02,560+",
+        "text": "Bloomrooms @ New Delhi Railway Station\u20b9\u00a02,548+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -682,7 +1442,7 @@
       },
       {
         "url": "https://www.kayak.com/New-Delhi-Hotels-Hotel-City-Star.474024.ksp",
-        "text": "Hotel City Star\u20b9\u00a02,655+",
+        "text": "Hotel City Star\u20b9\u00a02,643+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -690,7 +1450,7 @@
       },
       {
         "url": "https://www.kayak.com/New-Delhi-Hotels-Centaur-Hotel.131776.ksp",
-        "text": "Centaur Hotel\u20b9\u00a03,319+",
+        "text": "Centaur Hotel\u20b9\u00a03,303+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -698,7 +1458,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Amritsar-Raja-Sansi-ATQ/New-Delhi-Indira-Gandhi-Intl-DEL",
-        "text": "Flight Amritsar - New Delhi (ATQ - DEL)\u20b9\u00a06,164+",
+        "text": "Flight Amritsar - New Delhi (ATQ - DEL)\u20b9\u00a05,851+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -706,7 +1466,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Lucknow-Amausi-LKO/New-Delhi-Indira-Gandhi-Intl-DEL",
-        "text": "Flight Lucknow - New Delhi (LKO - DEL)\u20b9\u00a06,543+",
+        "text": "Flight Lucknow - New Delhi (LKO - DEL)\u20b9\u00a06,512+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -714,7 +1474,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-Delhi-Indira-Gandhi-Intl-DEL",
-        "text": "Flight Ahmedabad - New Delhi (AMD - DEL)\u20b9\u00a08,344+",
+        "text": "Flight Ahmedabad - New Delhi (AMD - DEL)\u20b9\u00a07,456+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -722,7 +1482,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Srinagar-SXR/New-Delhi-Indira-Gandhi-Intl-DEL",
-        "text": "Flight Srinagar - New Delhi (SXR - DEL)\u20b9\u00a09,198+",
+        "text": "Flight Srinagar - New Delhi (SXR - DEL)\u20b9\u00a08,966+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -730,7 +1490,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Varanasi-VNS/New-Delhi-Indira-Gandhi-Intl-DEL",
-        "text": "Flight Varanasi - New Delhi (VNS - DEL)\u20b9\u00a09,293+",
+        "text": "Flight Varanasi - New Delhi (VNS - DEL)\u20b9\u00a09,155+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -738,7 +1498,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-Suvarnabhumi-other-airports-BKK",
-        "text": "Flight New Delhi - Bangkok (DEL - BKK)\u20b9\u00a023,801+",
+        "text": "Flight New Delhi - Bangkok (DEL - BKK)\u20b9\u00a023,783+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -746,7 +1506,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Melbourne-ME1",
-        "text": "Flight New Delhi \u2013 Melbourne\u20b9\u00a056,894+",
+        "text": "Flight New Delhi \u2013 Melbourne\u20b9\u00a061,534+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -754,7 +1514,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Chicago-CHI",
-        "text": "Flight New Delhi - Chicago (DEL - CHI)\u20b9\u00a073,298+",
+        "text": "Flight New Delhi - Chicago (DEL - CHI)\u20b9\u00a076,352+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -762,7 +1522,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/San-Francisco-SFO",
-        "text": "Flight New Delhi - San Francisco (DEL - SFO)\u20b9\u00a084,393+",
+        "text": "Flight New Delhi - San Francisco (DEL - SFO)\u20b9\u00a082,958+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -770,7 +1530,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Atlanta-Hartsfield-Jackson-ATL",
-        "text": "Flight New Delhi - Atlanta (DEL - ATL)\u20b9\u00a082,022+",
+        "text": "Flight New Delhi - Atlanta (DEL - ATL)\u20b9\u00a082,109+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -778,7 +1538,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Singapore-Changi-SIN",
-        "text": "Flight New Delhi - Singapore (DEL - SIN)\u20b9\u00a021,146+",
+        "text": "Flight New Delhi - Singapore (DEL - SIN)\u20b9\u00a021,046+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -802,7 +1562,7 @@
       },
       {
         "url": "https://www.kayak.com/New-York-Hotels-Central-Park-West-Hostel.2486301.ksp",
-        "text": "Central Park West Hostel\u20b9\u00a05,026+",
+        "text": "Central Park West Hostel\u20b9\u00a05,017+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -810,7 +1570,7 @@
       },
       {
         "url": "https://www.kayak.com/New-York-Hotels-Hi-Nyc-Hostel.98607.ksp",
-        "text": "Hi New York City Hostel\u20b9\u00a05,974+",
+        "text": "Hi New York City Hostel\u20b9\u00a05,946+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -818,7 +1578,7 @@
       },
       {
         "url": "https://www.kayak.com/New-York-Hotels-West-Side-Ymca.64846.ksp",
-        "text": "West Side Ymca\u20b9\u00a07,993+",
+        "text": "West Side Ymca\u20b9\u00a07,902+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -826,7 +1586,7 @@
       },
       {
         "url": "https://www.kayak.com/New-York-Hotels-Pod-51.33571.ksp",
-        "text": "Pod 51\u20b9\u00a014,071+",
+        "text": "Pod 51\u20b9\u00a013,811+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -834,23 +1594,7 @@
       },
       {
         "url": "https://www.kayak.com/New-York-Hotels-The-Gallivant-Times-Square.2288317.ksp",
-        "text": "The Gallivant Times Square\u20b9\u00a014,236+",
-        "internal": true,
-        "title_attr": "",
-        "class": "P_Ok-sublink-link",
-        "posting_probability": "medium"
-      },
-      {
-        "url": "https://www.kayak.com/flight-routes/Mumbai-Chhatrapati-Shivaji-BOM/New-York-NYC",
-        "text": "Flight Mumbai - New York (BOM - NYC)\u20b9\u00a066,755+",
-        "internal": true,
-        "title_attr": "",
-        "class": "P_Ok-sublink-link",
-        "posting_probability": "medium"
-      },
-      {
-        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/New-York-NYC",
-        "text": "Flight New Delhi - New York (DEL - NYC)\u20b9\u00a066,945+",
+        "text": "The Gallivant Times Square\u20b9\u00a014,257+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -858,7 +1602,23 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Bengaluru-Intl-BLR/New-York-NYC",
-        "text": "Flight Bengaluru - New York (BLR - NYC)\u20b9\u00a067,135+",
+        "text": "Flight Bengaluru - New York (BLR - NYC)\u20b9\u00a063,233+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/New-York-NYC",
+        "text": "Flight New Delhi - New York (DEL - NYC)\u20b9\u00a066,536+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/Mumbai-Chhatrapati-Shivaji-BOM/New-York-NYC",
+        "text": "Flight Mumbai - New York (BOM - NYC)\u20b9\u00a066,631+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -866,7 +1626,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Hyderabad-Rajiv-Gandhi-Intl-HYD/New-York-NYC",
-        "text": "Flight Hyderabad - New York (HYD - NYC)\u20b9\u00a069,411+",
+        "text": "Flight Hyderabad - New York (HYD - NYC)\u20b9\u00a068,990+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -874,7 +1634,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/Ahmedabad-AMD/New-York-NYC",
-        "text": "Flight Ahmedabad - New York (AMD - NYC)\u20b9\u00a070,928+",
+        "text": "Flight Ahmedabad - New York (AMD - NYC)\u20b9\u00a070,783+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -882,7 +1642,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Phuket-City-HKT",
-        "text": "Flight New Delhi - Phuket City (DEL - HKT)\u20b9\u00a025,982+",
+        "text": "Flight New Delhi - Phuket City (DEL - HKT)\u20b9\u00a025,671+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -890,7 +1650,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78",
-        "text": "Flight New Delhi \u2013 Dallas\u20b9\u00a067,893+",
+        "text": "Flight New Delhi \u2013 Dallas\u20b9\u00a067,480+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -898,7 +1658,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Boston-Logan-Intl-BOS",
-        "text": "Flight New Delhi - Boston (DEL - BOS)\u20b9\u00a072,919+",
+        "text": "Flight New Delhi - Boston (DEL - BOS)\u20b9\u00a073,520+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -906,7 +1666,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Sydney-Kingsford-Smith-SYD",
-        "text": "Flight New Delhi - Sydney (DEL - SYD)\u20b9\u00a054,713+",
+        "text": "Flight New Delhi - Sydney (DEL - SYD)\u20b9\u00a062,572+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -914,7 +1674,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Zurich-ZRH",
-        "text": "Flight New Delhi - Zurich (DEL - ZRH)\u20b9\u00a041,627+",
+        "text": "Flight New Delhi - Zurich (DEL - ZRH)\u20b9\u00a041,054+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -922,7 +1682,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Vienna-Intl-VIE",
-        "text": "Flight New Delhi - Vienna (DEL - VIE)\u20b9\u00a044,282+",
+        "text": "Flight New Delhi - Vienna (DEL - VIE)\u20b9\u00a043,980+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -930,15 +1690,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Kastrup-Copenhagen-CPH",
-        "text": "Flight New Delhi - Copenhagen (DEL - CPH)\u20b9\u00a044,567+",
-        "internal": true,
-        "title_attr": "",
-        "class": "P_Ok-sublink-link",
-        "posting_probability": "medium"
-      },
-      {
-        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Ahmedabad-AMD",
-        "text": "Flight New Delhi - Ahmedabad (DEL - AMD)\u20b9\u00a08,534+",
+        "text": "Flight New Delhi - Copenhagen (DEL - CPH)\u20b9\u00a045,396+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -946,15 +1698,15 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Srinagar-SXR",
-        "text": "Flight New Delhi - Srinagar (DEL - SXR)\u20b9\u00a08,534+",
+        "text": "Flight New Delhi - Srinagar (DEL - SXR)\u20b9\u00a08,211+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
         "posting_probability": "medium"
       },
       {
-        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Patna-PAT",
-        "text": "Flight New Delhi - Patna (DEL - PAT)\u20b9\u00a08,819+",
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Ahmedabad-AMD",
+        "text": "Flight New Delhi - Ahmedabad (DEL - AMD)\u20b9\u00a08,400+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -962,7 +1714,15 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Hyderabad-Rajiv-Gandhi-Intl-HYD",
-        "text": "Flight New Delhi - Hyderabad (DEL - HYD)\u20b9\u00a010,051+",
+        "text": "Flight New Delhi - Hyderabad (DEL - HYD)\u20b9\u00a010,004+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Patna-PAT",
+        "text": "Flight New Delhi - Patna (DEL - PAT)\u20b9\u00a010,004+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -970,15 +1730,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Dallas-A78",
-        "text": "Flight New Delhi - Dallas (DEL - A78)\u20b9\u00a067,893+",
-        "internal": true,
-        "title_attr": "",
-        "class": "P_Ok-sublink-link",
-        "posting_probability": "medium"
-      },
-      {
-        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Los-Angeles-LAX",
-        "text": "Flight New Delhi - Los Angeles (DEL - LAX)\u20b9\u00a067,893+",
+        "text": "Flight New Delhi - Dallas (DEL - A78)\u20b9\u00a067,480+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -986,7 +1738,15 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Seattle-Tacoma-Intl-SEA",
-        "text": "Flight New Delhi - Seattle (DEL - SEA)\u20b9\u00a075,859+",
+        "text": "Flight New Delhi - Seattle (DEL - SEA)\u20b9\u00a075,408+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Los-Angeles-LAX",
+        "text": "Flight New Delhi - Los Angeles (DEL - LAX)\u20b9\u00a075,880+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -994,7 +1754,15 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bangkok-TH1",
-        "text": "Flight New Delhi - Bangkok (DEL - TH1)\u20b9\u00a023,801+",
+        "text": "Flight New Delhi - Bangkok (DEL - TH1)\u20b9\u00a023,783+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Hamburg-HAM",
+        "text": "Flight New Delhi - Hamburg (DEL - HAM)\u20b9\u00a050,115+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -1002,7 +1770,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Munich-Franz-Josef-Strauss-MUC",
-        "text": "Flight New Delhi - Munich (DEL - MUC)\u20b9\u00a053,954+",
+        "text": "Flight New Delhi - Munich (DEL - MUC)\u20b9\u00a052,757+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -1010,7 +1778,15 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Guwahati-Borjhar-GAU",
-        "text": "Flight New Delhi - Guwahati (DEL - GAU)\u20b9\u00a014,034+",
+        "text": "Flight New Delhi - Guwahati (DEL - GAU)\u20b9\u00a013,307+",
+        "internal": true,
+        "title_attr": "",
+        "class": "P_Ok-sublink-link",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Patna-PAT",
+        "text": "Flight New Delhi - Patna (DEL - PAT)\u20b9\u00a010,004+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -1018,7 +1794,7 @@
       },
       {
         "url": "https://www.kayak.com/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Bagdogra-IXB",
-        "text": "Flight New Delhi - Bagdogra (DEL - IXB)\u20b9\u00a011,284+",
+        "text": "Flight New Delhi - Bagdogra (DEL - IXB)\u20b9\u00a011,137+",
         "internal": true,
         "title_attr": "",
         "class": "P_Ok-sublink-link",
@@ -1056,7 +1832,499 @@
     "url": "https://www.cheapflights.com",
     "posting_forms": [],
     "article_urls": [],
-    "all_links_count": 273,
+    "all_links_count": 278,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.priceline.com",
+    "url": "https://www.priceline.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {},
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": [],
+    "error": "Failed to fetch page"
+  },
+  {
+    "domain": "https://www.instagram.com",
+    "url": "https://www.instagram.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "ghost",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.airlineratings.com",
+    "url": "https://www.airlineratings.com",
+    "posting_forms": [
+      {
+        "url": "https://www.airlineratings.com/about",
+        "text": "About us",
+        "internal": true,
+        "title_attr": "",
+        "class": "text-slate-300 data-[linked]:hover:text-white transition-all",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airlineratings.com/contact",
+        "text": "Contact us",
+        "internal": true,
+        "title_attr": "",
+        "class": "z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent transform-gpu data-[pressed=true]:scale-[0.97] cursor-pointer outline-solid outline-transparent data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover mt-4",
+        "posting_probability": "high"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 53,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.goindigo.in",
+    "url": "https://www.goindigo.in",
+    "posting_forms": [
+      {
+        "url": "https://www.goindigo.in/add-on-services/indigo-upfront.html",
+        "text": "Upgrade to IndiGo UpFront",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services.html?linkNav=6E%20Add-ons%2C%20Services%20and%20Fares%7CCustomise%20your%20journey%7CTrips",
+        "text": "6E Add-ons, Services and Fares",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/codeshare-partners.html?linkNav=Codeshare%7COther%7CTrips",
+        "text": "Codeshare",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/loyalty/feedback-form.html?linkNav=Share%20Feedback%7CEarn%20and%20Redeem%7CIndiGo%20BluChip",
+        "text": "Share Feedback",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/contact-us.html?linkNav=Contact%20us%7COther%20information%7CHamburger",
+        "text": "Contact us",
+        "internal": true,
+        "title_attr": "CTA to contact us",
+        "class": "headerv2__menu__column__section-item d-flex align-items-center gap-8 px-10 py-7 py-md-6 text-decoration-none body-large-regular",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/loyalty/feedback-form.html",
+        "text": "Share Feedback",
+        "internal": true,
+        "title_attr": "",
+        "class": "only-loyalty-user d-none headerv2__menu__column__section-item d-flex align-items-center gap-8 px-10 py-7 py-md-6 text-decoration-none body-large-regular",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services/student-discount.html?linkNav=Student+discount%7C2%7CFlight+offers",
+        "text": "",
+        "internal": true,
+        "title_attr": "",
+        "class": "carousel__slide text-decoration-none text-secondary-white",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services.html?linkNav=View%20All%7C%7CAdd%20On%20Carousel",
+        "text": "View All",
+        "internal": true,
+        "title_attr": "",
+        "class": "placeholder-labels d-flex align-items-center",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services/fast-forward.html?linkNav=fast-forward%7Cfast-forward",
+        "text": "Pre book Fast forward at up to 70% discount\n\nPriority check-in and anytime boarding.",
+        "internal": true,
+        "title_attr": "",
+        "class": "swiper-slide p-8 px-md-16 py-md-12 text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services/excess-baggage.html?linkNav=Excess%20baggage%7C6E%20Add-ons",
+        "text": "Pre-paid excess baggage starting at \u20b91515\n\nExcess baggage and\u00a0additional piece",
+        "internal": true,
+        "title_attr": "",
+        "class": "swiper-slide p-8 px-md-16 py-md-12 text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services/seat-plus.html?linkNav=Seat%20plus%7C6E%20Add-ons",
+        "text": "Emergency XL (Extra legroom) seats starting at INR 500\n\nWindow, aisle or seat with extra legroom",
+        "internal": true,
+        "title_attr": "",
+        "class": "swiper-slide p-8 px-md-16 py-md-12 text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services/seat-plus.html?linkNav=Seat%20Select%7CSUPPORT%7CFooter",
+        "text": "Seat Select",
+        "internal": true,
+        "title_attr": "Seat Select CTA Title",
+        "class": "footer-link text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services/food-menu.html?linkNav=6E%20Eats%7CSUPPORT%7CFooter",
+        "text": "6E Eats",
+        "internal": true,
+        "title_attr": "6E Eats CTA Title",
+        "class": "footer-link text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/add-on-services.html?linkNav=Add-ons%20%26%20Services%7CSUPPORT%7CFooter",
+        "text": "Add-ons & Services",
+        "internal": true,
+        "title_attr": "Add-ons & Services CTA Title",
+        "class": "footer-link text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/contact-us.html?linkNav=Contact%20Us%7CSUPPORT%7CFooter",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "Contact Us",
+        "class": "footer-link text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/contact-us/query-form-alliances.html?linkNav=Advertise%20with%20us%7CQUICK%20LINKS%7CFooter",
+        "text": "Advertise with us",
+        "internal": true,
+        "title_attr": "Advertise with us CTA Title",
+        "class": "footer-link text-decoration-none",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.goindigo.in/codeshare-partners.html",
+        "text": "Codeshare Partners",
+        "internal": true,
+        "title_attr": "Codeshare Partners CTA",
+        "class": "footer-link text-decoration-none",
+        "posting_probability": "medium"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 213,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.airindia.com",
+    "url": "https://www.airindia.com",
+    "posting_forms": [
+      {
+        "url": "https://www.airindia.com/in/en/contact-us.html",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons.html",
+        "text": "Add-Ons",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/gift-cards.html",
+        "text": "Gift Cards",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/destinations/newlaunch/new-delhi-to-london.html",
+        "text": "",
+        "internal": true,
+        "title_attr": "",
+        "class": "img-fit-a",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/travel-insurance.html",
+        "text": "",
+        "internal": true,
+        "title_attr": "",
+        "class": "img-fit-a",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/contact-us/customer-support-portal.html",
+        "text": "Customer Support",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/contact-us.html",
+        "text": "Contact Us",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/contact-us/customer-support-portal.html",
+        "text": "Raise a Concern",
+        "internal": true,
+        "title_attr": "",
+        "class": "fdbck-acrd",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/zipahead.html",
+        "text": "Learn More",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/travel-insurance.html",
+        "text": "Insurance",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/gift-cards.html",
+        "text": "Gift Card",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/contact-us.html",
+        "text": "Contact US\nHave a question about travelling with Air India? Our customer support is here to help.",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/maharaja-club/about/tiers-benefits.html",
+        "text": "Explore Benefits",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/zipahead.html",
+        "text": "Explore",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/book/add-ons/zipahead.html",
+        "text": "Travel Smarter\nZIPAhead",
+        "internal": true,
+        "title_attr": "",
+        "class": "swiper-slide",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/contact-us.html",
+        "text": "Contact",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.airindia.com/in/en/contact-us/grievance-resolution.html",
+        "text": "Grievance Resolution",
+        "internal": true,
+        "title_attr": "",
+        "class": "",
+        "posting_probability": "medium"
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 188,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": true,
+      "has_wp_admin": false,
+      "indicators": [
+        "register_link",
+        "login_link",
+        "register_link"
+      ]
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.jazeeraairways.com",
+    "url": "https://www.jazeeraairways.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.google.com",
+    "url": "https://www.google.com",
+    "posting_forms": [
+      {
+        "url": "https://www.google.co.in/intl/en/about/products",
+        "text": "",
+        "internal": false,
+        "title_attr": "",
+        "class": "gb_C",
+        "posting_probability": "medium"
+      },
+      {
+        "url": "https://www.google.com/search",
+        "method": "GET",
+        "type": "form",
+        "form_id": "tsf",
+        "form_class": "tsf",
+        "has_file_upload": false,
+        "fields": [
+          {
+            "name": "sca_esv",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "source",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "ei",
+            "type": "hidden",
+            "placeholder": ""
+          },
+          {
+            "name": "q",
+            "type": "textarea",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "article_urls": [],
+    "all_links_count": 21,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": true,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": [
+        "login_link"
+      ]
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": true,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.allegiantair.com",
+    "url": "https://www.allegiantair.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 1,
+    "login_required": {
+      "has_login_form": false,
+      "has_register_form": false,
+      "has_login_link": false,
+      "has_register_link": false,
+      "has_wp_admin": false,
+      "indicators": []
+    },
+    "cms_detected": "unknown",
+    "has_contact_form": false,
+    "possible_posting_pages": []
+  },
+  {
+    "domain": "https://www.britishairways.com",
+    "url": "https://www.britishairways.com",
+    "posting_forms": [],
+    "article_urls": [],
+    "all_links_count": 0,
     "login_required": {
       "has_login_form": false,
       "has_register_form": false,

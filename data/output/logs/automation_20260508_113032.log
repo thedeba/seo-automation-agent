@@ -1,0 +1,16 @@
+2026-05-08 11:30:32.529 | INFO     | orchestrator.workflow_orchestrator:run:76 - 🚀 Starting SEO Automation (API-Free)
+2026-05-08 11:30:32.529 | INFO     | orchestrator.workflow_orchestrator:run:82 - Phase 1/4: Website Discovery
+2026-05-08 11:30:32.529 | INFO     | agents.discovery_agent:search_websites_by_keywords:35 - Searching for keyword: airlines
+2026-05-08 11:30:33.204 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   google: Found 0 results
+2026-05-08 11:30:40.776 | INFO     | agents.discovery_agent:search_websites_by_keywords:49 -   duckduckgo: Found 49 results
+2026-05-08 11:30:50.278 | INFO     | agents.discovery_agent:search_websites_by_keywords:60 - Total unique sites discovered: 44
+2026-05-08 11:30:50.285 | INFO     | orchestrator.workflow_orchestrator:run:90 - Phase 2/4: Extracting Posting Links
+2026-05-08 11:30:50.320 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://en.wikipedia.org
+2026-05-08 11:30:50.926 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 24 posting links on https://en.wikipedia.org
+2026-05-08 11:30:53.905 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.alaskaair.com
+2026-05-08 11:30:56.485 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 0 posting links on https://www.alaskaair.com
+2026-05-08 11:30:59.269 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://grokipedia.com
+2026-05-08 11:31:00.766 | INFO     | agents.extractor_agent:find_posting_links:74 - Found 2 posting links on https://grokipedia.com
+2026-05-08 11:31:03.394 | INFO     | agents.extractor_agent:find_posting_links:39 - Extracting posting links from: https://www.makemytrip.com
+2026-05-08 11:31:11.374 | WARNING  | __main__:main:198 - 
+⚠️  Interrupted by user
